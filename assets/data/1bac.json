@@ -1,0 +1,978 @@
+{
+  "code": "1bac",
+  "nom": "1ère Année Baccalauréat",
+  "description": "Modules de langue et méthodes pour la 1ère Bac marocaine (œuvres au programme : La Boîte à Merveilles, Antigone, Le Dernier Jour d'un Condamné). Contenu à valider par le professeur.",
+  "lecons": [
+    {
+      "id": "1bac-figures-style",
+      "categorie": "style",
+      "titre": "Les figures de style dans l'œuvre littéraire",
+      "niveau": "1ère Bac",
+      "aValider": true,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Au programme de 1ère Bac (*La Boîte à Merveilles*, *Antigone*, *Le Dernier Jour d'un Condamné*), les figures de style jouent un rôle capital dans l'interprétation des textes."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Catégorie",
+            "Figures clés",
+            "Effet recherché"
+          ],
+          "lignes": [
+            [
+              "Opposition",
+              "Antithèse, oxymore, chiasme, antiphrase",
+              "Créer un contraste saisissant ou une tension dramatique"
+            ],
+            [
+              "Amplification",
+              "Hyperbole, gradation, accumulation",
+              "Donner de l'intensité, susciter l'émotion"
+            ],
+            [
+              "Atténuation",
+              "Litote, euphémisme",
+              "Pudeur, suggestion, bienséance tragique"
+            ],
+            [
+              "Analogie",
+              "Comparaison, métaphore, personnification, allégorie",
+              "Imager la pensée, donner vie aux abstractions"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "*« Une obscure clarté »* (oxymore)\n*« Antigone est petite, maigre, noiraude... Ismène est rose et dorée »* (antithèse)\n*« Je meurs de solitude »* (hyperbole dans l'angoisse du condamné)"
+        },
+        {
+          "type": "schema",
+          "id": "cartes_figures_style"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1bac-figures-ex1",
+          "titre": "Exercice 1 — Identification dans les œuvres",
+          "consigne": "Identifie la figure de style employée dans chaque extrait.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "« Ma solitude venait de loin, d'une nuit de terreur... » (*La Boîte à Merveilles*) : figure ?",
+              "options": [
+                "personnification",
+                "comparaison",
+                "litote"
+              ],
+              "reponse": 0,
+              "explication": "La solitude est personnifiée comme un être animé venant d'une nuit."
+            },
+            {
+              "enonce": "« Un petit oiseau de plomb » pour désigner une balle : figure ?",
+              "options": [
+                "métaphore",
+                "comparaison",
+                "métonymie"
+              ],
+              "reponse": 0,
+              "explication": "Assimilation directe sans mot de comparaison : métaphore."
+            },
+            {
+              "enonce": "« Vous êtes laids ! Nous sommes laids ! » crie Antigone : figure ?",
+              "options": [
+                "anaphore",
+                "chiasme",
+                "oxymore"
+              ],
+              "reponse": 0,
+              "explication": "Répétition expressive en début de proposition : anaphore."
+            },
+            {
+              "enonce": "« La guillotine, cette veuve hideuse » : figure ?",
+              "options": [
+                "métaphore",
+                "litote",
+                "antiphrase"
+              ],
+              "reponse": 0,
+              "explication": "Assimilation de l'échafaud à une veuve sinistre : métaphore."
+            },
+            {
+              "enonce": "« Il n'était pas mécontent de son exploit » : figure ?",
+              "options": [
+                "litote",
+                "hyperbole",
+                "oxymore"
+              ],
+              "reponse": 0,
+              "explication": "Dire « pas mécontent » pour « très satisfait » : litote."
+            }
+          ]
+        },
+        {
+          "id": "1bac-figures-ex2",
+          "titre": "Exercice 2 — Vrai ou Faux sur le style en 1ère Bac",
+          "consigne": "Indique si l'affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "L'allégorie représente de manière concrète et animée une idée abstraite.",
+              "reponse": true,
+              "explication": "Comme la Mort représentée sous les traits d'une faucheuse."
+            },
+            {
+              "enonce": "L'antiphrase exprime exactement le fond de la pensée sans ironie.",
+              "reponse": false,
+              "explication": "L'antiphrase dit le contraire de ce qu'on veut faire entendre."
+            },
+            {
+              "enonce": "Dans une tragédie comme *Antigone*, le registre tragique côtoie souvent l'ironie.",
+              "reponse": true,
+              "explication": "L'ironie tragique renforce la fatalité de l'héroïne."
+            },
+            {
+              "enonce": "La gradation descendante affaiblit progressivement l'idée.",
+              "reponse": true,
+              "explication": "Elle décroît en force expressive."
+            },
+            {
+              "enonce": "Le chiasme croise les termes selon le schéma A-B-A-B.",
+              "reponse": false,
+              "explication": "Le chiasme suit une structure symétrique croisée A-B / B-A."
+            }
+          ]
+        },
+        {
+          "id": "1bac-figures-ex3",
+          "titre": "Exercice 3 — Pratique des figures",
+          "consigne": "Complète l'intitulé exact de la figure.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "L'association de deux termes antinomiques côte à côte (« le soleil noir ») est un ___",
+              "reponse": "oxymore",
+              "acceptees": [
+                "oxymore"
+              ],
+              "explication": "Contradiction interne dans le même syntagme."
+            },
+            {
+              "enonce": "Remplacer un mot par sa définition ou une expression équivalente (« l'astre du jour ») est une ___",
+              "reponse": "périphrase",
+              "acceptees": [
+                "périphrase",
+                "periphrase"
+              ],
+              "explication": "Désignation indirecte poétique."
+            },
+            {
+              "enonce": "Désigner la partie pour le tout (« apercevoir une voile à l'horizon ») est une ___",
+              "reponse": "métonymie",
+              "acceptees": [
+                "métonymie",
+                "metonymie",
+                "synecdoque"
+              ],
+              "explication": "Glissement sémantique de la voile vers le bateau."
+            },
+            {
+              "enonce": "L'exagération dramatique dans *Le Dernier Jour d'un Condamné* s'appelle l'___",
+              "reponse": "hyperbole",
+              "acceptees": [
+                "hyperbole"
+              ],
+              "explication": "Amplification de la souffrance morale."
+            },
+            {
+              "enonce": "Répéter un terme au début de plusieurs vers s'appelle une ___",
+              "reponse": "anaphore",
+              "acceptees": [
+                "anaphore"
+              ],
+              "explication": "Procédé rythmique et oratoire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bac-enonciation-modalisation",
+      "categorie": "style",
+      "titre": "L'énonciation et la modalisation",
+      "niveau": "1ère Bac",
+      "aValider": true,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'**énonciation** est l'acte de production d'un énoncé par un locuteur dans une situation donnée (qui parle ? à qui ? où ? quand ?). La **modalisation** regroupe tous les indices par lesquels le locuteur manifeste son jugement, sa certitude ou son doute face à son propre propos."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Modalité",
+            "Procédés",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "Certitude",
+              "Adverbes affirmatifs, indicatif futur/présent",
+              "*Assurément*, *sans doute aucun*, *il viendra*"
+            ],
+            [
+              "Doute / Hypothèse",
+              "Conditionnel, adverbes de doute, verbes d'opinion",
+              "*Peut-être*, *il semblerait*, *je doute que*"
+            ],
+            [
+              "Jugement affectif / évaluatif",
+              "Vocabulaire mélioratif ou péjoratif, interjections",
+              "*Un spectacle affreux*, *une réussite sublime*"
+            ],
+            [
+              "Obligation / Nécessité",
+              "Verbes falloir, devoir, impératif",
+              "*Il faut agir*, *nous devons résister*"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "*« Il est probable que cette sentence soit injuste. »* → Modalisateur de doute/probabilité (*probable*).\n*« Créon doit comprendre son erreur ! »* → Modalisateur d'obligation et d'indignation."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1bac-modalisation-ex1",
+          "titre": "Exercice 1 — Repérer les modalisateurs",
+          "consigne": "Identifie la nuance apportée par le modalisateur.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "« Il se pourrait que le messager arrive tard » exprime…",
+              "options": [
+                "la certitude",
+                "l'incertitude / éventualité",
+                "l'ordre"
+              ],
+              "reponse": 1,
+              "explication": "Le conditionnel « se pourrait » indique une probabilité incertaine."
+            },
+            {
+              "enonce": "Dans « Cette œuvre remarquable émeut le lecteur », l'adjectif « remarquable » est…",
+              "options": [
+                "mélioratif",
+                "péjoratif",
+                "neutre"
+              ],
+              "reponse": 0,
+              "explication": "Il exprime un jugement de valeur très positif."
+            },
+            {
+              "enonce": "« Sans conteste, il a raison » exprime…",
+              "options": [
+                "le doute",
+                "la certitude absolue",
+                "l'hésitation"
+              ],
+              "reponse": 1,
+              "explication": "« Sans conteste » exclut toute contestation."
+            },
+            {
+              "enonce": "Le conditionnel journalistique (« Le roi aurait signé le décret ») sert à…",
+              "options": [
+                "affirmer un fait vérifié",
+                "prendre de la distance par rapport à l'information",
+                "donner un ordre"
+              ],
+              "reponse": 1,
+              "explication": "Il indique que l'information n'est pas encore authentifiée."
+            },
+            {
+              "enonce": "« Hélas ! Pourquoi faut-il mourir si jeune ? » exprime…",
+              "options": [
+                "la joie",
+                "la déploration et l'angoisse",
+                "l'indifférence"
+              ],
+              "reponse": 1,
+              "explication": "L'interjection « hélas » et la modalité interrogative traduisent la douleur tragique."
+            }
+          ]
+        },
+        {
+          "id": "1bac-modalisation-ex2",
+          "titre": "Exercice 2 — Vrai ou Faux sur l'énonciation",
+          "consigne": "Indique si l'affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Un texte objectif ne contient aucun indice de modalisation.",
+              "reponse": true,
+              "explication": "L'énoncé se veut neutre et impersonnel."
+            },
+            {
+              "enonce": "Les déictiques (ici, maintenant, moi) sont coupés de la situation d'énonciation.",
+              "reponse": false,
+              "explication": "Les déictiques ne prennent sens qu'au sein de la situation d'énonciation concrète."
+            },
+            {
+              "enonce": "Le conditionnel est l'un des outils privilégiés de la modalisation du doute.",
+              "reponse": true,
+              "explication": "Il exprime l'irréel, l'hypothèse ou le propos rapporté non vérifié."
+            },
+            {
+              "enonce": "Un verbe d'opinion comme « je crois » affirme une vérité scientifique immuable.",
+              "reponse": false,
+              "explication": "Il marque une subjectivité personnelle."
+            },
+            {
+              "enonce": "L'ironie s'appuie sur une double énonciation implicite.",
+              "reponse": true,
+              "explication": "Le récepteur averti perçoit le décalage entre le sens littéral et l'intention réelle."
+            }
+          ]
+        },
+        {
+          "id": "1bac-modalisation-ex3",
+          "titre": "Exercice 3 — Pratique de la modalisation",
+          "consigne": "Complète chaque phrase par le terme adéquat.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "L'ensemble des marques qui traduisent l'attitude du locuteur s'appelle la ___",
+              "reponse": "modalisation",
+              "acceptees": [
+                "modalisation"
+              ],
+              "explication": "Degré d'adhésion au message."
+            },
+            {
+              "enonce": "Les pronoms « je » et « tu » renvoient aux protagonistes de l'___",
+              "reponse": "énonciation",
+              "acceptees": [
+                "énonciation",
+                "enonciation"
+              ],
+              "explication": "Émetteur et récepteur de l'acte d'énonciation."
+            },
+            {
+              "enonce": "Un mot valorisant comme « admirable » est un terme ___",
+              "reponse": "mélioratif",
+              "acceptees": [
+                "mélioratif",
+                "melioratif"
+              ],
+              "explication": "Exprime une appréciation élogieuse."
+            },
+            {
+              "enonce": "Un mot dévalorisant comme « médiocre » est un terme ___",
+              "reponse": "péjoratif",
+              "acceptees": [
+                "péjoratif",
+                "pejoratif"
+              ],
+              "explication": "Exprime un blâme ou un dénigrement."
+            },
+            {
+              "enonce": "Le mode verbal du doute et du souhait est le ___",
+              "reponse": "subjonctif",
+              "acceptees": [
+                "subjonctif",
+                "conditionnel"
+              ],
+              "explication": "Opposé à l'indicatif qui marque le certain."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bac-registres-litteraires",
+      "categorie": "style",
+      "titre": "Les registres littéraires (tonalités)",
+      "niveau": "1ère Bac",
+      "aValider": true,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le **registre** (ou tonalité) d'un texte est l'effet émotionnel qu'il cherche à provoquer chez le lecteur : terreur et pitié (tragique), rire ou sourire (comique, ironique), compassion et larmes (pathétique), exaltation des sentiments (lyrique), indignation et révolte (polémique)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Registre",
+            "Procédés dominants",
+            "Émotion suscitée"
+          ],
+          "lignes": [
+            [
+              "Tragique",
+              "Champs de la fatalité, de la mort, phrases exclamatives",
+              "Angoisse, terreur et pitié (*Antigone*)"
+            ],
+            [
+              "Pathétique",
+              "Souffrance physique/morale, champ des larmes, hyperboles",
+              "Compassion, attendrissement (*Le Dernier Jour*)"
+            ],
+            [
+              "Ironique",
+              "Antiphrase, décalage, exagération souriante",
+              "Prise de recul critique, amusement"
+            ],
+            [
+              "Polémique",
+              "Lexique violent, questions rhétoriques, apostrophes",
+              "Révolte, engagement du lecteur"
+            ],
+            [
+              "Lyrique",
+              "Première personne « je », champ des émotions intimes",
+              "Partage poétique de l'intériorité"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "*« Échafaud ! mot hideux, infâme ! Pourquoi faut-il que la société tue ? »* → Registre pathétique et polémique.\n*« Créon, tu es le roi, tu as tout pouvoir, mais tu ne peux m'empêcher de mourir. »* → Registre tragique."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1bac-registres-ex1",
+          "titre": "Exercice 1 — Identifier le registre",
+          "consigne": "Choisis le registre prédominant pour chaque passage.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Un passage décrivant les pleurs déchirants d'une mère devant son enfant malade relève du registre…",
+              "options": [
+                "pathétique",
+                "comique",
+                "épique"
+              ],
+              "reponse": 0,
+              "explication": "Il cherche à émouvoir aux larmes : registre pathétique."
+            },
+            {
+              "enonce": "Le combat d'Antigone contre la fatalité de son destin d'Œdipe relève du registre…",
+              "options": [
+                "tragique",
+                "satirique",
+                "lyrique"
+              ],
+              "reponse": 0,
+              "explication": "La mort inéluctable imposée par le destin caractérise la tragédie."
+            },
+            {
+              "enonce": "Une critique moqueuse des travers des faux savants relève du registre…",
+              "options": [
+                "satirique",
+                "tragique",
+                "pathétique"
+              ],
+              "reponse": 0,
+              "explication": "La satire attaque les vices par la moquerie."
+            },
+            {
+              "enonce": "Un plaidoyer indigné contre la peine de mort avec apostrophes virulentes est…",
+              "options": [
+                "polémique",
+                "lyrique",
+                "élégiaque"
+              ],
+              "reponse": 0,
+              "explication": "La polémique combat vivement une opinion adverse."
+            },
+            {
+              "enonce": "L'expression intime de la nostalgie et de l'amour dans un poème à la première personne est…",
+              "options": [
+                "lyrique",
+                "épique",
+                "dramatique"
+              ],
+              "reponse": 0,
+              "explication": "Chant de l'âme et des sentiments personnels : registre lyrique."
+            }
+          ]
+        },
+        {
+          "id": "1bac-registres-ex2",
+          "titre": "Exercice 2 — Vrai ou Faux sur les registres",
+          "consigne": "Indique si l'affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Un même texte littéraire peut entremêler plusieurs registres.",
+              "reponse": true,
+              "explication": "Exemple : un passage peut être à la fois pathétique et polémique."
+            },
+            {
+              "enonce": "Le registre tragique laisse toujours un espoir de triomphe final au héros.",
+              "reponse": false,
+              "explication": "Le tragique se définit par l'inéluctabilité du destin et de la chute."
+            },
+            {
+              "enonce": "Le registre épique célèbre les exploits héroïques et grandioses.",
+              "reponse": true,
+              "explication": "Il magnifie le dépassement de soi face au danger."
+            },
+            {
+              "enonce": "Le rire satirique a pour unique but de divertir sans critiquer.",
+              "reponse": false,
+              "explication": "La satire vise à corriger les mœurs en riant (*castigat ridendo mores*)."
+            },
+            {
+              "enonce": "Le registre ironique nécessite la complicité intellectuelle du lecteur.",
+              "reponse": true,
+              "explication": "Pour déceler le second degré sous l'énoncé apparent."
+            }
+          ]
+        },
+        {
+          "id": "1bac-registres-ex3",
+          "titre": "Exercice 3 — Vocabulaire des tonalités",
+          "consigne": "Complète chaque définition.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le registre qui inspire la pitié face au malheur s'appelle le registre ___",
+              "reponse": "pathétique",
+              "acceptees": [
+                "pathétique",
+                "pathetique"
+              ],
+              "explication": "Du grec pathos : la souffrance, l'émotion."
+            },
+            {
+              "enonce": "Le registre lié au destin inéluctable et à la mort s'appelle le registre ___",
+              "reponse": "tragique",
+              "acceptees": [
+                "tragique"
+              ],
+              "explication": "Propre à la tragédie antique et moderne."
+            },
+            {
+              "enonce": "L'expression des états d'âme et de la musique du cœur relève du registre ___",
+              "reponse": "lyrique",
+              "acceptees": [
+                "lyrique"
+              ],
+              "explication": "Fait référence à la lyre des poètes antiques."
+            },
+            {
+              "enonce": "L'attaque vive et engagée d'une thèse adverse définit le registre ___",
+              "reponse": "polémique",
+              "acceptees": [
+                "polémique",
+                "polemique"
+              ],
+              "explication": "Du grec polemos : la guerre, le combat d'idées."
+            },
+            {
+              "enonce": "La dénonciation des vices de la société par le ridicule s'appelle la ___",
+              "reponse": "satire",
+              "acceptees": [
+                "satire",
+                "registre satirique"
+              ],
+              "explication": "Arme privilégiée de Molière et des moralistes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bac-argumentation-connecteurs",
+      "categorie": "gram",
+      "titre": "L'argumentation et les connecteurs logiques",
+      "niveau": "1ère Bac",
+      "aValider": true,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Convaincre et persuader sont au cœur des textes argumentatifs (*Le Dernier Jour d'un Condamné* de Victor Hugo, plaidoyer contre la peine de mort). Pour structurer un raisonnement, on s'appuie sur une **thèse**, des **arguments** et des **exemples**, reliés par des **connecteurs logiques** rigoureux."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Relation logique",
+            "Conjonctions / Adverbes",
+            "Rôle dans le raisonnement"
+          ],
+          "lignes": [
+            [
+              "Addition / Gradation",
+              "De plus, en outre, d'abord, ensuite, enfin",
+              "Accumuler les arguments en ordre d'importance"
+            ],
+            [
+              "Cause",
+              "Car, parce que, en effet, étant donné que",
+              "Donner la justification rationnelle de la thèse"
+            ],
+            [
+              "Conséquence",
+              "Donc, ainsi, par conséquent, c'est pourquoi",
+              "Tirer la conclusion logique irréfutable"
+            ],
+            [
+              "Opposition / Concession",
+              "Mais, cependant, pourtant, néanmoins, bien que",
+              "Nuancer ou réfuter la thèse adverse"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "*« La peine de mort est irréversible ; or, la justice humaine est faillible ; par conséquent, l'échafaud doit être aboli. »* → Syllogisme argumentatif parfait."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1bac-argumentation-ex1",
+          "titre": "Exercice 1 — Choix du connecteur logique",
+          "consigne": "Choisis le connecteur logique qui convient au sens.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "L'accusé clame son innocence ; [néanmoins/en effet/c'est pourquoi] les preuves accablantes s'accumulent contre lui.",
+              "options": [
+                "néanmoins",
+                "en effet",
+                "c'est pourquoi"
+              ],
+              "reponse": 0,
+              "explication": "Marque l'opposition / restriction : néanmoins."
+            },
+            {
+              "enonce": "L'éducation éclaire les esprits ; [par conséquent/au contraire/puisque] elle constitue le rempart contre l'obscurantisme.",
+              "options": [
+                "par conséquent",
+                "au contraire",
+                "puisque"
+              ],
+              "reponse": 0,
+              "explication": "Résultat logique et conclusion : par conséquent."
+            },
+            {
+              "enonce": "Créon veut maintenir l'ordre à Thèbes, [or/car/bien que] cet ordre exige l'impitoyable sacrifice d'Antigone.",
+              "options": [
+                "or",
+                "car",
+                "bien que"
+              ],
+              "reponse": 0,
+              "explication": "Introduit une nouvelle donnée dans le raisonnement : or."
+            },
+            {
+              "enonce": "Pour convaincre, on s'adresse à la raison, [tandis que/donc/car] pour persuader, on touche la sensibilité.",
+              "options": [
+                "tandis que",
+                "donc",
+                "car"
+              ],
+              "reponse": 0,
+              "explication": "Exprime l'antithèse ou le parallèle : tandis que."
+            },
+            {
+              "enonce": "Il a commis une faute grave ; [pourtant/de plus/ainsi], il mérite une seconde chance par le rachat.",
+              "options": [
+                "pourtant",
+                "de plus",
+                "ainsi"
+              ],
+              "reponse": 0,
+              "explication": "Concession et nuance morale : pourtant."
+            }
+          ]
+        },
+        {
+          "id": "1bac-argumentation-ex2",
+          "titre": "Exercice 2 — Vrai ou Faux sur l'argumentation",
+          "consigne": "Indique si l'affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Convaincre fait appel à la logique et aux arguments rationnels.",
+              "reponse": true,
+              "explication": "Fait appel à l'esprit critique et aux faits démontrables."
+            },
+            {
+              "enonce": "Persuader fait appel aux émotions, aux sentiments et à la séduction oratoire.",
+              "reponse": true,
+              "explication": "Touche le cœur et la sensibilité de l'auditeur."
+            },
+            {
+              "enonce": "Un exemple suffit à lui seul à constituer une thèse.",
+              "reponse": false,
+              "explication": "L'exemple sert à illustrer ou concrétiser un argument, non à le remplacer."
+            },
+            {
+              "enonce": "La réfutation consiste à détruire la thèse adverse en montrant ses failles.",
+              "reponse": true,
+              "explication": "C'est l'un des piliers de la stratégie argumentative."
+            },
+            {
+              "enonce": "Le connecteur « en effet » introduit une conséquence.",
+              "reponse": false,
+              "explication": "« En effet » introduit une explication ou une cause, pas une conséquence."
+            }
+          ]
+        },
+        {
+          "id": "1bac-argumentation-ex3",
+          "titre": "Exercice 3 — Pratique des connecteurs",
+          "consigne": "Complète chaque phrase avec le connecteur adéquat.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le connecteur « donc » exprime la relation de ___",
+              "reponse": "conséquence",
+              "acceptees": [
+                "conséquence",
+                "consequence"
+              ],
+              "explication": "Il marque la déduction ou conclusion logique."
+            },
+            {
+              "enonce": "Le connecteur « car » introduit une relation de ___",
+              "reponse": "cause",
+              "acceptees": [
+                "cause"
+              ],
+              "explication": "Il justifie l'affirmation précédente."
+            },
+            {
+              "enonce": "Pour introduire une objection, on emploie la conjonction « ___ ».",
+              "reponse": "mais",
+              "acceptees": [
+                "mais",
+                "cependant",
+                "pourtant"
+              ],
+              "explication": "Conjonction d'opposition par excellence."
+            },
+            {
+              "enonce": "L'idée principale défendue par l'auteur dans son texte s'appelle la ___",
+              "reponse": "thèse",
+              "acceptees": [
+                "thèse",
+                "these"
+              ],
+              "explication": "Point de vue soutenu par l'argumentation."
+            },
+            {
+              "enonce": "Un raisonnement en trois temps (majeure, mineure, conclusion) s'appelle un ___",
+              "reponse": "syllogisme",
+              "acceptees": [
+                "syllogisme"
+              ],
+              "explication": "Structure classique de déduction logique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bac-temps-recit",
+      "categorie": "conj",
+      "titre": "Les temps du récit et leurs valeurs",
+      "niveau": "1ère Bac",
+      "aValider": true,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans le roman ou le récit (*La Boîte à Merveilles*, *Le Dernier Jour d'un Condamné*), le système des temps du passé organise la narration entre arrière-plan et premier plan."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Temps",
+            "Valeur narrative",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "Passé simple",
+              "Action de premier plan, ponctuelle, délimitée, succession",
+              "*Il ouvrit la boîte et contempla ses trésors.*"
+            ],
+            [
+              "Imparfait",
+              "Arrière-plan, description, habitude, action sécante",
+              "*La chambre sentait la lavande ; ma mère cousait.*"
+            ],
+            [
+              "Plus-que-parfait",
+              "Antériorité par rapport au récit passé",
+              "*Il se souvint du serment qu'il avait prêté.*"
+            ],
+            [
+              "Présent de narration",
+              "Rend l'action vivante, soudaine et actuelle aux yeux du lecteur",
+              "*Tout à coup la porte s'ouvre : le bourreau paraît.*"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "*« La nuit tombait (imparfait, description) quand soudain un cri retentit (passé simple, action soudaine). »*"
+        },
+        {
+          "type": "schema",
+          "id": "frise_temps"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1bac-temps-ex1",
+          "titre": "Exercice 1 — Identifier la valeur du temps",
+          "consigne": "Choisis la valeur exacte du verbe souligné.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "« Chaque vendredi, mon père m'emmenait à la mosquée » : valeur de l'imparfait ?",
+              "options": [
+                "description",
+                "habitude / répétition",
+                "action soudaine"
+              ],
+              "reponse": 1,
+              "explication": "Marqué par « chaque vendredi » : imparfait d'habitude."
+            },
+            {
+              "enonce": "« Soudain, la cloche de Bicêtre sonna six heures » : valeur du passé simple ?",
+              "options": [
+                "arrière-plan",
+                "action ponctuelle et soudaine de premier plan",
+                "durée indéterminée"
+              ],
+              "reponse": 1,
+              "explication": "Action délimitée introduite par un adverbe temporel vif."
+            },
+            {
+              "enonce": "« Il avait déjà oublié les paroles du maître » : valeur du plus-que-parfait ?",
+              "options": [
+                "antériorité",
+                "simultanéité",
+                "futur"
+              ],
+              "reponse": 0,
+              "explication": "Action accomplie avant le moment du récit au passé."
+            },
+            {
+              "enonce": "« Le soleil dardait ses rayons sur les ruelles de Fès » : valeur de l'imparfait ?",
+              "options": [
+                "imparfait descriptif",
+                "imparfait de répétition",
+                "imparfait historique"
+              ],
+              "reponse": 0,
+              "explication": "Peinture du décor et du cadre spatio-temporel."
+            },
+            {
+              "enonce": "« Je marchais tranquillement quand un cri m'arrêta net » : l'imparfait exprime…",
+              "options": [
+                "une action sécante coupée par le passé simple",
+                "une action achevée",
+                "un ordre"
+              ],
+              "reponse": 0,
+              "explication": "Action en cours interrompue par une action brève."
+            }
+          ]
+        },
+        {
+          "id": "1bac-temps-ex2",
+          "titre": "Exercice 2 — Vrai ou Faux sur les temps",
+          "consigne": "Indique si l'affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le passé simple s'utilise principalement à l'oral dans les conversations courantes.",
+              "reponse": false,
+              "explication": "Le passé simple est un temps réservé à l'écrit et au récit littéraire soutenu."
+            },
+            {
+              "enonce": "L'imparfait présente l'action comme non achevée dans son déroulement (aspect sécant).",
+              "reponse": true,
+              "explication": "Sans préciser ni le début ni la fin de l'action."
+            },
+            {
+              "enonce": "Le présent de narration transporte le lecteur au cœur même de l'événement.",
+              "reponse": true,
+              "explication": "Il actualise l'action passée pour donner du dynamisme."
+            },
+            {
+              "enonce": "Le plus-que-parfait est formé de l'auxiliaire au présent et du participe passé.",
+              "reponse": false,
+              "explication": "Il est formé de l'auxiliaire à l'imparfait + participe passé."
+            },
+            {
+              "enonce": "Le conditionnel passé peut exprimer un futur dans le passé au discours indirect.",
+              "reponse": true,
+              "explication": "Remplacement du futur simple lorsque le verbe principal est au passé."
+            }
+          ]
+        },
+        {
+          "id": "1bac-temps-ex3",
+          "titre": "Exercice 3 — Pratique des temps",
+          "consigne": "Complète chaque phrase par le terme adéquat.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Dans un récit au passé, le premier plan des actions successives s'exprime au passé ___",
+              "reponse": "simple",
+              "acceptees": [
+                "simple"
+              ],
+              "explication": "Temps narratif par excellence."
+            },
+            {
+              "enonce": "Le décor et les portraits sont traditionnellement brossés à l'___",
+              "reponse": "imparfait",
+              "acceptees": [
+                "imparfait"
+              ],
+              "explication": "Temps de l'arrière-plan descriptif."
+            },
+            {
+              "enonce": "L'action passée antérieure à une autre action passée se conjugue au ___-que-parfait.",
+              "reponse": "plus",
+              "acceptees": [
+                "plus",
+                "plus-que-parfait"
+              ],
+              "explication": "Marque le recul temporel."
+            },
+            {
+              "enonce": "Rendre un épisode dramatique présent et saisissant s'obtient par le présent de ___",
+              "reponse": "narration",
+              "acceptees": [
+                "narration",
+                "présent de narration"
+              ],
+              "explication": "Effet de zoom et de vivacité dramatique."
+            },
+            {
+              "enonce": "L'imparfait qui traduit une action répétée est l'imparfait d'___",
+              "reponse": "habitude",
+              "acceptees": [
+                "habitude",
+                "répétition",
+                "repetition"
+              ],
+              "explication": "Exprime une coutume ou routine passée."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

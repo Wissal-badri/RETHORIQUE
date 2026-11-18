@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La Langue française — Leçons de grammaire, conjugaison, orthographe et vocabulaire</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root{--bg:#f7f5ef;--card:#fff;--ink:#1b2437;--navy:#14284b;--gold:#9c7a2c;--line:#e3dccb;--soft:#f0ead9;--on-navy:#fff;--ex:#eef2f9;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1626;--card:#16213a;--ink:#e8ebf3;--navy:#0a1226;--gold:#d8b45a;--line:#2a3757;--soft:#1d2a47;--ex:#1b2947}}
+:root[data-theme="dark"]{--bg:#0e1626;--card:#16213a;--ink:#e8ebf3;--navy:#0a1226;--gold:#d8b45a;--line:#2a3757;--soft:#1d2a47;--ex:#1b2947}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Source Sans 3",system-ui,sans-serif}
+header{background:var(--navy);color:var(--on-navy);padding:2.2rem 1.2rem 1.6rem;text-align:center;border-bottom:4px solid var(--gold)}
+h1{font:700 clamp(2rem,6vw,3.2rem)/1.1 "Cormorant Garamond",Georgia,serif;margin:0 0 .4rem;letter-spacing:.01em}
+header p{margin:0 auto;max-width:34rem;opacity:.85}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:.8rem 1rem;border-bottom:1px solid var(--line)}
+.bar-in{max-width:52rem;margin:auto;display:flex;flex-direction:column;gap:.6rem}
+input{width:100%;padding:.7rem 1rem;font:inherit;border:1.5px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+input:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.chips{display:flex;gap:.4rem;overflow-x:auto;padding-bottom:2px}
+.chips button{flex:none;font:600 .95rem "Source Sans 3",sans-serif;padding:.45rem .95rem;border:1.5px solid var(--navy);border-radius:999px;background:transparent;color:var(--navy);cursor:pointer}
+:root[data-theme="dark"] .chips button{color:var(--gold);border-color:var(--gold)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chips button{color:var(--gold);border-color:var(--gold)}}
+.chips button[aria-pressed="true"]{background:var(--navy);color:#fff;border-color:var(--gold)}
+main{max-width:52rem;margin:1.4rem auto 3rem;padding:0 1rem}
+h2{font:700 1.7rem "Cormorant Garamond",Georgia,serif;color:var(--navy);margin:2rem 0 .8rem;padding-bottom:.3rem;border-bottom:2px solid var(--gold)}
+:root[data-theme="dark"] h2{color:var(--gold)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) h2{color:var(--gold)}}
+details{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:6px;margin:.6rem 0}
+summary{cursor:pointer;padding:.8rem 1rem;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:.8rem;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--gold);font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"−"}
+summary small{font-weight:400;opacity:.65;margin-left:auto;white-space:nowrap}
+.body{padding:0 1rem 1rem}
+.body p{margin:.4rem 0}
+.ex{background:var(--ex);border-radius:6px;padding:.6rem .9rem;margin:.6rem 0}
+.ex i{font-style:italic}
+table{border-collapse:collapse;width:100%;margin:.6rem 0;font-size:.95rem}
+td,th{border:1px solid var(--line);padding:.35rem .5rem;text-align:left;vertical-align:top}
+th{background:var(--soft)}
+.tw{overflow-x:auto}
+.none{text-align:center;opacity:.7;padding:2rem 0}
+.exo{margin-top:1rem;border-top:1px dashed var(--line);padding-top:.6rem}
+.exo h3{font:700 1.25rem Georgia,serif;margin:.2rem 0;color:var(--gold)}
+.q{margin:.8rem 0}.q p{margin:.2rem 0;font-weight:600}
+.o{display:flex;flex-wrap:wrap;gap:.4rem}
+.o button{font:inherit;font-size:.95rem;padding:.4rem .8rem;border:1.5px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer}
+.o button.ok{background:rgba(46,125,79,.25);border-color:#2e7d4f}
+.o button.ko{background:rgba(179,52,46,.22);border-color:#b3342e}
+.o button:disabled{cursor:default}
+.sc{font-weight:600;color:var(--gold);margin:.5rem 0}
+.rs{font:inherit;font-size:.9rem;padding:.3rem .8rem;border:1.5px solid var(--gold);background:transparent;color:var(--ink);border-radius:8px;cursor:pointer}
+footer{text-align:center;padding:1.5rem 1rem 2rem;opacity:.6;font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+<h1>La Langue française</h1>
+<p>Grammaire, conjugaison, orthographe et vocabulaire : toutes les leçons au même endroit, avec des exemples clairs.</p>
+<p style="margin-top:.9rem;color:var(--gold);font-weight:600">Par BADRI Chakib, professeur de français</p>
+</header>
+<div class="bar"><div class="bar-in">
+<input id="q" type="search" placeholder="Chercher une leçon (ex. : participe passé, cause, homophones)" aria-label="Chercher une leçon">
+<div class="chips" id="chips"></div>
+</div></div>
+<main id="app"></main>
+<footer>© BADRI Chakib, professeur de français · Groupe Scolaire Jean-Henri Lambert, Casablanca</footer>
+<script>
+var CATS=[["all","Tout"],["gram","Grammaire"],["conj","Conjugaison"],["orth","Orthographe"],["voc","Vocabulaire"],["style","Style et sens"]];
+var TITLES={gram:"Grammaire",conj:"Conjugaison",orth:"Orthographe",voc:"Vocabulaire",style:"Style et sens"};
+var L=[
+{c:"gram",t:"Les classes grammaticales",n:"1AC",h:`<p>Il y a dix classes de mots. <b>Variables</b> : nom, déterminant, adjectif, pronom, verbe. <b>Invariables</b> : adverbe, préposition, conjonction de coordination, conjonction de subordination, interjection.</p><div class="ex"><i>Les petits chats dorment paisiblement sur le canapé.</i><br>Les (déterminant) · petits (adjectif) · chats (nom) · dorment (verbe) · paisiblement (adverbe) · sur (préposition) · le (déterminant) · canapé (nom).</div>`},
+{c:"gram",t:"Les fonctions dans la phrase",n:"1AC–2AC",h:`<p><b>Sujet</b> : celui qui fait l’action (question : qui est-ce qui… ?). <b>COD</b> : répond à « quoi ? / qui ? » sans préposition. <b>COI</b> : introduit par à ou de. <b>Attribut du sujet</b> : après un verbe d’état (être, sembler, paraître, devenir). <b>Complément circonstanciel</b> : lieu, temps, manière, cause… (déplaçable, supprimable).</p><div class="ex"><i>Hier, Sara a offert un livre à son frère.</i><br>Hier (CC de temps) · Sara (sujet) · un livre (COD) · à son frère (COI).</div>`},
+{c:"gram",t:"Types et formes de phrases",n:"1AC",h:`<p><b>Quatre types</b> : déclaratif (.), interrogatif (?), impératif (! / .), exclamatif (!). <b>Formes</b> : affirmative ou négative (ne… pas, ne… jamais, ne… plus, ne… rien) ; active ou passive ; emphatique.</p><div class="ex"><i>Le chat mange la souris.</i> (active) → <i>La souris est mangée par le chat.</i> (passive)</div>`},
+{c:"gram",t:"Phrase simple, phrase complexe, propositions",n:"2AC",h:`<p>Une phrase simple contient un seul verbe conjugué. Une phrase complexe en contient plusieurs. Les propositions sont reliées par : <b>juxtaposition</b> (virgule), <b>coordination</b> (mais, ou, et, donc, or, ni, car) ou <b>subordination</b> (que, quand, parce que, si…).</p><div class="ex"><i>Je pense [que tu as raison].</i> → principale + subordonnée complétive.</div>`},
+{c:"gram",t:"Les subordonnées circonstancielles",n:"2AC–3AC",h:`<div class="tw"><table><tr><th>Valeur</th><th>Conjonctions</th><th>Exemple</th></tr>
+<tr><td>Cause</td><td>parce que, puisque, comme, car</td><td><i>Il est absent parce qu’il est malade.</i></td></tr>
+<tr><td>Conséquence</td><td>si bien que, de sorte que, tellement… que</td><td><i>Il pleut tellement que la route est inondée.</i></td></tr>
+<tr><td>But</td><td>pour que, afin que (+ subjonctif)</td><td><i>Je parle fort pour qu’on m’entende.</i></td></tr>
+<tr><td>Comparaison</td><td>comme, ainsi que, plus… que</td><td><i>Il court comme un lièvre.</i></td></tr>
+<tr><td>Temps</td><td>quand, lorsque, dès que, avant que</td><td><i>Dès que tu arrives, nous partons.</i></td></tr>
+<tr><td>Condition</td><td>si, à condition que, au cas où</td><td><i>Si tu travailles, tu réussiras.</i></td></tr>
+<tr><td>Concession</td><td>bien que, quoique (+ subjonctif)</td><td><i>Bien qu’il soit fatigué, il travaille.</i></td></tr></table></div>`},
+{c:"gram",t:"Les pronoms",n:"2AC",h:`<p><b>Personnels</b> : je, tu, il, me, te, le, lui, leur, y, en. <b>Relatifs</b> : qui (sujet), que (COD), dont (de), où (lieu/temps). <b>Démonstratifs</b> : celui, celle, ceci, cela. <b>Possessifs</b> : le mien, la tienne…</p><div class="ex"><i>Le livre que j’ai lu, dont tu m’as parlé, est celui que je préfère.</i></div>`},
+{c:"gram",t:"Le discours direct et indirect",n:"3AC",h:`<p>Au passage au discours indirect : on supprime les guillemets et les deux-points, on ajoute <i>que</i>, <i>si</i> ou <i>de</i>, on change les pronoms, et on adapte les temps si le verbe introducteur est au passé.</p><div class="ex">Il dit : « Je viens demain. » → <i>Il dit qu’il vient demain.</i><br>Il a dit : « Je viens demain. » → <i>Il a dit qu’il viendrait le lendemain.</i></div>`},
+{c:"conj",t:"Les groupes de verbes et le présent",n:"1AC",h:`<p><b>1er groupe</b> : -er (chanter). <b>2e groupe</b> : -ir / -issant (finir). <b>3e groupe</b> : tous les autres (aller, prendre, venir, faire…).</p><div class="tw"><table><tr><th></th><th>chanter</th><th>finir</th><th>prendre</th></tr><tr><td>je</td><td>chante</td><td>finis</td><td>prends</td></tr><tr><td>tu</td><td>chantes</td><td>finis</td><td>prends</td></tr><tr><td>il</td><td>chante</td><td>finit</td><td>prend</td></tr><tr><td>nous</td><td>chantons</td><td>finissons</td><td>prenons</td></tr><tr><td>vous</td><td>chantez</td><td>finissez</td><td>prenez</td></tr><tr><td>ils</td><td>chantent</td><td>finissent</td><td>prennent</td></tr></table></div>`},
+{c:"conj",t:"Imparfait, passé composé et passé simple",n:"1AC–2AC",h:`<p><b>Imparfait</b> : description, habitude, action en cours (-ais, -ais, -ait, -ions, -iez, -aient). <b>Passé composé</b> : action terminée (avoir/être + participe passé). <b>Passé simple</b> : action terminée dans un récit (il chanta, ils finirent).</p><div class="ex"><i>Il pleuvait (imparfait) quand je suis sorti (passé composé).</i><br><i>Il pleuvait quand il sortit.</i> (récit)</div>`},
+{c:"conj",t:"Futur simple et conditionnel présent",n:"2AC",h:`<p><b>Futur</b> : infinitif + -ai, -as, -a, -ons, -ez, -ont (<i>je chanterai</i>). <b>Conditionnel</b> : infinitif + -ais, -ais, -ait, -ions, -iez, -aient (<i>je chanterais</i>). Radicaux irréguliers : ser- (être), aur- (avoir), ir- (aller), fer- (faire), verr- (voir), pourr- (pouvoir).</p><div class="ex"><i>Demain, j’irai au musée.</i> · <i>Si j’avais le temps, j’irais au musée.</i></div>`},
+{c:"conj",t:"Le subjonctif présent",n:"3AC",h:`<p>Il s’emploie après les verbes de volonté, de souhait, de doute, de sentiment, et après certaines conjonctions (pour que, afin que, bien que, avant que).</p><div class="ex"><i>Il faut que tu viennes.</i> · <i>Je veux que nous finissions.</i><br>Irréguliers : que je sois, que j’aie, que j’aille, que je fasse, que je puisse.</div>`},
+{c:"conj",t:"L’impératif",n:"1AC",h:`<p>Trois personnes seulement : tu, nous, vous. Pas de pronom sujet. Au 1er groupe, pas de -s à la 2e personne du singulier : <i>chante !</i> (sauf devant y et en : <i>manges-en</i>).</p><div class="ex"><i>Finis ton travail !</i> · <i>Prenons le bus.</i> · <i>Soyez à l’heure.</i></div>`},
+{c:"orth",t:"L’accord du participe passé",n:"2AC–3AC",h:`<p><b>Avec être</b> : accord avec le sujet. <b>Avec avoir</b> : accord avec le COD seulement s’il est placé avant le verbe. <b>Verbes pronominaux</b> : accord avec le sujet (sauf si le pronom est COI).</p><div class="ex"><i>Elles sont parties.</i> · <i>Les fleurs que j’ai cueillies.</i> · <i>Elle a cueilli des fleurs.</i> · <i>Elles se sont téléphoné.</i> (COI : pas d’accord)</div>`},
+{c:"orth",t:"Les homophones grammaticaux",n:"1AC–2AC",h:`<div class="tw"><table><tr><th>Homophones</th><th>Astuce</th></tr>
+<tr><td>a / à</td><td>a = avait (<i>il a faim</i>) ; à = préposition (<i>à Rabat</i>)</td></tr>
+<tr><td>et / est</td><td>est = était (<i>elle est belle</i>) ; et = et puis</td></tr>
+<tr><td>on / ont</td><td>ont = avaient (<i>ils ont soif</i>) ; on = il</td></tr>
+<tr><td>son / sont</td><td>sont = étaient ; son = mon, ton</td></tr>
+<tr><td>ou / où</td><td>où = lieu ou temps ; ou = ou bien</td></tr>
+<tr><td>ces / ses</td><td>ces = ceux-ci (désigne) ; ses = les siens (possession)</td></tr>
+<tr><td>c’est / s’est</td><td>s’est = verbe pronominal (<i>il s’est lavé</i>) ; c’est = cela est</td></tr>
+<tr><td>leur / leurs</td><td>pronom : leur est invariable ; déterminant : leur(s) s’accorde</td></tr>
+<tr><td>quel(le) / qu’elle</td><td>qu’elle = que + elle</td></tr></table></div>`},
+{c:"orth",t:"Le pluriel et le féminin",n:"1AC",h:`<p><b>Pluriel</b> : on ajoute -s ; -s, -x, -z ne changent pas ; -eau, -eu, -au → -x ; -al → -aux (<i>cheval → chevaux</i>) ; sept noms en -ou prennent -x (bijou, caillou, chou, genou, hibou, joujou, pou).</p><p><b>Féminin</b> : on ajoute -e (<i>petit → petite</i>) ; -er → -ère ; -eur → -euse ; -teur → -trice ; consonne doublée (<i>bon → bonne</i>).</p>`},
+{c:"orth",t:"Les accents, la cédille et les majuscules",n:"1AC",h:`<p>Accent aigu (é), grave (è, à, ù), circonflexe (ê, â, î, ô, û), tréma (ë, ï). La <b>cédille</b> (ç) se met devant a, o, u pour le son [s] : <i>français, leçon, reçu</i>. La <b>majuscule</b> s’emploie en début de phrase, pour les noms propres et les noms de peuples (<i>les Marocains</i>), mais pas pour les langues ni les adjectifs (<i>le français, marocain</i>).</p>`},
+{c:"voc",t:"Préfixes, suffixes et familles de mots",n:"1AC–2AC",h:`<p>Un mot se forme avec un <b>radical</b>, un <b>préfixe</b> (devant) et un <b>suffixe</b> (derrière).</p><div class="ex">Préfixes : in-/im-/il-/ir- (contraire : <i>impossible</i>), re- (répétition : <i>refaire</i>), dé- (<i>défaire</i>), pré- (avant : <i>préhistoire</i>).<br>Suffixes : -able (<i>lisible</i>), -tion (<i>création</i>), -ment (<i>lentement</i>), -eur (<i>chanteur</i>).<br>Famille de <i>terre</i> : terrain, terrasse, enterrer, atterrir, territoire.</div>`},
+{c:"voc",t:"Synonymes, antonymes, homonymes",n:"1AC",h:`<p><b>Synonymes</b> : sens proches (<i>beau / joli</i>). <b>Antonymes</b> : sens contraires (<i>grand / petit</i>). <b>Homonymes</b> : même prononciation, sens différents (<i>vert, verre, vers, ver</i>). <b>Paronymes</b> : proches mais différents (<i>éminent / imminent</i>).</p>`},
+{c:"voc",t:"Champ lexical et champ sémantique",n:"2AC",h:`<p>Le <b>champ lexical</b> regroupe les mots d’un même thème dans un texte (<i>mer : vague, navire, plage, marin</i>). Le <b>champ sémantique</b> regroupe les sens possibles d’un même mot (<i>« avocat » : fruit, juriste</i>). Le sens <b>propre</b> est le sens premier ; le sens <b>figuré</b> est imagé (<i>avoir un cœur d’or</i>).</p>`},
+{c:"voc",t:"Les figures de style",n:"2AC–3AC",h:`<div class="tw"><table><tr><th>Figure</th><th>Définition</th><th>Exemple</th></tr>
+<tr><td>Comparaison</td><td>rapproche deux éléments avec un outil (comme, tel…)</td><td><i>Il est rapide comme l’éclair.</i></td></tr>
+<tr><td>Métaphore</td><td>comparaison sans outil</td><td><i>Cet homme est un lion.</i></td></tr>
+<tr><td>Personnification</td><td>donne des traits humains à une chose</td><td><i>Le vent murmure.</i></td></tr>
+<tr><td>Hyperbole</td><td>exagération</td><td><i>Je meurs de faim.</i></td></tr>
+<tr><td>Antithèse</td><td>oppose deux idées</td><td><i>Le jour et la nuit.</i></td></tr>
+<tr><td>Anaphore</td><td>répétition en début de phrase</td><td><i>Paris brisé, Paris outragé…</i></td></tr><tr><td>Gradation</td><td>idées en ordre croissant ou décroissant</td><td><i>Va, cours, vole !</i></td></tr><tr><td>Litote</td><td>dire peu pour suggérer beaucoup</td><td><i>Ce n’est pas mauvais.</i></td></tr><tr><td>Euphémisme</td><td>adoucit une réalité dure</td><td><i>Il nous a quittés.</i></td></tr><tr><td>Oxymore</td><td>associe deux mots contradictoires</td><td><i>Un silence assourdissant.</i></td></tr><tr><td>Antiphrase</td><td>dit le contraire de ce qu’on pense</td><td><i>Quel beau temps ! (sous la pluie)</i></td></tr><tr><td>Métonymie</td><td>remplace un mot par un autre lié à lui</td><td><i>Boire un verre.</i></td></tr><tr><td>Périphrase</td><td>remplace un mot par une expression</td><td><i>La ville blanche (Casablanca).</i></td></tr><tr><td>Accumulation</td><td>énumération de termes</td><td><i>Cris, pleurs, rires, chansons.</i></td></tr><tr><td>Chiasme</td><td>structure croisée A-B / B-A</td><td><i>Il faut manger pour vivre, non vivre pour manger.</i></td></tr><tr><td>Question rhétorique</td><td>question sans attente de réponse</td><td><i>Qui ne veut pas être heureux ?</i></td></tr></table></div>`},
+{c:"gram",t:"Subordonnée de temps",n:"2AC–3AC",h:`<p>Conjonctions : quand, lorsque, comme, dès que, aussitôt que, pendant que, tandis que, depuis que, avant que, après que, jusqu’à ce que, en attendant que.</p><div class=\"ex\"><b>Simultanéité</b> : <i>Quand il pleut, je reste chez moi.</i><br><b>Antériorité</b> : <i>Avant qu’il parte, appelle-le.</i> (subjonctif)<br><b>Postériorité</b> : <i>Après qu’il est parti, nous avons mangé.</i> (indicatif)</div><p>Avec <i>avant que</i>, <i>jusqu’à ce que</i> et <i>en attendant que</i>, on emploie le subjonctif ; avec les autres, l’indicatif.</p>`},
+{c:"gram",t:"Subordonnées de cause et de conséquence",n:"2AC–3AC",h:`<p><b>Cause</b> (pourquoi ?) : parce que, puisque (cause connue), comme (en tête de phrase), car, étant donné que, du fait que, sous prétexte que. Indicatif.</p><div class=\"ex\"><i>Comme il pleuvait, nous sommes restés.</i> · <i>Puisque tu le sais, dis-le.</i></div><p><b>Conséquence</b> (quel résultat ?) : si bien que, de sorte que, tellement / si / tant… que, au point que, assez… pour que. Indicatif (fait réel) ; subjonctif après une négation ou une question.</p><div class=\"ex\"><i>Il a tant couru qu’il est épuisé.</i> · <i>Il n’est pas si fatigué qu’il ne puisse venir.</i></div>`},
+{c:"gram",t:"Subordonnées de but et de condition",n:"2AC–3AC",h:`<p><b>But</b> (dans quel objectif ?) : pour que, afin que, de peur que, de crainte que, de façon que. <b>Toujours le subjonctif.</b></p><div class=\"ex\"><i>Il répète afin que tout le monde comprenne.</i></div><p><b>Condition</b> : si, à condition que, pourvu que, au cas où, à moins que, soit que.</p><div class=\"tw\"><table><tr><th>Si…</th><th>Principale</th><th>Valeur</th></tr><tr><td>présent</td><td>futur / présent / impératif</td><td>réel</td></tr><tr><td>imparfait</td><td>conditionnel présent</td><td>irréel du présent</td></tr><tr><td>plus-que-parfait</td><td>conditionnel passé</td><td>irréel du passé</td></tr></table></div><div class=\"ex\"><i>Si tu étudies, tu réussiras.</i> · <i>Si j’avais su, je serais venu.</i></div>`},
+{c:"gram",t:"Comparaison, concession et opposition",n:"2AC–3AC",h:`<p><b>Comparaison</b> : comme, ainsi que, de même que, plus / moins / aussi… que, autant que, comme si (+ imparfait ou plus-que-parfait).</p><div class=\"ex\"><i>Il parle comme s’il savait tout.</i></div><p><b>Concession</b> (obstacle sans effet) : bien que, quoique, encore que (+ subjonctif) ; même si, quand bien même (+ indicatif ou conditionnel).</p><div class=\"ex\"><i>Bien qu’il soit malade, il vient.</i></div><p><b>Opposition</b> : alors que, tandis que, au lieu que, sans que.</p><div class=\"ex\"><i>Il rit alors que sa sœur pleure.</i></div>`},
+{c:"gram",t:"Les subordonnées relatives",n:"2AC–3AC",h:`<p>Elles complètent un nom ou un pronom, l’<b>antécédent</b>, et commencent par un pronom relatif : qui, que, dont, où, lequel, auquel, duquel.</p><div class=\"ex\"><i>L’élève <b>qui</b> travaille réussit.</i> (sujet)<br><i>Le livre <b>que</b> je lis est long.</i> (COD)<br><i>L’ami <b>dont</b> je parle est absent.</i> (de)<br><i>La ville <b>où</b> je vis est grande.</i> (lieu)</div><p><b>Déterminative</b> : sans virgule, indispensable au sens. <b>Explicative</b> : entre virgules, ajoute une précision. <i>Les élèves, qui sont fatigués, partent.</i> (tous)</p>`},
+{c:"gram",t:"Complétives, interrogatives indirectes, infinitives et participiales",n:"3AC",h:`<p><b>Complétive</b> : introduite par <i>que</i>, COD du verbe principal. <i>Je pense que tu as raison.</i> Après un verbe de volonté ou de doute : subjonctif. <i>Je veux que tu viennes.</i></p><p><b>Interrogative indirecte</b> : introduite par si, qui, ce que, où, quand… sans point d’interrogation. <i>Je me demande s’il viendra.</i></p><p><b>Infinitive</b> : verbe à l’infinitif avec son propre sujet. <i>Je regarde les enfants jouer.</i></p><p><b>Participiale</b> : participe avec son propre sujet. <i>Le jour se levant, nous sommes partis.</i></p>`},
+{c:"gram",t:"La ponctuation",n:"1AC–3AC",h:`<div class=\"tw\"><table><tr><th>Signe</th><th>Emploi</th></tr><tr><td>Point .</td><td>termine une phrase déclarative</td></tr><tr><td>Virgule ,</td><td>énumération, apposition, complément placé en tête de phrase, devant <i>mais</i>. Jamais entre le sujet et le verbe.</td></tr><tr><td>Point-virgule ;</td><td>sépare deux propositions liées par le sens</td></tr><tr><td>Deux-points :</td><td>annonce une énumération, une explication ou une parole rapportée</td></tr><tr><td>Points de suspension…</td><td>phrase inachevée, hésitation, suspense</td></tr><tr><td>? et !</td><td>question, exclamation, ordre, surprise</td></tr><tr><td>Guillemets « »</td><td>citation, parole rapportée, mot mis à distance</td></tr><tr><td>Tiret –</td><td>change de locuteur dans un dialogue</td></tr><tr><td>Parenthèses ( )</td><td>précision secondaire</td></tr></table></div><div class=\"ex\"><i>Il a acheté : du pain, du lait, des œufs ; puis il est rentré.</i></div>`},
+{c:"conj",t:"Les temps composés",n:"2AC–3AC",h:`<p>Un temps composé = auxiliaire <b>avoir</b> ou <b>être</b> (au temps simple correspondant) + <b>participe passé</b>. Avec <i>être</i> : aller, venir, partir, arriver, naître, mourir, entrer, sortir, monter, descendre, rester, tomber, devenir, et les verbes pronominaux.</p><div class=\"tw\"><table><tr><th>Temps</th><th>Formation</th><th>Exemple</th></tr><tr><td>Passé composé</td><td>présent + PP</td><td><i>J’ai fini.</i></td></tr><tr><td>Plus-que-parfait</td><td>imparfait + PP</td><td><i>Il avait fini quand je suis arrivé.</i></td></tr><tr><td>Passé antérieur</td><td>passé simple + PP</td><td><i>Quand il eut fini, il partit.</i></td></tr><tr><td>Futur antérieur</td><td>futur + PP</td><td><i>Quand tu auras fini, tu sortiras.</i></td></tr><tr><td>Conditionnel passé</td><td>conditionnel + PP</td><td><i>J’aurais voulu venir.</i></td></tr><tr><td>Subjonctif passé</td><td>subjonctif + PP</td><td><i>Bien qu’il soit parti…</i></td></tr></table></div><p>Le temps composé exprime une action <b>achevée</b> ou <b>antérieure</b> à l’action du temps simple.</p>`},
+{c:"orth",t:"Participe passé : les cas particuliers",n:"3AC",h:`<div class=\"tw\"><table><tr><th>Cas</th><th>Règle</th><th>Exemple</th></tr><tr><td>Participe seul</td><td>s’accorde comme un adjectif</td><td><i>Les fenêtres fermées.</i></td></tr><tr><td>Pronom <i>en</i></td><td>invariable</td><td><i>Des pommes, j’en ai mangé.</i></td></tr><tr><td>Verbe impersonnel</td><td>invariable</td><td><i>Les orages qu’il y a eu.</i></td></tr><tr><td><i>fait</i> + infinitif</td><td>invariable</td><td><i>Elle s’est fait couper les cheveux.</i></td></tr><tr><td>coûté, pesé, couru, vécu (mesure)</td><td>invariable</td><td><i>Les années qu’il a vécu.</i> ; mais <i>les dangers qu’il a courus</i></td></tr><tr><td>Pronominal + COI</td><td>invariable</td><td><i>Elles se sont parlé.</i></td></tr><tr><td>Pronominal + COD avant</td><td>accord avec le COD</td><td><i>La main qu’elle s’est coupée</i> (COD après : <i>elle s’est coupé la main</i>)</td></tr></table></div>`},
+{c:"style",t:"Dénotation et connotation",n:"2AC–3AC",h:`<p>La <b>dénotation</b> est le sens objectif d’un mot, celui du dictionnaire. La <b>connotation</b> est l’ensemble des sentiments, des images et des valeurs qu’il évoque, selon la culture ou le contexte.</p><div class=\"ex\"><i>Nuit</i> : dénotation = période sans lumière du soleil ; connotations = mystère, peur, repos.<br><i>Colombe</i> : dénotation = oiseau ; connotation = paix.</div>`},
+{c:"style",t:"Mélioratif et péjoratif",n:"2AC–3AC",h:`<p>Un terme <b>mélioratif</b> valorise (<i>un chef-d’œuvre, brillant, un génie</i>). Un terme <b>péjoratif</b> dévalorise (<i>un navet, une bagnole, un gosse</i>). Les suffixes péjoratifs : -âtre (<i>verdâtre</i>), -ard (<i>pleurnichard</i>), -asse (<i>paperasse</i>), -aille (<i>ferraille</i>). Mélioratif : -issime (<i>richissime</i>), super-, extra-.</p><div class=\"ex\"><i>voiture</i> (neutre) / <i>bagnole</i> (péjoratif) / <i>bolide</i> (mélioratif)</div>`},
+{c:"style",t:"Explicite et implicite",n:"2AC–3AC",h:`<p>L’<b>explicite</b> est ce qui est dit clairement. L’<b>implicite</b> est ce qu’on doit déduire : le <b>présupposé</b> (contenu inclus dans la phrase) et le <b>sous-entendu</b> (ce que le locuteur suggère sans le dire).</p><div class=\"ex\"><i>Tu as encore oublié ton cahier ?</i><br>Explicite : le cahier est oublié. Présupposé : ce n’est pas la première fois.<br><i>Il fait froid ici.</i> Sous-entendu : ferme la fenêtre.</div>`},
+{c:"style",t:"L’humour et l’ironie",n:"2AC–3AC",h:`<p><b>L’humour</b> fait sourire en jouant sur un décalage : jeux de mots, exagération, absurde, parodie, comique de situation, de caractère ou de répétition.</p><p><b>L’ironie</b> consiste à dire le contraire de ce qu’on pense (antiphrase) pour critiquer ou se moquer. Indices : exagération, contraste avec la situation, ton, contexte. Quand elle attaque des vices ou des abus, on parle de <b>satire</b>.</p><div class=\"ex\"><i>Sous la pluie : « Quel temps magnifique ! »</i> → ironie.</div>`},
+{c:"style",t:"Style direct, indirect et indirect libre",n:"3AC",h:`<div class=\"ex\"><b>Direct</b> : Il dit : « Je suis fatigué. »<br><b>Indirect</b> : Il dit qu’il est fatigué.<br><b>Indirect libre</b> : Il s’assit. Il était fatigué, si fatigué !</div><p>Le <b>style indirect libre</b> n’a ni verbe introducteur ni ponctuation du dialogue : on entend la pensée du personnage dans le récit.</p><p><b>Passage au passé</b> (verbe introducteur au passé) :</p><div class=\"tw\"><table><tr><th>Direct</th><th>Indirect</th></tr><tr><td>présent</td><td>imparfait</td></tr><tr><td>passé composé</td><td>plus-que-parfait</td></tr><tr><td>futur</td><td>conditionnel</td></tr><tr><td>ici / aujourd’hui</td><td>là / ce jour-là</td></tr><tr><td>hier / demain</td><td>la veille / le lendemain</td></tr><tr><td>maintenant</td><td>alors</td></tr><tr><td>est-ce que… ?</td><td>si…</td></tr><tr><td>impératif</td><td>de + infinitif</td></tr></table></div>`}
+];
+var EX=[
+[['« Rapidement » est un…','nom|adverbe|adjectif',1],['Dans « les petits chats », « petits » est un…','adjectif|déterminant|pronom',0],['Quel mot est invariable ?','chat|beau|souvent',2]],
+[['Dans « Sara lit un livre », « un livre » est…','sujet|COD|COI',1],['Dans « Il parle à son frère », « à son frère » est…','COD|COI|attribut',1],['Dans « Elle semble fatiguée », « fatiguée » est…','COD|attribut du sujet|CC de manière',1]],
+[['« Ferme la porte ! » est une phrase…','déclarative|impérative|interrogative',1],['« Je ne mange jamais de viande » est à la forme…','affirmative|négative|passive',1],['« La souris est mangée par le chat » est…','active|passive|emphatique',1]],
+[['Combien de verbes conjugués dans « Je pense que tu as raison » ?','1|2|3',1],['Quelle phrase est une phrase simple ?','Il dort.|Il dort parce qu’il est fatigué.|Je sais qu’il dort.',0],['« Il pleut, nous restons. » est une…','coordination|juxtaposition|subordination',1]],
+[['Quelle conjonction exprime la cause ?','parce que|pour que|bien que',0],['« Bien que » exprime…','la condition|la concession|le but',1],['« Dès que tu arrives, nous partons » : valeur de la subordonnée ?','temps|cause|but',0]],
+[['« Le livre que j’ai lu » : « que » est un pronom…','personnel|relatif|possessif',1],['« Celui » est un pronom…','démonstratif|relatif|possessif',0],['Quel pronom remplace « de » + nom (J’… parle) ?','y|en|lui',1]],
+[['« Il a dit : “Je viens demain.” » devient…','Il a dit qu’il vient demain.|Il a dit qu’il viendrait le lendemain.|Il a dit que je viens demain.',1],['Au discours indirect (passé), « hier » devient…','la veille|le lendemain|ce jour-là',0],['Il demande : « Est-ce que tu viens ? » devient…','Il demande si je viens.|Il demande que je viens.|Il demande est-ce que tu viens.',0]],
+[['« Finir » est un verbe du…','1er groupe|2e groupe|3e groupe',1],['Nous (finir) au présent :','finons|finissons|finisons',1],['Ils (prendre) au présent :','prendent|prennent|prenent',1]],
+[['« Il pleuvait » est à l’…','imparfait|passé simple|passé composé',0],['Il (chanter) au passé simple :','chantat|chanta|chantait',1],['Quel temps exprime une habitude dans le passé ?','passé simple|imparfait|futur',1]],
+[['Je (aller) au futur :','j’allerai|j’irai|j’irais',1],['« Si j’avais le temps, je viendrais » : « viendrais » est au…','futur|conditionnel présent|imparfait',1],['Tu (avoir) au futur :','auras|aurais|avras',0]],
+[['Il faut que tu (venir) :','viens|viennes|viendras',1],['Que je (être) au subjonctif :','sois|suis|serai',0],['« Pour que » est suivi du…','indicatif|subjonctif|conditionnel',1]],
+[['Tu (chanter) à l’impératif :','chantes|chante|chanter',1],['Nous (prendre) à l’impératif :','prenons|prendrons|prennez',0],['Vous (être) à l’impératif :','soyez|êtes|serez',0]],
+[['Elles sont (partir) :','parti|partis|parties',2],['Les fleurs que j’ai (cueillir) :','cueilli|cueillie|cueillies',2],['Elle a (cueillir) des fleurs :','cueilli|cueillie|cueillies',0]],
+[['Il … faim.','a|à',0],['Elle … belle.','et|est',1],['Ils … soif.','on|ont',1]],
+[['Pluriel de « cheval » :','chevals|chevaux|chevaus',1],['Féminin de « acteur » :','acteuse|actrice|acteure',1],['Féminin de « bon » :','bone|bonne|bonde',1]],
+[['Quelle écriture est correcte ?','francais|français|françcais',1],['Quel mot prend une majuscule ?','le français|le Marocain|marocain',1],['Orthographe correcte :','école|écôle|ècole',0]],
+[['Contraire de « possible » :','dépossible|impossible|repossible',1],['Préfixe de « refaire » :','re-|fai-|-aire',0],['Quel mot est de la famille de « terre » ?','terrain|tarif|tête',0]],
+[['Synonyme de « beau » :','laid|joli|grand',1],['Antonyme de « grand » :','petit|énorme|haut',0],['« Vert, verre, vers » sont des…','synonymes|antonymes|homonymes',2]],
+[['Le champ lexical de la mer contient…','vague, navire, plage|table, chaise, lit|stylo, cahier, livre',0],['« Avoir un cœur d’or » est au sens…','propre|figuré|littéral',1],['Le sens premier d’un mot est le sens…','figuré|propre|connoté',1]],
+[['« Il est rapide comme l’éclair » : figure ?','métaphore|comparaison|hyperbole',1],['« Cet homme est un lion » : figure ?','comparaison|métaphore|litote',1],['« Je meurs de faim » : figure ?','hyperbole|euphémisme|antithèse',0]],
+[['« Avant que » est suivi du…','indicatif|subjonctif|conditionnel',1],['« Après qu’il est parti… » : mode ?','subjonctif|indicatif|impératif',1],['« Dès que » exprime…','la cause|le temps|le but',1]],
+[['« Il a tant couru qu’il est épuisé » exprime…','la cause|la conséquence|le but',1],['Quelle conjonction, en tête de phrase, exprime la cause ?','comme|si bien que|afin que',0],['« Puisque » exprime une cause…','inconnue|connue|supposée',1]],
+[['« Pour que » exprime…','le but|la cause|la concession',0],['Si j’avais su, je (venir) :','viendrais|serais venu|viendrai',1],['Si tu étudies, tu (réussir) :','réussirais|réussiras|réussissais',1]],
+[['Il parle comme s’il (savoir) tout :','sait|savait|saura',1],['« Bien que » est suivi du…','indicatif|subjonctif|futur',1],['« Alors que » exprime…','l’opposition|la cause|le but',0]],
+[['Le livre (…) je lis :','qui|que|dont',1],['La ville (…) je vis :','où|dont|qui',0],['L’ami (…) je parle :','que|dont|qui',1]],
+[['« Je me demande s’il viendra » : subordonnée…','relative|interrogative indirecte|infinitive',1],['« Je veux que tu viennes » : après « vouloir que », on met…','l’indicatif|le subjonctif|le conditionnel',1],['« Je regarde les enfants jouer » : proposition…','infinitive|participiale|relative',0]],
+[['Quel signe change de locuteur dans un dialogue ?','le tiret|les parenthèses|le point-virgule',0],['On ne met jamais la virgule entre…','le sujet et le verbe|les éléments d’une énumération|une apposition et son nom',0],['Quel signe annonce une énumération ?','le point|les deux-points|le point d’exclamation',1]],
+[['« J’avais fini » est au…','passé composé|plus-que-parfait|futur antérieur',1],['« Quand tu auras fini » est au…','futur antérieur|conditionnel passé|passé antérieur',0],['Quel auxiliaire avec « aller » ?','avoir|être',1]],
+[['Des pommes, j’en ai (manger) :','mangé|mangée|mangées',0],['Elles se sont (parler) :','parlé|parlées|parlés',0],['Elle s’est fait couper les cheveux : « fait » est…','variable|invariable',1]],
+[['Le sens du dictionnaire est la…','connotation|dénotation|métaphore',1],['« Colombe » connote…','la paix|la guerre|la faim',0],['« Nuit » peut connoter…','le mystère|le vocabulaire|la grammaire',0]],
+[['Quel mot est péjoratif ?','voiture|bagnole|bolide',1],['Quel mot est mélioratif ?','chef-d’œuvre|navet|paperasse',0],['Le suffixe -âtre est…','péjoratif|mélioratif|neutre',0]],
+[['« Il fait froid ici » peut sous-entendre :','ferme la fenêtre|bonne nuit|j’ai faim',0],['Ce qu’on doit deviner est…','explicite|implicite|dénoté',1],['« Tu as encore oublié ton cahier ? » présuppose que…','c’est déjà arrivé|il est neuf|il pleut',0]],
+[['Dire le contraire de ce qu’on pense, c’est…','l’antiphrase (ironie)|la litote|l’hyperbole',0],['« Quel beau temps ! » sous la pluie est…','ironique|une litote|une comparaison',0],['La critique des vices par l’humour est la…','satire|description|définition',0]],
+[['« Il dit : “Je suis fatigué.” » → indirect :','Il dit qu’il est fatigué.|Il dit que je suis fatigué.|Il dit : qu’il est fatigué.',0],['Au discours indirect (passé), « demain » devient…','la veille|le lendemain|hier',1],['Le style indirect libre a…','un verbe introducteur|pas de verbe introducteur|des guillemets',1]]
+];
+function exInner(i){return EX[i].map(function(x,n){return `<div class='q'><p>${n+1}. ${x[0]}</p><div class='o'>${x[1].split('|').map(function(t,k){return `<button data-a='${x[2]}' data-k='${k}' onclick='pick(this)'>${t}</button>`}).join('')}</div></div>`}).join('')+`<p class='sc'></p><button class='rs' onclick='rst(this)'>Recommencer</button>`}
+function exHtml(i){return EX[i]?`<div class='exo' data-i='${i}'><h3>Exercices d’application</h3>${exInner(i)}</div>`:''}
+function pick(b){var q=b.closest('.q');if(q.dataset.d)return;q.dataset.d=1;var a=+b.dataset.a;[].forEach.call(q.querySelectorAll('button'),function(x){x.disabled=true;if(+x.dataset.k===a)x.classList.add('ok')});if(+b.dataset.k!==a)b.classList.add('ko');else q.dataset.r=1;var ex=q.closest('.exo'),n=ex.querySelectorAll('.q').length;if(ex.querySelectorAll('.q[data-d]').length===n)ex.querySelector('.sc').textContent='Score : '+ex.querySelectorAll('.q[data-r]').length+' / '+n}
+function rst(b){var ex=b.closest('.exo');ex.innerHTML=`<h3>Exercices d’application</h3>`+exInner(+ex.dataset.i)}
+var cat="all",q="",app=document.getElementById("app"),chips=document.getElementById("chips");
+CATS.forEach(function(c){var b=document.createElement("button");b.textContent=c[1];b.dataset.c=c[0];b.setAttribute("aria-pressed",c[0]==="all");b.onclick=function(){cat=c[0];[].forEach.call(chips.children,function(x){x.setAttribute("aria-pressed",x.dataset.c===cat)});render()};chips.appendChild(b)});
+function norm(s){return s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+function render(){
+var out="",found=0;
+["gram","conj","orth","voc","style"].forEach(function(k){
+if(cat!=="all"&&cat!==k)return;
+var items=L.filter(function(l){return l.c===k&&(!q||norm(l.t+" "+l.h.replace(/<[^>]+>/g," ")).indexOf(q)>-1)});
+if(!items.length)return;found+=items.length;
+out+="<h2>"+TITLES[k]+"</h2>"+items.map(function(l){return "<details"+(q?" open":"")+"><summary>"+l.t+"<small>"+l.n+"</small></summary><div class=\"body\">"+l.h+exHtml(L.indexOf(l))+"</div></details>"}).join("")});
+app.innerHTML=found?out:"<p class=\"none\">Aucune leçon ne correspond. Essayez un autre mot.</p>"}
+document.getElementById("q").oninput=function(e){q=norm(e.target.value.trim());render()};
+render();
+</script>
+</body>
+</html>
