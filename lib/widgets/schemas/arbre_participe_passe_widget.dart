@@ -183,7 +183,7 @@ class _ArbreParticipePasseWidgetState extends State<ArbreParticipePasseWidget> {
         color: AppColors.card,
         borderRadius: BorderRadius.circular(8),
         border: Border.all(color: AppColors.border),
-      ],
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
