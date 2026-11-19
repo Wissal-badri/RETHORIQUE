@@ -49,13 +49,11 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
 
   Future<void> _loadData() async {
     final dataService = Provider.of<DataService>(context, listen: false);
-    final n3ac = await dataService.getNiveau('3ac');
-    final n1bac = await dataService.getNiveau('1bac');
-    final ntc = await dataService.getNiveau('tc');
+    final tous = await dataService.getTousNiveaux();
 
     if (mounted) {
       setState(() {
-        _niveaux = [n3ac, n1bac, ntc];
+        _niveaux = tous;
         _isLoading = false;
       });
     }
@@ -171,17 +169,33 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                         color: AppColors.navy,
                       ),
                     ),
-                    const SizedBox(height: 16),
+                    const SizedBox(height: 14),
 
-                    // Cartes des niveaux
-                    ..._niveaux.map((niveau) {
+                    // Section Collège
+                    _buildSectionHeader('CYCLE COLLÉGIAL'),
+                    ..._niveaux
+                        .where((n) => ['1ac', '2ac', '3ac'].contains(n.code))
+                        .map((niveau) {
                       final allExIds = niveau.lecons
                           .expand((l) => l.exercices.map((e) => e.id))
                           .toList();
-
                       final progress = storage.getLeconProgress(niveau.code, allExIds);
                       final double pct = (progress['pct'] as double?) ?? 0.0;
+                      return _buildNiveauCard(context, niveau, pct);
+                    }),
 
+                    const SizedBox(height: 8),
+
+                    // Section Lycée
+                    _buildSectionHeader('CYCLE SECONDAIRE QUALIFIANT (LYCÉE)'),
+                    ..._niveaux
+                        .where((n) => ['tc', '1bac'].contains(n.code))
+                        .map((niveau) {
+                      final allExIds = niveau.lecons
+                          .expand((l) => l.exercices.map((e) => e.id))
+                          .toList();
+                      final progress = storage.getLeconProgress(niveau.code, allExIds);
+                      final double pct = (progress['pct'] as double?) ?? 0.0;
                       return _buildNiveauCard(context, niveau, pct);
                     }),
 
@@ -225,11 +239,44 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
     );
   }
 
+  Widget _buildSectionHeader(String titre) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 8.0, bottom: 12.0),
+      child: Row(
+        children: [
+          Container(
+            width: 4,
+            height: 16,
+            decoration: BoxDecoration(
+              color: AppColors.gold,
+              borderRadius: BorderRadius.circular(2),
+            ),
+          ),
+          const SizedBox(width: 8),
+          Text(
+            titre,
+            style: const TextStyle(
+              fontFamily: AppTheme.fontTinos,
+              fontSize: 12,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1.2,
+              color: AppColors.navy,
+            ),
+          ),
+          const SizedBox(width: 8),
+          const Expanded(
+            child: Divider(color: AppColors.border, thickness: 1.0),
+          ),
+        ],
+      ),
+    );
+  }
+
   Widget _buildNiveauCard(BuildContext context, Niveau niveau, double progressionPct) {
     final bool estDisponible = niveau.lecons.isNotEmpty;
 
     return Container(
-      margin: const EdgeInsets.only(bottom: 16.0),
+      margin: const EdgeInsets.only(bottom: 14.0),
       child: Material(
         color: AppColors.card,
         borderRadius: BorderRadius.circular(14),
@@ -246,8 +293,8 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                 }
               : () {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('Le niveau Tronc Commun sera bientôt disponible via enrichissement JSON.'),
+                    SnackBar(
+                      content: Text('Le niveau ${niveau.nom} sera bientôt disponible.'),
                       backgroundColor: AppColors.navy,
                     ),
                   );

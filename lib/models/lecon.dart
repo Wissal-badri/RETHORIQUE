@@ -150,7 +150,21 @@ class Lecon {
       case 'voc':
         return 'Vocabulaire';
       case 'style':
-        return 'Style et sens';
+        return 'Style & Figures';
+      case 'lecture':
+      case 'analyse':
+        return 'Lecture & Analyse';
+      case 'recit':
+        return 'Récit & Conte';
+      case 'theatre':
+        return 'Le Théâtre';
+      case 'media':
+        return 'Médias & Presse';
+      case 'poesie':
+        return 'Poésie';
+      case 'methode':
+      case 'ecrit':
+        return 'Méthodologie';
       default:
         return 'Général';
     }

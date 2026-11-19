@@ -12,27 +12,37 @@ void main() async {
   await storageService.init();
 
   runApp(
-    MultiProvider(
-      providers: [
-        Provider<DataService>(create: (_) => DataService()),
-        ChangeNotifierProvider<StorageService>.value(value: storageService),
-      ],
-      child: const RhetoriqueApp(),
-    ),
+    RhetoriqueApp(storageService: storageService),
   );
 }
 
 class RhetoriqueApp extends StatelessWidget {
-  const RhetoriqueApp({super.key});
+  final StorageService? storageService;
+  final DataService? dataService;
+
+  const RhetoriqueApp({
+    super.key,
+    this.storageService,
+    this.dataService,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Rhétorique — L’art de Molière',
-      debugShowCheckedModeBanner: false,
-      theme: AppTheme.lightTheme,
-      themeMode: ThemeMode.light, // Pas de mode sombre (thème clair classique permanent)
-      home: const HomeScreen(),
+    final storage = storageService ?? StorageService();
+    final data = dataService ?? DataService();
+
+    return MultiProvider(
+      providers: [
+        Provider<DataService>.value(value: data),
+        ChangeNotifierProvider<StorageService>.value(value: storage),
+      ],
+      child: MaterialApp(
+        title: 'Rhétorique — L’art de Molière',
+        debugShowCheckedModeBanner: false,
+        theme: AppTheme.lightTheme,
+        themeMode: ThemeMode.light, // Pas de mode sombre (thème clair classique permanent)
+        home: const HomeScreen(),
+      ),
     );
   }
 }

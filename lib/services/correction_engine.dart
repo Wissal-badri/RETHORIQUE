@@ -134,7 +134,7 @@ class CorrectionEngine {
       case 'association':
         // Pour association, reponseEleve est une Map<String, String> {gauche: droite}
         final Map<String, String>? mapEleve = reponseEleve is Map
-            ? (reponseEleve as Map).map((k, v) => MapEntry(k.toString(), v.toString()))
+            ? reponseEleve.map((k, v) => MapEntry(k.toString(), v.toString()))
             : null;
 
         int pairsCorrect = 0;

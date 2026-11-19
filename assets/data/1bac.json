@@ -973,6 +973,841 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1bac-boite-a-merveilles",
+      "categorie": "lecture",
+      "titre": "L'autobiographie : La Boîte à merveilles (Ahmed Sefrioui)",
+      "niveau": "1ère Bac",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Publiée en 1954, *La Boîte à merveilles* d'Ahmed Sefrioui est considérée comme le premier roman marocain d'expression française. C'est un **roman autobiographique** où le narrateur adulte se remémore son enfance à Fès à travers le regard du petit Sidi Mohammed, âgé de six ans."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Élément d'analyse",
+            "Caractéristiques dans l'œuvre",
+            "Portée littéraire"
+          ],
+          "lignes": [
+            [
+              "Le pacte autobiographique",
+              "Double énonciation : le « je » narrateur adulte (qui se souvient) et le « je » narrateur enfant (qui vit l'action).",
+              "Tension entre lucidité nostalgique et naïveté enfantine."
+            ],
+            [
+              "La boîte à merveilles",
+              "Boîte en fer-blanc contenant des objets hétéroclites (boutons de verre, clous dorés, perles, épingles...).",
+              "Refuge contre la solitude et talisman magique stimulant l'imagination."
+            ],
+            [
+              "Le cadre spatial",
+              "Dar Chouafa à Fès (la maison de la voyante), le Msid (école coranique), le bain maure, les souks.",
+              "Peinture ethnographique vibrante des traditions fassies."
+            ],
+            [
+              "Personnages clés",
+              "Maâlem Abdeslam (le père tisserand intègre), Lalla Zoubida (la mère bavarde), Lalla Aïcha (l'amie dévouée).",
+              "Solidarité familiale face à la faillite et à l'adversité."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Extrait emblématique du chapitre 1 :**\n« Le soir, quand tous dorment, les riches dans leurs chaudes couvertures, les pauvres sur les nattes des mosquées, moi je ne dors pas. Je songe à ma solitude et j'en sens tout le poids... Ma boîte à merveilles me sauvait de la réalité. »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1bac-ex-boite-1",
+          "titre": "QCM : Connaissance de La Boîte à merveilles",
+          "consigne": "Répondez aux questions sur l'œuvre d'Ahmed Sefrioui.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Quel âge a le narrateur enfant (Sidi Mohammed) au moment des événements racontés ?",
+              "options": [
+                "Six ans",
+                "Dix ans",
+                "Quinze ans",
+                "Vingt ans"
+              ],
+              "reponse": "Six ans",
+              "explication": "Le roman s'ouvre sur les souvenirs du jeune Sidi Mohammed âgé de six ans."
+            },
+            {
+              "enonce": "Dans quelle ville marocaine historique se déroule l'intrigue du roman ?",
+              "options": [
+                "Fès (l'ancienne médina)",
+                "Marrakech",
+                "Tanger",
+                "Rabat"
+              ],
+              "reponse": "Fès (l'ancienne médina)",
+              "explication": "Le récit s'ancre dans la médina de Fès (Dar Chouafa, quartier des tanneurs, souks)."
+            },
+            {
+              "enonce": "Que contient la boîte à merveilles de Sidi Mohammed ?",
+              "options": [
+                "Des objets ordinaires et hétéroclites (boutons, clous, billes de verre, perles)",
+                "Des bijoux en or massif d'une grande valeur marchande",
+                "Des pièces d'or héritées de son grand-père",
+                "Des médicaments secrets de la voyante"
+              ],
+              "reponse": "Des objets ordinaires et hétéroclites (boutons, clous, billes de verre, perles)",
+              "explication": "Ce sont des objets sans valeur financière mais investis d'une dimension féerique par l'imaginaire enfantin."
+            },
+            {
+              "enonce": "Quel métier exerce Maâlem Abdeslam, le père du narrateur ?",
+              "options": [
+                "Tisserand (fabricant de haïks)",
+                "Menuisier",
+                "Potier",
+                "Médecin traditionnel"
+              ],
+              "reponse": "Tisserand (fabricant de haïks)",
+              "explication": "Il est maître tisserand respecté pour sa droiture et son sérieux."
+            },
+            {
+              "enonce": "Pourquoi Maâlem Abdeslam est-il contraint de quitter Fès pour aller travailler à la campagne ?",
+              "options": [
+                "Il a perdu tout son capital dans les souks aux enchères",
+                "Il veut acheter un troupeau de chameaux",
+                "Il est banni par le pacha",
+                "Il part faire le pèlerinage à La Mecque"
+              ],
+              "reponse": "Il a perdu tout son capital dans les souks aux enchères",
+              "explication": "La perte de son pécule le pousse à travailler comme moissonneur pour rembourser ses dettes."
+            },
+            {
+              "enonce": "Comment le jeune narrateur ressent-il sa visite hebdomadaire au bain maure (le hammam) ?",
+              "options": [
+                "Comme une épreuve étouffante semblable aux enfers",
+                "Comme une grande fête joyeuse",
+                "Comme une punition infligée par le fqih",
+                "Il adore s'y baigner des heures"
+              ],
+              "reponse": "Comme une épreuve étouffante semblable aux enfers",
+              "explication": "Sidi Mohammed déteste l'atmosphère bruyante et suffocante du bain maure féminin."
+            }
+          ]
+        },
+        {
+          "id": "1bac-ex-boite-2",
+          "titre": "Vrai ou Faux : Thèmes de La Boîte à merveilles",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le narrateur adulte et le narrateur enfant sont une seule et même personne à deux âges différents de la vie.",
+              "reponse": true,
+              "explication": "Vrai. C'est le principe fondamental de l'écriture autobiographique."
+            },
+            {
+              "enonce": "Dar Chouafa est une maison bourgeoise occupée par une seule famille royale.",
+              "reponse": false,
+              "explication": "Faux. C'est une maison collective louée à plusieurs locataires sous l'autorité de la voyante Tante Kanza."
+            },
+            {
+              "enonce": "La solitude est le thème existentiel récurrent qui obsède Sidi Mohammed dès la première page.",
+              "reponse": true,
+              "explication": "Vrai. Le roman s'ouvre et se clôt sur le motif lancinant de la solitude."
+            },
+            {
+              "enonce": "Le fqih de l'école coranique est décrit comme un homme très doux qui ne frappe jamais avec sa baguette de cognassier.",
+              "reponse": false,
+              "explication": "Faux. Le fqih inspire la terreur aux élèves avec ses punitions corporelles."
+            },
+            {
+              "enonce": "À la fin du roman, le retour du père redonne joie à la famille et permet au garçon de rouvrir sa boîte.",
+              "reponse": true,
+              "explication": "Vrai. L'ordre et l'espoir renaissent avec le retour d'Abdeslam."
+            }
+          ]
+        },
+        {
+          "id": "1bac-ex-boite-3",
+          "titre": "Texte à trous : Personnages et lieux",
+          "consigne": "Complétez chaque phrase avec le nom propre adéquat.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "L'école coranique traditionnelle où le narrateur apprend le Coran s'appelle le [Msid].",
+              "reponse": "Msid",
+              "acceptees": [
+                "Msid",
+                "msid"
+              ],
+              "explication": "Le Msid est le lieu d'apprentissage religieux."
+            },
+            {
+              "enonce": "La mère du narrateur s'appelle Lalla [Zoubida].",
+              "reponse": "Zoubida",
+              "acceptees": [
+                "Zoubida",
+                "zoubida"
+              ],
+              "explication": "Lalla Zoubida, mère de Sidi Mohammed."
+            },
+            {
+              "enonce": "L'amie intime de Lalla Zoubida dont le mari Moulay Larbi a épousé une seconde femme est Lalla [Aïcha].",
+              "reponse": "Aïcha",
+              "acceptees": [
+                "Aïcha",
+                "Aicha",
+                "aïcha"
+              ],
+              "explication": "Lalla Aïcha, ancienne voisine et amie fidèle."
+            },
+            {
+              "enonce": "La voyante principale qui occupe le rez-de-chaussée de la maison s'appelle Tante [Kanza].",
+              "reponse": "Kanza",
+              "acceptees": [
+                "Kanza",
+                "kanza"
+              ],
+              "explication": "La Chouafa (voyante) Kanza."
+            },
+            {
+              "enonce": "L'auteur de « La Boîte à merveilles » s'appelle Ahmed [Sefrioui].",
+              "reponse": "Sefrioui",
+              "acceptees": [
+                "Sefrioui",
+                "sefrioui"
+              ],
+              "explication": "Ahmed Sefrioui (1915-2004), pionnier des lettres marocaines francophones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bac-dernier-jour-condamne",
+      "categorie": "lecture",
+      "titre": "Le roman à thèse : Le Dernier Jour d'un condamné (Victor Hugo)",
+      "niveau": "1ère Bac",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Publié en 1829, *Le Dernier Jour d'un condamné* de Victor Hugo est un **roman à thèse** engagé contre la peine de mort. Hugo donne la parole à un condamné anonyme qui consigne dans un journal intime ses angoisses, ses souvenirs et ses terreurs durant les dernières semaines de sa vie avant l'échafaud."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Caractéristique",
+            "Procédé littéraire",
+            "Visée politique et morale"
+          ],
+          "lignes": [
+            [
+              "L'anonymat du condamné",
+              "On ne connaît ni son nom, ni son crime exact, ni son passé détaillé.",
+              "Universaliser le combat : c'est l'homme universel qu'on assassine légalement."
+            ],
+            [
+              "Le journal intime / monologue intérieur",
+              "Narration à la première personne retraçant l'agonie psychologique heure par heure.",
+              "Plonger le lecteur dans l'intimité de la souffrance pour susciter l'empathie."
+            ],
+            [
+              "Les étapes carcérales",
+              "Bicêtre (le cachot, le ferrage des forçats) → La Conciergerie (le voyage macabre) → L'Hôtel de Ville (la toilette du condamné) → La place de Grève (la guillotine).",
+              "Dénonciation de la machine judiciaire froide et barbare."
+            ],
+            [
+              "Les registres dominants",
+              "Le registre **tragique** (fatalité de la mort), le **pathétique** (la petite Marie qui ne reconnaît pas son père) et le **polémique** (réquisitoire contre la justice des hommes).",
+              "Mobiliser l'opinion publique pour abolir l'échafaud."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Incipit célèbre du roman :**\n« Condamné à mort ! Voilà cinq semaines que j'habite avec cette pensée, toujours seul avec elle, toujours glacé de sa présence, toujours courbé sous son poids ! »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1bac-ex-hugo-1",
+          "titre": "QCM : Le réquisitoire contre la peine de mort",
+          "consigne": "Sélectionnez la réponse exacte sur Le Dernier Jour d'un condamné.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Quelle est la cause fondamentale défendue par Victor Hugo à travers ce roman ?",
+              "options": [
+                "L'abolition définitive de la peine de mort",
+                "La construction de prisons plus confortables",
+                "L'augmentation du salaire des bourreaux",
+                "L'interdiction des procès publics"
+              ],
+              "reponse": "L'abolition définitive de la peine de mort",
+              "explication": "Hugo a consacré sa vie politique et littéraire au combat abolitionniste."
+            },
+            {
+              "enonce": "Pourquoi Victor Hugo refuse-t-il de préciser le crime exact commis par le prisonnier ?",
+              "options": [
+                "Pour que le lecteur prenne pitié de l'être humain sans juger le crime particulier",
+                "Parce qu'il avait oublié d'inventer une histoire",
+                "Parce que le livre était destiné aux enfants",
+                "Pour faire un roman policier à énigme"
+              ],
+              "reponse": "Pour que le lecteur prenne pitié de l'être humain sans juger le crime particulier",
+              "explication": "L'universalité de la thèse impose que la peine de mort soit condamnée en elle-même, quel que soit le crime."
+            },
+            {
+              "enonce": "Comment s'appelle la petite fille de trois ans du condamné qui lui rend visite en cellule ?",
+              "options": [
+                "Marie",
+                "Cosette",
+                "Fantine",
+                "Esméralda"
+              ],
+              "reponse": "Marie",
+              "explication": "La scène pathétique où Marie ne reconnaît pas son père précipite le désespoir du condamné."
+            },
+            {
+              "enonce": "Sur quelle place parisienne la guillotine était-elle dressée pour les exécutions publiques ?",
+              "options": [
+                "La place de Grève",
+                "La place de la Concorde",
+                "La place de la Bastille",
+                "La place Vendôme"
+              ],
+              "reponse": "La place de Grève",
+              "explication": "La place de Grève (actuelle place de l'Hôtel-de-Ville) était le lieu historique des exécutions."
+            },
+            {
+              "enonce": "Quel spectacle barbare et dégradant le prisonnier observe-t-il avec effroi dans la cour de Bicêtre ?",
+              "options": [
+                "Le ferrage des forçats partant pour le bagne de Toulon",
+                "Un combat de gladiateurs",
+                "Une course de chevaux",
+                "Un banquet des gardiens"
+              ],
+              "reponse": "Le ferrage des forçats partant pour le bagne de Toulon",
+              "explication": "Le ferrage au carcan de fer sous la pluie est dénoncé comme un supplice ignoble."
+            },
+            {
+              "enonce": "En quoi consiste « la toilette du condamné » avant la montée sur l'échafaud ?",
+              "options": [
+                "On lui coupe les cheveux au niveau du cou et on lui lie les mains derrière le dos",
+                "On lui offre un bain parfumé",
+                "On lui fait essayer un costume de fête",
+                "On lui brosse les dents"
+              ],
+              "reponse": "On lui coupe les cheveux au niveau du cou et on lui lie les mains derrière le dos",
+              "explication": "Le bourreau dégage la nuque pour le passage du couperet et neutralise les mouvements du supplicié."
+            }
+          ]
+        },
+        {
+          "id": "1bac-ex-hugo-2",
+          "titre": "Vrai ou Faux : L'engagement de Victor Hugo",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le narrateur espère jusqu'à la dernière seconde obtenir une grâce royale.",
+              "reponse": true,
+              "explication": "Vrai. Le mot final du roman est « QUATRE HEURES », signifiant l'arrivée du bourreau sans grâce."
+            },
+            {
+              "enonce": "Un roman à thèse est une œuvre de pure distraction sans aucun message philosophique ou moral.",
+              "reponse": false,
+              "explication": "Faux. Un roman à thèse est explicitement conçu pour défendre une doctrine ou une cause sociale."
+            },
+            {
+              "enonce": "Le condamné affirme être issu d'un milieu instruit et raffiné.",
+              "reponse": true,
+              "explication": "Vrai. Il sait lire, écrire le latin et compose des réflexions philosophiques."
+            },
+            {
+              "enonce": "La foule réunie autour de l'échafaud fait preuve d'une immense compassion et pleure en silence.",
+              "reponse": false,
+              "explication": "Faux. Hugo dépeint une foule assoiffée de sang qui se réjouit du spectacle de la mort."
+            },
+            {
+              "enonce": "Le livre est écrit sous la forme d'un monologue intérieur et de notes rédigées au cachot.",
+              "reponse": true,
+              "explication": "Vrai. Cette forme donne une intensité poignante au compte à rebours de la vie."
+            }
+          ]
+        },
+        {
+          "id": "1bac-ex-hugo-3",
+          "titre": "Texte à trous : Notions hugoliennes",
+          "consigne": "Complétez chaque phrase avec le terme approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le genre littéraire de cette œuvre qui défend une prise de position sociopolitique est le roman à [thèse].",
+              "reponse": "thèse",
+              "acceptees": [
+                "thèse",
+                "these"
+              ],
+              "explication": "Le roman à thèse met la fiction au service d'une conviction."
+            },
+            {
+              "enonce": "L'instrument mécanique d'exécution capitale décrit dans le livre est la [guillotine].",
+              "reponse": "guillotine",
+              "acceptees": [
+                "guillotine",
+                "échafaud",
+                "echafaud"
+              ],
+              "explication": "La guillotine tranche la tête des condamnés."
+            },
+            {
+              "enonce": "La première prison où le narrateur passe cinq semaines est celle de [Bicêtre].",
+              "reponse": "Bicêtre",
+              "acceptees": [
+                "Bicêtre",
+                "Bicetre"
+              ],
+              "explication": "Bicêtre, prison sombre aux cachots humides."
+            },
+            {
+              "enonce": "Le pardon présidentiel ou royal qui annule la peine de mort s'appelle la [grâce].",
+              "reponse": "grâce",
+              "acceptees": [
+                "grâce",
+                "grace"
+              ],
+              "explication": "Le recours en grâce est le dernier espoir du prisonnier."
+            },
+            {
+              "enonce": "L'auteur illustre de cette œuvre engagée est Victor [Hugo].",
+              "reponse": "Hugo",
+              "acceptees": [
+                "Hugo",
+                "hugo"
+              ],
+              "explication": "Chef de file du romantisme et humaniste universel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bac-antigone-tragedie",
+      "categorie": "theatre",
+      "titre": "La tragédie moderne : Antigone (Jean Anouilh)",
+      "niveau": "1ère Bac",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Créée en 1944 dans un Paris occupé par les troupes nazies, *Antigone* de Jean Anouilh reprend le **mythe antique grec de Sophocle** en le modernisant. C'est l'affrontement tragique entre deux conceptions du monde : la pureté intransigeante de la jeunesse (**Antigone**) face au pragmatisme froid de la raison d'État (**Créon**)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Élément tragique",
+            "Rôle dans Antigone d'Anouilh",
+            "Modernisation du mythe"
+          ],
+          "lignes": [
+            [
+              "Le Prologue",
+              "Personnage extérieur qui présente tous les acteurs, leur caractère et annonce d'emblée leur mort prochaine.",
+              "Rompt l'illusion théâtrale : les comédiens jouent aux cartes ou tricotent avant de jouer."
+            ],
+            [
+              "Le conflit tragique",
+              "Antigone veut enterrer dignement son frère Polynice malgré l'édit royal de Créon.",
+              "Refus des compromis, du bonheur médiocre et de la vieillesse conformiste."
+            ],
+            [
+              "Créon (le roi de Thèbes)",
+              "L'oncle d'Antigone, souverain dévoué au maintien de l'ordre politique.",
+              "Conçoit le pouvoir comme un « sale boulot » nécessaire ; propose de cacher l'affaire pour la sauver."
+            ],
+            [
+              "La fatalité moderne",
+              "L'engrenage est enclenché dès le départ : rien ne peut empêcher la mort d'Antigone, d'Hémon et d'Eurydice.",
+              "Le chœur explique que dans la tragédie, « tout est dit, c'est propre, cela roule tout seul »."
+            ],
+            [
+              "Anachronismes voulus",
+              "Costumes modernes, cartes à jouer, café au lait, gardes qui sentent l'ail et la bière.",
+              "Rapproche le mythe de la réalité contemporaine de la Seconde Guerre mondiale."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Extrait célèbre sur la nature de la tragédie :**\n*Le Chœur :* « C'est propre, la tragédie. C'est reposant, c'est sûr... Dans le drame, on se débat parce qu'on espère en sortir. Dans la tragédie, on sait qu'on est pris, qu'on ne peut plus rien faire, et on crie ! Pas pour se plaindre, pour dire tout ce qu'on avait à dire. »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1bac-ex-antigone-1",
+          "titre": "QCM : Le mythe tragique d'Antigone",
+          "consigne": "Répondez aux questions sur la tragédie d'Anouilh.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Pour quel devoir fraternel Antigone accepte-t-elle de sacrifier délibérément sa vie ?",
+              "options": [
+                "Pour recouvrir de terre et enterrer le corps de son frère Polynice",
+                "Pour venger la mort de sa mère Jocaste",
+                "Pour assassiner le tyran Créon",
+                "Pour s'enfuir avec le prince Hémon"
+              ],
+              "reponse": "Pour recouvrir de terre et enterrer le corps de son frère Polynice",
+              "explication": "Polynice ayant trahi la cité selon Créon, son corps est condamné à pourrir sans sépulture."
+            },
+            {
+              "enonce": "Qui est Hémon par rapport à Antigone et à Créon ?",
+              "options": [
+                "Le fils de Créon et le fiancé d'Antigone",
+                "Le grand frère d'Antigone",
+                "Le chef des gardes de Thèbes",
+                "Le prêtre du temple d'Apollon"
+              ],
+              "reponse": "Le fils de Créon et le fiancé d'Antigone",
+              "explication": "Hémon aime passionnément Antigone et choisira de se donner la mort auprès d'elle."
+            },
+            {
+              "enonce": "Quel personnage ouvre la pièce et présente les acteurs en annonçant d'emblée leur destin funeste ?",
+              "options": [
+                "Le Prologue",
+                "La Nourrice",
+                "Ismène",
+                "Le premier garde"
+              ],
+              "reponse": "Le Prologue",
+              "explication": "Le Prologue détruit tout faux suspense en révélant la fatalité du destin dès la première scène."
+            },
+            {
+              "enonce": "Quelle est la principale différence de caractère entre Antigone et sa sœur aînée Ismène ?",
+              "options": [
+                "Antigone est révoltée et intransigeante ; Ismène est prudente, raisonnable et craint la mort",
+                "Ismène veut mourir dès le premier acte",
+                "Antigone est obsédée par la richesse",
+                "Ismène est une guerrière armée d'une lance"
+              ],
+              "reponse": "Antigone est révoltée et intransigeante ; Ismène est prudente, raisonnable et craint la mort",
+              "explication": "Ismène incarne le compromis et le désir de vivre, face à l'idéalisme absolu d'Antigone."
+            },
+            {
+              "enonce": "Comment Antigone est-elle mise à mort selon le châtiment imposé par la sentence de Créon ?",
+              "options": [
+                "Elle est emmurée vivante dans un tombeau souterrain",
+                "Elle est décapitée sur la place publique",
+                "Elle est jetée aux bêtes féroces",
+                "Elle est brûlée sur un bûcher"
+              ],
+              "reponse": "Elle est emmurée vivante dans un tombeau souterrain",
+              "explication": "Elle est enfermée dans un trou de roche où elle se pendra avec sa ceinture."
+            },
+            {
+              "enonce": "En quelle année et dans quel contexte historique majeur la pièce a-t-elle été jouée pour la première fois ?",
+              "options": [
+                "En 1944 sous l'Occupation allemande de la France",
+                "En 1789 pendant la Révolution française",
+                "En 1914 au début de la Grande Guerre",
+                "En 1968 lors des révoltes étudiantes"
+              ],
+              "reponse": "En 1944 sous l'Occupation allemande de la France",
+              "explication": "La pièce a résonné pour beaucoup comme une métaphore de la Résistance face à l'oppresseur."
+            }
+          ]
+        },
+        {
+          "id": "1bac-ex-antigone-2",
+          "titre": "Vrai ou Faux : Les ressorts de la tragédie moderne",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Dans la tragédie d'Anouilh, les personnages utilisent parfois un langage familier et des anachronismes modernes (ex. : les gardes jouent aux cartes).",
+              "reponse": true,
+              "explication": "Vrai. C'est la modernité du théâtre d'Anouilh qui désacralise la grandiloquence antique."
+            },
+            {
+              "enonce": "Créon déteste Antigone et souhaite sa mort immédiate dès la première minute.",
+              "reponse": false,
+              "explication": "Faux. Créon fait tout pour tenter de la sauver et lui demande d'étouffer l'affaire."
+            },
+            {
+              "enonce": "Antigone refuse le bonheur médiocre et les concessions imposées par le monde des adultes.",
+              "reponse": true,
+              "explication": "Vrai. Elle crie son refus d'un « petit bonheur » fade et menteur."
+            },
+            {
+              "enonce": "À la fin de la pièce, Hémon et sa mère Eurydice survivent et organisent une fête au palais.",
+              "reponse": false,
+              "explication": "Faux. Hémon se poignarde sur le corps d'Antigone et Eurydice se tranche la gorge."
+            },
+            {
+              "enonce": "La fatalité tragique signifie que le héros est condamné d'avance et ne peut échapper à son destin.",
+              "reponse": true,
+              "explication": "Vrai. L'issue tragique est inéluctable."
+            }
+          ]
+        },
+        {
+          "id": "1bac-ex-antigone-3",
+          "titre": "Texte à trous : Personnages et mythe",
+          "consigne": "Complétez chaque phrase avec le nom ou mot convenable.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le roi de Thèbes, oncle d'Antigone, s'appelle [Créon].",
+              "reponse": "Créon",
+              "acceptees": [
+                "Créon",
+                "Creon"
+              ],
+              "explication": "Créon incarne l'autorité de l'État."
+            },
+            {
+              "enonce": "La sœur d'Antigone qui refuse au départ de désobéir à la loi est [Ismène].",
+              "reponse": "Ismène",
+              "acceptees": [
+                "Ismène",
+                "Ismene"
+              ],
+              "explication": "Ismène, belle et raisonnable."
+            },
+            {
+              "enonce": "Le fiancé d'Antigone, fils de Créon, s'appelle [Hémon].",
+              "reponse": "Hémon",
+              "acceptees": [
+                "Hémon",
+                "Hemon"
+              ],
+              "explication": "Hémon choisit la mort par amour pour Antigone."
+            },
+            {
+              "enonce": "Le frère mort sans sépulture qu'Antigone veut enterrer s'appelle [Polynice].",
+              "reponse": "Polynice",
+              "acceptees": [
+                "Polynice"
+              ],
+              "explication": "Polynice et Étéocle se sont entretués pour le trône."
+            },
+            {
+              "enonce": "Le dramaturge français qui a écrit cette version moderne d'Antigone est Jean [Anouilh].",
+              "reponse": "Anouilh",
+              "acceptees": [
+                "Anouilh",
+                "anouilh"
+              ],
+              "explication": "Jean Anouilh (1910-1987)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bac-plan-production-ecrite",
+      "categorie": "methode",
+      "titre": "Méthodologie de la production écrite à l'examen régional (plans dialectique, analytique, thématique)",
+      "niveau": "1ère Bac",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "À l'**Examen Régional de 1ère Année Bac**, l'épreuve de production écrite compte pour **10 points sur 20** (la moitié de la note !). Le sujet invite toujours à débattre d'un thème de société lié aux œuvres du programme (la solitude, l'éducation, les conflits familiaux, la justice, la liberté, la superstition, la générosité...)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Type de plan",
+            "Quand l'utiliser ?",
+            "Structure des parties"
+          ],
+          "lignes": [
+            [
+              "Plan dialectique (Thèse / Antithèse / Synthèse)",
+              "Quand le sujet invite à la controverse : « Partagez-vous ce point de vue ? », « Doit-on affirmer que... ? »",
+              "1. Partie I : Arguments en faveur de la thèse.\n2. Partie II : Arguments de la thèse opposée (objections).\n3. Synthèse / Dépassement : Point de vue nuancé personnel."
+            ],
+            [
+              "Plan thématique (Explicatif)",
+              "Quand le sujet demande d'illustrer ou d'approfondir une opinion consensuelle : « Montrez que la solidarité est indispensable... »",
+              "Développement en 2 ou 3 aspects complémentaires (social, individuel, culturel) enrichis d'exemples."
+            ],
+            [
+              "Plan analytique (Causes / Conséquences / Solutions)",
+              "Face à un problème ou fléau social (la drogue, le décrochage scolaire, la pollution).",
+              "1. Les manifestations et causes du phénomène.\n2. Les conséquences néfastes.\n3. Les solutions concrètes envisageables."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Barème officiel de notation à l'examen régional (10 points) :**\n• **Respect de la consigne et organisation (4 points) :** Respect du sujet, présence des trois parties (intro, dév, conclusion), alinéas, connecteurs logiques.\n• **Correction de la langue (6 points) :** Vocabulaire précis, syntaxe correcte, orthographe, conjugaison et ponctuation."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1bac-ex-plan-1",
+          "titre": "QCM : Choisir la stratégie d'argumentation",
+          "consigne": "Identifiez le bon choix méthodologique pour l'examen régional.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Pour un sujet formulé ainsi : « Certains pensent que l'argent fait le bonheur, d'autres estiment le contraire. Qu'en pensez-vous ? », quel plan est le plus approprié ?",
+              "options": [
+                "Le plan dialectique (Thèse, Antithèse, Synthèse)",
+                "Le plan chronologique (Matin, Midi, Soir)",
+                "Le plan biographique de l'auteur",
+                "Le plan inventaire de poésie"
+              ],
+              "reponse": "Le plan dialectique (Thèse, Antithèse, Synthèse)",
+              "explication": "Le sujet présente deux thèses divergentes et demande un jugement personnel : le plan dialectique s'impose."
+            },
+            {
+              "enonce": "Combien de points représente la production écrite sur la note globale de l'examen régional de français ?",
+              "options": [
+                "10 points sur 20 (la moitié de la note)",
+                "2 points sur 20",
+                "5 points sur 20",
+                "20 points sur 20"
+              ],
+              "reponse": "10 points sur 20 (la moitié de la note)",
+              "explication": "La production écrite compte exactement pour 50% de la note d'examen régional."
+            },
+            {
+              "enonce": "Dans une introduction de dissertation, quelle étape doit obligatoirement figurer en premier lieu ?",
+              "options": [
+                "Amener le sujet (contexte général ou accroche)",
+                "Donner immédiatement sa conclusion finale",
+                "Remercier le jury d'examen",
+                "Recopier le premier chapitre d'Antigone"
+              ],
+              "reponse": "Amener le sujet (contexte général ou accroche)",
+              "explication": "L'accroche amène progressivement le thème avant de poser la problématique."
+            },
+            {
+              "enonce": "Pourquoi est-il crucial d'illustrer chaque argument théorique par un exemple précis ?",
+              "options": [
+                "Pour donner de la crédibilité, de la force et du concret au raisonnement",
+                "Pour remplir la page blanche plus vite sans réfléchir",
+                "Parce que les exemples sont obligatoirement en anglais",
+                "Pour faire plaisir aux correcteurs d'histoire"
+              ],
+              "reponse": "Pour donner de la crédibilité, de la force et du concret au raisonnement",
+              "explication": "L'exemple prouve et ancre l'argument dans la réalité."
+            },
+            {
+              "enonce": "Par quoi sépare-t-on visuellement les différents paragraphes du texte argumentatif ?",
+              "options": [
+                "Un saut de ligne et un alinéa (retrait de 2 carreaux)",
+                "Une ligne de petits cœurs",
+                "Des points d'exclamation répétés",
+                "Des barres obliques"
+              ],
+              "reponse": "Un saut de ligne et un alinéa (retrait de 2 carreaux)",
+              "explication": "L'alinéa est la marque typographique universelle du changement de paragraphe."
+            },
+            {
+              "enonce": "Que doit comporter la conclusion d'une production écrite ?",
+              "options": [
+                "Un bilan synthétique des arguments développés et une ouverture finale",
+                "De nouveaux arguments jamais évoqués auparavant",
+                "Une insulte envers l'opinion adverse",
+                "La date de naissance du candidat"
+              ],
+              "reponse": "Un bilan synthétique des arguments développés et une ouverture finale",
+              "explication": "La conclusion récapitule les conclusions de l'analyse et ouvre le champ de réflexion."
+            }
+          ]
+        },
+        {
+          "id": "1bac-ex-plan-2",
+          "titre": "Vrai ou Faux : Conseils pour l'épreuve écrite",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "L'utilisation de connecteurs logiques (d'une part, en revanche, par conséquent) structure la lisibilité de la copie.",
+              "reponse": true,
+              "explication": "Vrai. Les connecteurs balisent la progression de la pensée."
+            },
+            {
+              "enonce": "Le hors-sujet est sévèrement sanctionné lors de la correction de l'examen régional.",
+              "reponse": true,
+              "explication": "Vrai. Le candidat doit répondre scrupuleusement à la consigne donnée."
+            },
+            {
+              "enonce": "Dans un plan dialectique, la synthèse consiste à dire « les deux ont tort et je n'en sais rien ».",
+              "reponse": false,
+              "explication": "Faux. La synthèse dépasse la contradiction en apportant une perspective plus vaste et équilibrée."
+            },
+            {
+              "enonce": "Rédiger au brouillon le plan et les idées avant de recopier est fortement recommandé.",
+              "reponse": true,
+              "explication": "Vrai. Le brouillon évite les ratures et garantit la cohérence du texte."
+            },
+            {
+              "enonce": "On peut utiliser le langage SMS et des abréviations (« psq », « bcp ») dans sa copie d'examen.",
+              "reponse": false,
+              "explication": "Faux. Le niveau de langue doit être soigné et conforme aux règles académiques."
+            }
+          ]
+        },
+        {
+          "id": "1bac-ex-plan-3",
+          "titre": "Texte à trous : Connecteurs d'argumentation",
+          "consigne": "Complétez chaque phrase avec le connecteur ou terme logique adéquat.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Pour annoncer l'ouverture du plan dans l'introduction, on pose la [problématique].",
+              "reponse": "problématique",
+              "acceptees": [
+                "problématique",
+                "problematique"
+              ],
+              "explication": "La problématique est la question centrale à laquelle répond la dissertation."
+            },
+            {
+              "enonce": "Le connecteur concessif « [Certes], la richesse offre un confort matériel, mais elle ne garantit pas la paix du cœur ».",
+              "reponse": "Certes",
+              "acceptees": [
+                "Certes",
+                "certes"
+              ],
+              "explication": "Certes introduit la concession nuancée."
+            },
+            {
+              "enonce": "Pour clore la réflexion et ouvrir une perspective, on rédige la [conclusion].",
+              "reponse": "conclusion",
+              "acceptees": [
+                "conclusion"
+              ],
+              "explication": "La conclusion clôt le devoir."
+            },
+            {
+              "enonce": "Pour lier deux arguments dans une même partie, on emploie « De [plus] » ou « En outre ».",
+              "reponse": "plus",
+              "acceptees": [
+                "plus"
+              ],
+              "explication": "De plus marque l'addition d'un argument."
+            },
+            {
+              "enonce": "Le décalage en retrait au début de chaque paragraphe s'appelle un [alinéa].",
+              "reponse": "alinéa",
+              "acceptees": [
+                "alinéa",
+                "alinea"
+              ],
+              "explication": "L'alinéa structure la mise en page."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

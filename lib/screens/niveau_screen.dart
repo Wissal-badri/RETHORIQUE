@@ -22,14 +22,42 @@ class _NiveauScreenState extends State<NiveauScreen> {
   String _selectedCat = 'all';
   String _searchQuery = '';
 
-  final List<(String, String)> _categories = const [
-    ('all', 'Tout'),
-    ('gram', 'Grammaire'),
-    ('conj', 'Conjugaison'),
-    ('orth', 'Orthographe'),
-    ('voc', 'Vocabulaire'),
-    ('style', 'Style et sens'),
-  ];
+  late final List<(String, String)> _categories;
+
+  @override
+  void initState() {
+    super.initState();
+    final presentCatCodes = widget.niveau.lecons.map((l) => l.categorie).toSet();
+    final cats = <(String, String)>[('all', 'Tout')];
+
+    const known = [
+      ('recit', 'Récit & Conte'),
+      ('media', 'Médias & Presse'),
+      ('theatre', 'Théâtre'),
+      ('lecture', 'Lecture & Analyse'),
+      ('style', 'Style & Figures'),
+      ('gram', 'Grammaire'),
+      ('conj', 'Conjugaison'),
+      ('orth', 'Orthographe'),
+      ('voc', 'Vocabulaire'),
+      ('poesie', 'Poésie'),
+      ('methode', 'Méthodologie'),
+    ];
+
+    for (final k in known) {
+      if (presentCatCodes.contains(k.$1)) {
+        cats.add(k);
+      }
+    }
+
+    for (final c in presentCatCodes) {
+      if (!cats.any((item) => item.$1 == c)) {
+        cats.add((c, c));
+      }
+    }
+
+    _categories = cats;
+  }
 
   @override
   void dispose() {

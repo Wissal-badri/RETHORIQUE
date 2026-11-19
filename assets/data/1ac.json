@@ -1,0 +1,2110 @@
+{
+  "code": "1ac",
+  "nom": "1ère Année Collège",
+  "description": "Programme de français de la 1ère Année de l'Enseignement Secondaire Collégial : étude du récit, du portrait et des outils de la narration.",
+  "lecons": [
+    {
+      "id": "1ac-schema-narratif",
+      "categorie": "recit",
+      "titre": "Le schéma narratif d'un récit",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le **schéma narratif** est la structure universelle qui permet de construire et d’analyser le déroulement chronologique et logique d’un récit (conte, nouvelle, fable)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Étape du récit",
+            "Définition & Rôle",
+            "Indices / Connecteurs"
+          ],
+          "lignes": [
+            [
+              "1. Situation initiale (SI)",
+              "Présentation du cadre (qui, où, quand) dans un état d'équilibre ou de calme.",
+              "Il était une fois, un jour, jadis, verbes à l'imparfait"
+            ],
+            [
+              "2. Élément modificateur (EM)",
+              "Événement soudain qui vient rompre le calme initial et déclencher l'action.",
+              "Soudain, tout à coup, un beau matin, verbes au passé simple"
+            ],
+            [
+              "3. Péripéties (actions)",
+              "Ensemble des actions, épreuves, aventures vécues par le héros pour résoudre le problème.",
+              "D'abord, ensuite, alors, après cela, verbes d'action au passé simple"
+            ],
+            [
+              "4. Élément de résolution (ER)",
+              "L'action ou l'événement final qui met un terme aux difficultés ou au danger.",
+              "Enfin, grâce à, finalement, le triomphe"
+            ],
+            [
+              "5. Situation finale (SF)",
+              "Retour à un nouvel état d'équilibre stable (heureux ou malheureux).",
+              "Depuis ce jour, désormais, ils vécurent heureux"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Exemple dans un conte classique :**\n• *Situation initiale :* Cendrillon vit soumise et silencieuse auprès de sa marâtre.\n• *Élément perturbateur :* Une invitation royale au grand bal du prince arrive au manoir.\n• *Péripéties :* La marraine fée transforme la citrouille, Cendrillon danse avec le prince, elle fuit à minuit et perd sa pantoufle de vair.\n• *Résolution :* Le prince fait essayer la pantoufle de verre à toutes les jeunes filles du royaume.\n• *Situation finale :* Cendrillon épouse le prince et quitte à jamais sa misérable condition."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-schema-1",
+          "type": "qcm",
+          "consigne": "Identifiez l'étape du schéma narratif correspondant à la phrase.",
+          "questions": [
+            {
+              "enonce": "Dans un conte, quelle étape présente le cadre initial et les personnages dans un état de calme ?",
+              "options": [
+                "La situation initiale",
+                "L'élément perturbateur",
+                "Les péripéties",
+                "La situation finale"
+              ],
+              "reponse": "La situation initiale",
+              "explication": "La situation initiale installe le décor et les protagonistes dans l'équilibre."
+            },
+            {
+              "enonce": "Quel événement soudain vient rompre le calme initial et déclencher l'action du récit ?",
+              "options": [
+                "L'élément modificateur (ou perturbateur)",
+                "Le titre",
+                "La morale",
+                "La préface"
+              ],
+              "reponse": "L'élément modificateur (ou perturbateur)",
+              "explication": "L'élément modificateur brise l'équilibre et met le héros en mouvement."
+            },
+            {
+              "enonce": "Comment appelle-t-on l'ensemble des épreuves et aventures traversées par le héros ?",
+              "options": [
+                "Les péripéties",
+                "Les didascalies",
+                "Les rimes",
+                "Les alexandrins"
+              ],
+              "reponse": "Les péripéties",
+              "explication": "Les péripéties constituent le cœur des actions du héros."
+            },
+            {
+              "enonce": "Quelle étape clôt définitivement les aventures en rétablissant un nouvel équilibre ?",
+              "options": [
+                "La situation finale",
+                "L'élément perturbateur",
+                "L'exposition",
+                "Le nœud"
+              ],
+              "reponse": "La situation finale",
+              "explication": "La situation finale conclut le schéma narratif."
+            },
+            {
+              "enonce": "Par quelle expression commence souvent un conte traditionnel ?",
+              "options": [
+                "Il était une fois...",
+                "Hier à midi...",
+                "D'après les statistiques...",
+                "En résumé..."
+              ],
+              "reponse": "Il était une fois...",
+              "explication": "Formule intemporelle par excellence."
+            },
+            {
+              "enonce": "L'élément qui résout le problème principal du héros est appelé l'élément de :",
+              "options": [
+                "Résolution (ou dénouement)",
+                "Rupture",
+                "Confusion",
+                "Panique"
+              ],
+              "reponse": "Résolution (ou dénouement)",
+              "explication": "Il apporte la solution aux difficultés rencontrées."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-schema-2",
+          "titre": "Vrai ou Faux : Les étapes de l'intrigue",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "La situation initiale décrit un état d'équilibre et de calme où le héros vit normalement.",
+              "reponse": true,
+              "explication": "Vrai. Le calme règne avant l'élément perturbateur."
+            },
+            {
+              "enonce": "L'élément perturbateur intervient tout à la fin pour clore l'histoire.",
+              "reponse": false,
+              "explication": "Faux. Il intervient au début pour rompre l'équilibre initial et lancer l'action."
+            },
+            {
+              "enonce": "Les péripéties sont les différentes actions et épreuves vécues par les personnages.",
+              "reponse": true,
+              "explication": "Vrai. Elles forment le cœur dynamique du récit."
+            },
+            {
+              "enonce": "La situation finale marque le retour à un nouvel équilibre (heureux ou malheureux).",
+              "reponse": true,
+              "explication": "Vrai. L'équilibre se rétablit durablement."
+            },
+            {
+              "enonce": "Le schéma narratif ne s'applique qu'aux poèmes sans histoire.",
+              "reponse": false,
+              "explication": "Faux. Il s'applique à tous les récits narratifs (contes, romans, fables, nouvelles)."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-schema-3",
+          "titre": "Texte à trous : Notions du schéma narratif",
+          "consigne": "Complétez chaque phrase avec le terme approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "L'événement soudain qui déclenche l'intrigue est l'élément [perturbateur] (ou modificateur).",
+              "reponse": "perturbateur",
+              "acceptees": [
+                "perturbateur",
+                "modificateur"
+              ],
+              "explication": "Il perturbe le calme initial."
+            },
+            {
+              "enonce": "Les aventures successives du héros constituent les [péripéties].",
+              "reponse": "péripéties",
+              "acceptees": [
+                "péripéties",
+                "peripeties",
+                "actions"
+              ],
+              "explication": "Actions vécues par le héros."
+            },
+            {
+              "enonce": "La dernière étape marquant la fin du récit est la situation [finale].",
+              "reponse": "finale",
+              "acceptees": [
+                "finale"
+              ],
+              "explication": "Situation finale."
+            },
+            {
+              "enonce": "Le moment où le héros résout son problème est l'élément de [résolution].",
+              "reponse": "résolution",
+              "acceptees": [
+                "résolution",
+                "resolution",
+                "dénouement",
+                "denouement"
+              ],
+              "explication": "Résolution des épreuves."
+            },
+            {
+              "enonce": "L'ensemble ordonné des 5 étapes du récit s'appelle le schéma [narratif].",
+              "reponse": "narratif",
+              "acceptees": [
+                "narratif"
+              ],
+              "explication": "Schéma narratif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ac-portrait-description",
+      "categorie": "recit",
+      "titre": "Le portrait physique et moral",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Faire le **portrait** d'un personnage consiste à décrire son apparence et sa personnalité. On distingue le portrait physique, le portrait moral et les aspects vestimentaires."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Composante",
+            "Éléments décrits",
+            "Vocabulaire & Moyens grammaticaux"
+          ],
+          "lignes": [
+            [
+              "Portrait physique",
+              "Silhouette, taille, visage, yeux, teint, voix, démarche",
+              "Adjectifs qualificatifs (élancé, vermeil, voûté), comparaisons"
+            ],
+            [
+              "Portrait moral",
+              "Caractère, qualités, défauts, humeur, tempérament",
+              "Généreux, avare, bienveillant, sournois, colérique"
+            ],
+            [
+              "Tenue vestimentaire",
+              "Vêtements, accessoires, allure générale",
+              "Habits de velours, haillons déchirés, élégance, négligence"
+            ]
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "**La visée du portrait :**\n• **Portrait mélioratif (valorisant) :** met en valeur les qualités du personnage par un lexique élogieux.\n• **Portrait péjoratif (dévalorisant) :** insiste sur les défauts, la laideur ou le ridicule par un lexique dépréciatif."
+        },
+        {
+          "type": "exemple",
+          "texte": "*« Ses yeux étincelants respiraient la bonté et l'intelligence »* ➔ Portrait mélioratif (physique et moral).\n*« Son regard fuyant et son rictus narquois inspiraient la méfiance »* ➔ Portrait péjoratif."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-portrait-1",
+          "type": "qcm",
+          "consigne": "Distinguez portrait mélioratif et portrait péjoratif.",
+          "questions": [
+            {
+              "enonce": "La description du visage, de la taille et de la silhouette d'un personnage s'appelle le portrait :",
+              "options": [
+                "Physique",
+                "Moral",
+                "Psychologique",
+                "Vestimentaire"
+              ],
+              "reponse": "Physique",
+              "explication": "Le portrait physique concerne l'aspect extérieur et corporel."
+            },
+            {
+              "enonce": "La description du caractère, de la générosité ou de la malice d'un personnage s'appelle le portrait :",
+              "options": [
+                "Moral",
+                "Physique",
+                "Géographique",
+                "Historique"
+              ],
+              "reponse": "Moral",
+              "explication": "Le portrait moral décrit les qualités et défauts psychologiques."
+            },
+            {
+              "enonce": "Comment qualifie-t-on un portrait qui met en valeur la beauté et la bravoure d'un prince ?",
+              "options": [
+                "Un portrait valorisant (mélioratif)",
+                "Un portrait dévalorisant",
+                "Une caricature",
+                "Un texte neutre"
+              ],
+              "reponse": "Un portrait valorisant (mélioratif)",
+              "explication": "Il flatte et valorise le personnage."
+            },
+            {
+              "enonce": "Quel outil grammatical utilise-t-on le plus fréquemment pour enrichir un portrait ?",
+              "options": [
+                "L'adjectif qualificatif",
+                "L'adverbe de négation",
+                "Le point d'interrogation",
+                "La préposition sous"
+              ],
+              "reponse": "L'adjectif qualificatif",
+              "explication": "Les adjectifs colorent et caractérisent chaque trait."
+            },
+            {
+              "enonce": "« Il avait un nez crochu comme un bec de corbeau et des yeux fuyants. » Quel est ce type de portrait ?",
+              "options": [
+                "Dévalorisant (péjoratif)",
+                "Valorisant",
+                "Élogieux",
+                "Poétique admirable"
+              ],
+              "reponse": "Dévalorisant (péjoratif)",
+              "explication": "Le vocabulaire dépréciatif inspire la répulsion."
+            },
+            {
+              "enonce": "Le portrait qui décrit la manière dont le personnage s'habille est le portrait :",
+              "options": [
+                "Vestimentaire",
+                "Moral",
+                "Intérieur",
+                "Céleste"
+              ],
+              "reponse": "Vestimentaire",
+              "explication": "Il s'attache aux vêtements, parures et tissus."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-portrait-2",
+          "titre": "Vrai ou Faux : L'art du portrait",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le portrait physique s'intéresse au caractère, aux qualités et aux défauts du personnage.",
+              "reponse": false,
+              "explication": "Faux. Le caractère relève du portrait moral ; le portrait physique décrit le corps et le visage."
+            },
+            {
+              "enonce": "Un portrait valorisant donne une image positive et flatteuse du personnage.",
+              "reponse": true,
+              "explication": "Vrai. Le vocabulaire mélioratif embellit l'être décrit."
+            },
+            {
+              "enonce": "Pour décrire les vêtements d'un personnage, on parle de portrait vestimentaire.",
+              "reponse": true,
+              "explication": "Vrai. Il complète la description physique."
+            },
+            {
+              "enonce": "Dans un portrait, l'emploi des adjectifs qualificatifs est inutile.",
+              "reponse": false,
+              "explication": "Faux. Les adjectifs sont indispensables pour qualifier et donner des couleurs aux traits."
+            },
+            {
+              "enonce": "Le portrait dévalorisant cherche à rendre le personnage effrayant ou ridicule.",
+              "reponse": true,
+              "explication": "Vrai. Le vocabulaire péjoratif accentue les défauts."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-portrait-3",
+          "titre": "Texte à trous : Lexique du portrait",
+          "consigne": "Complétez chaque phrase avec le terme approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "La description du caractère et de l'âme d'une personne constitue son portrait [moral].",
+              "reponse": "moral",
+              "acceptees": [
+                "moral",
+                "psychologique"
+              ],
+              "explication": "Le portrait moral décrit les qualités et défauts intérieurs."
+            },
+            {
+              "enonce": "Un portrait flatteur qui met en valeur les qualités est qualifié de [valorisant] (ou mélioratif).",
+              "reponse": "valorisant",
+              "acceptees": [
+                "valorisant",
+                "mélioratif",
+                "melioratif"
+              ],
+              "explication": "Il valorise le personnage."
+            },
+            {
+              "enonce": "La démarche qui consiste à décrire un personnage de la tête aux pieds suit un ordre [spatial].",
+              "reponse": "spatial",
+              "acceptees": [
+                "spatial",
+                "logique"
+              ],
+              "explication": "Organisation du regard dans l'espace."
+            },
+            {
+              "enonce": "L'expansion du nom qui qualifie directement le regard (« des yeux [étincelants] ») est un adjectif épithète.",
+              "reponse": "étincelants",
+              "acceptees": [
+                "étincelants",
+                "etincelants",
+                "brillants"
+              ],
+              "explication": "Adjectif qualificatif."
+            },
+            {
+              "enonce": "L'opposé d'un portrait valorisant est un portrait [dévalorisant].",
+              "reponse": "dévalorisant",
+              "acceptees": [
+                "dévalorisant",
+                "devalorisant",
+                "péjoratif",
+                "pejoratif"
+              ],
+              "explication": "Portrait dépréciatif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ac-temps-recit",
+      "categorie": "conj",
+      "titre": "Les temps du récit : Imparfait et Passé simple",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans un récit au passé, l'**imparfait** et le **passé simple** se partagent des rôles précis et complémentaires pour donner vie à la narration."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Temps verbal",
+            "Rôle narratif majeur",
+            "Exemples de valeurs"
+          ],
+          "lignes": [
+            [
+              "Imparfait de l'indicatif",
+              "Arrière-plan du récit (décor, état, durée non précisée)",
+              "• Description du paysage ou du personnage\n• Action habituelle / répétée\n• Action en cours d'accomplissement"
+            ],
+            [
+              "Passé simple de l'indicatif",
+              "Premier plan du récit (dynamique des événements)",
+              "• Action ponctuelle et soudaine\n• Succession d'actions achevées et limitées dans le temps"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "*« La pluie tombait (imparfait : arrière-plan) à verse quand la porte claqua (passé simple : action soudaine). Aussitôt, Paul saisit (passé simple) son manteau et s'élança (passé simple : succession rapide) dans la nuit. »*"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-temps-1",
+          "type": "qcm",
+          "consigne": "Identifiez la valeur des temps du récit.",
+          "questions": [
+            {
+              "enonce": "Dans un récit au passé, quel temps emploie-t-on pour les descriptions et les décors d'arrière-plan ?",
+              "options": [
+                "L'imparfait de l'indicatif",
+                "Le passé simple",
+                "Le futur simple",
+                "L'impératif"
+              ],
+              "reponse": "L'imparfait de l'indicatif",
+              "explication": "L'imparfait installe le décor sans faire progresser la chronologie."
+            },
+            {
+              "enonce": "Quel temps verbal utilise-t-on pour les actions soudaines qui font progresser l'histoire ?",
+              "options": [
+                "Le passé simple",
+                "L'imparfait",
+                "Le subjonctif présent",
+                "Le plus-que-parfait"
+              ],
+              "reponse": "Le passé simple",
+              "explication": "Le passé simple est le temps du premier plan narratif."
+            },
+            {
+              "enonce": "« Chaque matin, le bûcheron coupait du bois. » Quelle est la valeur de l'imparfait ?",
+              "options": [
+                "Imparfait d'habitude (répétition)",
+                "Action brève",
+                "Imparfait historique",
+                "Imparfait de politesse"
+              ],
+              "reponse": "Imparfait d'habitude (répétition)",
+              "explication": "L'indice « chaque matin » montre la régularité de l'action."
+            },
+            {
+              "enonce": "« Tout à coup, un loup ... (surgir) du buisson. » Quelle forme convient ?",
+              "options": [
+                "surgit (passé simple)",
+                "surgissait (imparfait)",
+                "a surgi",
+                "surgira"
+              ],
+              "reponse": "surgit (passé simple)",
+              "explication": "Action soudaine introduite par « tout à coup »."
+            },
+            {
+              "enonce": "Quelles sont les terminaisons des verbes du 1er groupe au passé simple avec 'ils/elles' ?",
+              "options": [
+                "-èrent",
+                "-irent",
+                "-urent",
+                "-issaient"
+              ],
+              "reponse": "-èrent",
+              "explication": "Ex. : ils marchèrent, ils chantèrent."
+            },
+            {
+              "enonce": "Dans « La mer était calme et le ciel était bleu », quelle est la valeur des verbes ?",
+              "options": [
+                "Description d'état à l'imparfait",
+                "Actions successives",
+                "Ordre impératif",
+                "Supposition"
+              ],
+              "reponse": "Description d'état à l'imparfait",
+              "explication": "L'imparfait décrit l'état de la nature."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-temps-2",
+          "titre": "Vrai ou Faux : Imparfait et passé simple",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le passé simple est le temps privilégié pour les descriptions de paysages immobiles.",
+              "reponse": false,
+              "explication": "Faux. La description de décor se fait à l'imparfait."
+            },
+            {
+              "enonce": "L'imparfait d'habitude s'emploie pour des actions répétées régulièrement dans le passé.",
+              "reponse": true,
+              "explication": "Vrai. Ex. : Chaque matin, il partait pêcher."
+            },
+            {
+              "enonce": "Une action soudaine et rapide qui coupe une description se met au passé simple.",
+              "reponse": true,
+              "explication": "Vrai. Le passé simple exprime la soudaineté."
+            },
+            {
+              "enonce": "Les terminaisons de l'imparfait sont -ais, -ais, -ait, -ions, -iez, -aient pour tous les verbes sans exception.",
+              "reponse": true,
+              "explication": "Vrai. L'imparfait a des terminaisons 100% régulières en français."
+            },
+            {
+              "enonce": "Le verbe « chanter » fait « ils chantèrent » au passé simple.",
+              "reponse": true,
+              "explication": "Vrai. Verbe du 1er groupe : terminaison en -èrent."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-temps-3",
+          "titre": "Texte à trous : Conjugaison dans le récit",
+          "consigne": "Conjuguez le verbe entre parenthèses au temps convenable (imparfait ou passé simple).",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le soleil (briller) [brillait] dans le ciel quand un éclair apparut.",
+              "reponse": "brillait",
+              "acceptees": [
+                "brillait"
+              ],
+              "explication": "Arrière-plan à l'imparfait."
+            },
+            {
+              "enonce": "Soudain, le chevalier (sauter) [sauta] sur son fidèle destrier.",
+              "reponse": "sauta",
+              "acceptees": [
+                "sauta"
+              ],
+              "explication": "Action ponctuelle et soudaine au passé simple."
+            },
+            {
+              "enonce": "Tous les soirs, la fée (visiter) [visitait] les chaumières du village.",
+              "reponse": "visitait",
+              "acceptees": [
+                "visitait"
+              ],
+              "explication": "Habitude dans le passé (imparfait itératif)."
+            },
+            {
+              "enonce": "Les deux enfants (trouver) [trouvèrent] une cabane abandonnée.",
+              "reponse": "trouvèrent",
+              "acceptees": [
+                "trouvèrent",
+                "trouverent"
+              ],
+              "explication": "Action de premier plan au passé simple pluriel."
+            },
+            {
+              "enonce": "Il (faire) [faisait] un froid glacial dans la caverne de glace.",
+              "reponse": "faisait",
+              "acceptees": [
+                "faisait"
+              ],
+              "explication": "Description météorologique à l'imparfait."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ac-schema-actanciel",
+      "categorie": "recit",
+      "titre": "Le schéma actanciel",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le **schéma actanciel** (élaboré par A.J. Greimas) permet de comprendre les forces, motivations et interactions entre les personnages d'un récit."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Rôle actanciel",
+            "Définition",
+            "Exemple type"
+          ],
+          "lignes": [
+            [
+              "Sujet (Héros)",
+              "Le personnage qui mène la quête ou poursuit un but",
+              "Le chevalier ou la princesse"
+            ],
+            [
+              "Objet (Quête)",
+              "Ce que le sujet cherche à obtenir ou délivrer",
+              "Le remède magique, la paix du royaume"
+            ],
+            [
+              "Destinateur",
+              "Celui qui donne la mission ou pousse le héros à agir",
+              "Le roi, le sage, le devoir moral"
+            ],
+            [
+              "Destinataire",
+              "Celui qui profitera du succès de la quête",
+              "Le peuple, le héros lui-même"
+            ],
+            [
+              "Adjuvant",
+              "Les personnes ou objets qui aident le héros",
+              "L'épée enchantée, le cheval ailé, le compagnon fidèle"
+            ],
+            [
+              "Opposant",
+              "Ceux qui créent des obstacles pour faire échouer le héros",
+              "Le dragon féroce, le sorcier machiavélique"
+            ]
+          ]
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-actanciel-1",
+          "type": "qcm",
+          "consigne": "Identifiez les rôles actanciels.",
+          "questions": [
+            {
+              "enonce": "Dans le schéma actantiel, qui est le personnage central qui mène la quête ?",
+              "options": [
+                "Le sujet (ou héros)",
+                "L'opposant",
+                "Le décorateur",
+                "Le narrateur extérieur"
+              ],
+              "reponse": "Le sujet (ou héros)",
+              "explication": "Le sujet accomplit l'action principale."
+            },
+            {
+              "enonce": "Comment appelle-t-on le personnage ou l'objet magique qui apporte son aide au héros ?",
+              "options": [
+                "L'adjuvant (allié)",
+                "L'opposant",
+                "Le traître",
+                "Le rival"
+              ],
+              "reponse": "L'adjuvant (allié)",
+              "explication": "L'adjuvant aide le sujet à surmonter les obstacles."
+            },
+            {
+              "enonce": "Le personnage hostile qui empêche le héros de réussir sa mission est :",
+              "options": [
+                "L'opposant (ennemi)",
+                "L'adjuvant",
+                "Le destinateur",
+                "Le parrain"
+              ],
+              "reponse": "L'opposant (ennemi)",
+              "explication": "L'opposant crée le danger et les conflits."
+            },
+            {
+              "enonce": "Le but, le trésor ou la personne que le héros cherche à atteindre représente :",
+              "options": [
+                "L'objet de la quête",
+                "Le sujet",
+                "L'adjuvant",
+                "Le spectateur"
+              ],
+              "reponse": "L'objet de la quête",
+              "explication": "L'objet est ce vers quoi tend la quête du héros."
+            },
+            {
+              "enonce": "Celui qui confie la mission au départ (par exemple un roi demandant de sauver le royaume) est :",
+              "options": [
+                "Le destinateur",
+                "L'opposant",
+                "Le serviteur",
+                "Le figurant"
+              ],
+              "reponse": "Le destinateur",
+              "explication": "Le destinateur impulse la mission initiale."
+            },
+            {
+              "enonce": "Qui est le destinataire dans le schéma actantiel ?",
+              "options": [
+                "Celui qui bénéficie de la réussite de la quête",
+                "Celui qui combat le héros",
+                "L'auteur du roman",
+                "Le cheval du héros"
+              ],
+              "reponse": "Celui qui bénéficie de la réussite de la quête",
+              "explication": "Le destinataire recueille les bienfaits de l'accomplissement de la quête."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-actanciel-2",
+          "titre": "Vrai ou Faux : Les rôles actantiels",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le sujet est le personnage principal qui cherche à accomplir une mission.",
+              "reponse": true,
+              "explication": "Vrai. Le sujet (héros) est le moteur de la quête."
+            },
+            {
+              "enonce": "L'opposant aide le héros à franchir toutes les épreuves sans difficulté.",
+              "reponse": false,
+              "explication": "Faux. L'opposant fait obstacle et combat le sujet."
+            },
+            {
+              "enonce": "L'adjuvant est l'allié ou l'objet magique qui prête main-forte au héros.",
+              "reponse": true,
+              "explication": "Vrai. Ex. : la marraine fée, l'épée magique."
+            },
+            {
+              "enonce": "Le destinateur est celui qui ordonne ou motive la mission au départ.",
+              "reponse": true,
+              "explication": "Vrai. C'est le commanditaire de la quête (ex: le roi demandant de sauver sa fille)."
+            },
+            {
+              "enonce": "L'objet est toujours une somme d'argent liquide.",
+              "reponse": false,
+              "explication": "Faux. L'objet de la quête peut être l'amour d'une princesse, la paix du royaume, un trésor ou la liberté."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-actanciel-3",
+          "titre": "Texte à trous : Schéma actantiel",
+          "consigne": "Complétez chaque phrase avec le rôle actantiel convenable.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le personnage qui soutient et aide le héros dans sa quête est un [adjuvant].",
+              "reponse": "adjuvant",
+              "acceptees": [
+                "adjuvant",
+                "allié",
+                "allie"
+              ],
+              "explication": "L'adjuvant facilite la réussite."
+            },
+            {
+              "enonce": "L'adversaire qui dresse des embûches contre le héros est un [opposant].",
+              "reponse": "opposant",
+              "acceptees": [
+                "opposant",
+                "ennemi"
+              ],
+              "explication": "L'opposant crée la difficulté dramatique."
+            },
+            {
+              "enonce": "Le but poursuivi par le héros représente l'[objet] de la quête.",
+              "reponse": "objet",
+              "acceptees": [
+                "objet"
+              ],
+              "explication": "L'objet désiré."
+            },
+            {
+              "enonce": "Celui qui tire bénéfice de la quête réussie est le [destinataire].",
+              "reponse": "destinataire",
+              "acceptees": [
+                "destinataire"
+              ],
+              "explication": "Le destinataire reçoit le fruit de la quête."
+            },
+            {
+              "enonce": "Le héros central qui mène l'aventure est le [sujet].",
+              "reponse": "sujet",
+              "acceptees": [
+                "sujet"
+              ],
+              "explication": "Le sujet actantiel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ac-debut-conte",
+      "categorie": "recit",
+      "titre": "Le début du conte : formules d'introduction et situation initiale",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le début d'un conte merveilleux plonge immédiatement le lecteur dans un monde imaginaire. Il commence par une **formule d'ouverture** stéréotypée et installe la **situation initiale** dans un état d'équilibre et de calme."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Élément du début",
+            "Rôle narratif",
+            "Exemples types"
+          ],
+          "lignes": [
+            [
+              "Formule d'introduction",
+              "Signale l'entrée dans l'univers imaginaire hors du temps réel.",
+              "« Il était une fois... », « En des temps très anciens... », « Jadis... »"
+            ],
+            [
+              "Présentation du héros",
+              "Nom, statut social, qualité morale ou particularité physique.",
+              "Un vieux bûcheron pauvre mais honnête ; une jeune princesse d'une beauté sans pareille."
+            ],
+            [
+              "Le cadre spatio-temporel",
+              "Espace imprécis et lointain propice au mystère.",
+              "Au cœur d'une forêt impénétrable ; dans un royaume lointain par-delà les mers."
+            ],
+            [
+              "Temps verbal dominant",
+              "L'imparfait de l'indicatif (description et durée continue).",
+              "Un roi régnait avec sagesse, le peuple vivait en paix."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Exemple d'ouverture classique :**\n« *Il était une fois* un roi et une reine qui *étaient* si tristes de ne point avoir d'enfants qu'ils ne pouvaient se consoler. Ils *voyaient* défiler les années dans la paix de leur grand château... »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-debut-1",
+          "titre": "QCM : Les secrets d'ouverture du conte",
+          "consigne": "Sélectionnez la bonne réponse concernant le début du conte.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Quelle est la formule d'introduction universelle la plus célèbre des contes ?",
+              "options": [
+                "Il était une fois...",
+                "Hier matin à huit heures...",
+                "Selon le journal d'aujourd'hui...",
+                "Pour commencer mon exposé..."
+              ],
+              "reponse": "Il était une fois...",
+              "explication": "C'est la formule d'ouverture rituelle qui installe l'imaginaire intemporel."
+            },
+            {
+              "enonce": "Quel temps verbal utilise-t-on principalement dans la situation initiale pour décrire le cadre et les personnages ?",
+              "options": [
+                "L'imparfait de l'indicatif",
+                "Le futur simple",
+                "L'impératif présent",
+                "Le subjonctif passé"
+              ],
+              "reponse": "L'imparfait de l'indicatif",
+              "explication": "L'imparfait exprime l'état de calme, la description et les habitudes durables."
+            },
+            {
+              "enonce": "Dans un conte, le lieu où se déroule l'histoire est généralement :",
+              "options": [
+                "Un royaume lointain ou une forêt mystérieuse imprécise",
+                "L'adresse exacte de la mairie de la ville",
+                "Une station spatiale sur Mars",
+                "Une école moderne avec des ordinateurs"
+              ],
+              "reponse": "Un royaume lointain ou une forêt mystérieuse imprécise",
+              "explication": "Le conte situe son décor dans un espace imaginaire intemporel."
+            },
+            {
+              "enonce": "Quel événement vient brutalement interrompre la situation initiale et déclencher l'aventure ?",
+              "options": [
+                "L'élément perturbateur (ou modificateur)",
+                "La situation finale",
+                "La morale de la fin",
+                "Le titre du livre"
+              ],
+              "reponse": "L'élément perturbateur (ou modificateur)",
+              "explication": "L'élément modificateur brise l'équilibre et force le héros à agir."
+            },
+            {
+              "enonce": "Par quel mot de liaison ou connecteur introduit-on souvent l'élément modificateur ?",
+              "options": [
+                "Soudain, un jour, tout à coup",
+                "C'est ainsi que, désormais",
+                "Depuis ce temps-là",
+                "En conclusion"
+              ],
+              "reponse": "Soudain, un jour, tout à coup",
+              "explication": "Ces connecteurs marquent la rupture soudaine de l'équilibre initial."
+            },
+            {
+              "enonce": "Dans la situation initiale, les personnages vivent généralement :",
+              "options": [
+                "Dans une situation d'équilibre (paix ou pauvreté stable)",
+                "En plein combat final contre le dragon",
+                "Dans un banquet de célébration après le mariage",
+                "Dans un avion en détresse"
+              ],
+              "reponse": "Dans une situation d'équilibre (paix ou pauvreté stable)",
+              "explication": "La situation initiale décrit un état stable avant toute péripétie."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-debut-2",
+          "titre": "Vrai ou Faux : L'univers du conte",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Un conte commence souvent par une date historique très précise (ex. : le 14 juillet 1789).",
+              "reponse": false,
+              "explication": "Faux. Le conte se situe hors du temps historique réel (« jadis », « autrefois »)."
+            },
+            {
+              "enonce": "L'élément perturbateur s'exprime très souvent avec un verbe au passé simple.",
+              "reponse": true,
+              "explication": "Vrai. Le passé simple traduit l'action soudaine qui rompt le calme."
+            },
+            {
+              "enonce": "Dans la situation initiale, le héros est immédiatement en train de mourir.",
+              "reponse": false,
+              "explication": "Faux. On présente d'abord son identité, sa famille et son mode de vie paisible."
+            },
+            {
+              "enonce": "« Il était une fois » est une formule introductive typique du genre merveilleux.",
+              "reponse": true,
+              "explication": "Vrai. Elle signale l'entrée dans le conte."
+            },
+            {
+              "enonce": "Le cadre du conte peut être une forêt enchantée, un manoir isolé ou un château royal.",
+              "reponse": true,
+              "explication": "Vrai. Ce sont les décors emblématiques des contes traditionnels."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-debut-3",
+          "titre": "Texte à trous : Début de conte",
+          "consigne": "Complétez le texte avec le mot narratif approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "« Il [était] une fois un brave pêcheur qui habitait près d'un grand lac. »",
+              "reponse": "était",
+              "acceptees": [
+                "était",
+                "etait"
+              ],
+              "explication": "Formule canonique avec le verbe être à l'imparfait."
+            },
+            {
+              "enonce": "La première étape du schéma narratif s'appelle la situation [initiale].",
+              "reponse": "initiale",
+              "acceptees": [
+                "initiale"
+              ],
+              "explication": "Elle présente le départ de l'histoire."
+            },
+            {
+              "enonce": "Un beau matin, [soudain], un monstre apparut au milieu des flots.",
+              "reponse": "soudain",
+              "acceptees": [
+                "soudain",
+                "brusquement"
+              ],
+              "explication": "Connecteur temporel marquant la rupture."
+            },
+            {
+              "enonce": "L'événement inattendu qui déclenche les aventures est l'élément [perturbateur].",
+              "reponse": "perturbateur",
+              "acceptees": [
+                "perturbateur",
+                "modificateur"
+              ],
+              "explication": "Il perturbe le calme de départ."
+            },
+            {
+              "enonce": "Le temps du récit qui sert à brosser le portrait des héros au début est l'[imparfait].",
+              "reponse": "imparfait",
+              "acceptees": [
+                "imparfait"
+              ],
+              "explication": "L'imparfait est le temps de la description."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ac-actions-dialogue",
+      "categorie": "recit",
+      "titre": "L'insertion du dialogue dans le récit : ponctuation et verbes de parole",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Insérer un dialogue dans un récit rend l'histoire plus **vivante, animée et réaliste**. Le dialogue obéit à des **règles strictes de ponctuation** et utilise une variété de **verbes introducteurs** (verbes de parole)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Signe de ponctuation",
+            "Rôle dans le dialogue",
+            "Exemple d'emploi"
+          ],
+          "lignes": [
+            [
+              "Les deux-points ( : )",
+              "Annoncent que quelqu'un va prendre la parole.",
+              "Le loup s'approcha et dit :"
+            ],
+            [
+              "Les guillemets (« ... »)",
+              "Ouvrent et ferment l'ensemble de la conversation.",
+              "« Où vas-tu ainsi ? »"
+            ],
+            [
+              "Le tiret cadratin ( — )",
+              "Marque le changement d'interlocuteur à chaque réplique.",
+              "— Je vais voir ma grand-mère."
+            ],
+            [
+              "Verbes introducteurs",
+              "Précisent le ton, le sentiment ou l'intention de celui qui parle.",
+              "*Murmurer, crier, supplier, s'exclamer, rétorquer, bégayer.*"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Exemple bien ponctué :**\nLe prince s'agenouilla devant la fée et demanda :\n« — Pourrez-vous m'aider à vaincre le géant ?\n— Prends cette épée magique, répondit-elle d'une voix douce, elle tranchera l'acier comme du beurre. »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-dial-1",
+          "titre": "QCM : La ponctuation et les verbes du dialogue",
+          "consigne": "Identifiez la règle correcte du dialogue dans le récit.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Quel signe de ponctuation indique à chaque nouvelle ligne qu'un autre personnage prend la parole ?",
+              "options": [
+                "Le tiret ( — )",
+                "Le point-virgule ( ; )",
+                "Les parenthèses",
+                "Le point d'interrogation"
+              ],
+              "reponse": "Le tiret ( — )",
+              "explication": "Le tiret en début de ligne signale l'alternance des répliques."
+            },
+            {
+              "enonce": "Parmi ces verbes, lequel remplace avantageusement le verbe 'dire' pour exprimer une vive colère ?",
+              "options": [
+                "Hurler (ou tempêter)",
+                "Chuchoter",
+                "Bégayer",
+                "Soupirer"
+              ],
+              "reponse": "Hurler (ou tempêter)",
+              "explication": "Hurler traduit une voix forte et emportée par la colère."
+            },
+            {
+              "enonce": "Quels signes ouvrent et ferment l'ensemble du dialogue dans un texte en français ?",
+              "options": [
+                "Les guillemets français (« ... »)",
+                "Des crochets",
+                "Des astérisques",
+                "Des barres obliques"
+              ],
+              "reponse": "Les guillemets français (« ... »)",
+              "explication": "Les guillemets encadrent la prise de parole directe."
+            },
+            {
+              "enonce": "Dans : « Que fais-tu là ? demanda-t-il », où est placé le verbe introducteur ?",
+              "options": [
+                "En incise (inversé après la réplique)",
+                "Avant le texte",
+                "À la fin du roman",
+                "Dans une note de bas de page"
+              ],
+              "reponse": "En incise (inversé après la réplique)",
+              "explication": "Une proposition incise s'insère au milieu ou à la fin des paroles rapportées."
+            },
+            {
+              "enonce": "Quel verbe de parole utilise-t-on pour parler tout bas sans être entendu ?",
+              "options": [
+                "Chuchoter (ou murmurer)",
+                "Proclamer",
+                "Scander",
+                "Revendiquer"
+              ],
+              "reponse": "Chuchoter (ou murmurer)",
+              "explication": "Chuchoter signifie parler à voix très basse."
+            },
+            {
+              "enonce": "Que se passe-t-il pour le sujet dans une proposition incise (« dit le roi ») ?",
+              "options": [
+                "Le sujet est inversé (placé après le verbe)",
+                "Le sujet disparaît toujours",
+                "Le sujet se met en majuscules",
+                "Le verbe s'écrit en latin"
+              ],
+              "reponse": "Le sujet est inversé (placé après le verbe)",
+              "explication": "Dans l'incise, l'inversion sujet-verbe est obligatoire."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-dial-2",
+          "titre": "Vrai ou Faux : Les conventions du dialogue",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "On doit répéter « dit-il » à chaque phrase sans jamais varier les verbes de parole.",
+              "reponse": false,
+              "explication": "Faux. La variété des verbes introducteurs enrichit le texte et précise les émotions."
+            },
+            {
+              "enonce": "Dans une proposition incise, le pronom sujet est placé après le verbe (ex. : « répondit-elle »).",
+              "reponse": true,
+              "explication": "Vrai. C'est la règle de l'inversion en incise."
+            },
+            {
+              "enonce": "Le dialogue permet au lecteur de mieux cerner le caractère et les sentiments des personnages.",
+              "reponse": true,
+              "explication": "Vrai. La manière de s'exprimer révèle la personnalité."
+            },
+            {
+              "enonce": "Avant d'ouvrir les guillemets d'un dialogue, on place habituellement deux-points ( : ).",
+              "reponse": true,
+              "explication": "Vrai. Les deux-points annoncent la parole directe."
+            },
+            {
+              "enonce": "On peut écrire un dialogue sans aucun tiret ni guillemet ni ponctuation.",
+              "reponse": false,
+              "explication": "Faux. La ponctuation du dialogue est indispensable pour la clarté de la lecture."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-dial-3",
+          "titre": "Texte à trous : Verbes de parole",
+          "consigne": "Complétez chaque réplique avec le verbe de parole adapté.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "« Au secours ! À l'aide ! » (crier) [cria] le voyageur attaqué par les loups.",
+              "reponse": "cria",
+              "acceptees": [
+                "cria",
+                "hurla"
+              ],
+              "explication": "Crier ou hurler correspond à l'appel de détresse au passé simple."
+            },
+            {
+              "enonce": "« Je vous en supplie, épargnez-moi ! » (supplier) [supplia] le pauvre captif.",
+              "reponse": "supplia",
+              "acceptees": [
+                "supplia"
+              ],
+              "explication": "Supplier traduit une prière désespérée."
+            },
+            {
+              "enonce": "« Ne faites aucun bruit, ils dorment », (chuchoter) [chuchota] Ali à voix basse.",
+              "reponse": "chuchota",
+              "acceptees": [
+                "chuchota",
+                "murmura"
+              ],
+              "explication": "Chuchota traduit la discrétion."
+            },
+            {
+              "enonce": "« C'est faux, je n'ai rien volé ! » (rétorquer) [rétorqua] l'enfant avec force.",
+              "reponse": "rétorqua",
+              "acceptees": [
+                "rétorqua",
+                "retorqua",
+                "répliqua",
+                "repliqua"
+              ],
+              "explication": "Rétorquer = répondre vivement en réplique."
+            },
+            {
+              "enonce": "La petite proposition insérée dans la réplique (comme « dit-il ») s'appelle une proposition [incise].",
+              "reponse": "incise",
+              "acceptees": [
+                "incise"
+              ],
+              "explication": "C'est le terme grammatical exact."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ac-expansions-du-nom",
+      "categorie": "gram",
+      "titre": "Les expansions du nom : adjectif épithète, complément du nom et proposition relative",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour enrichir un groupe nominal et préciser la description d'un être, d'un lieu ou d'un objet, on utilise des **expansions du nom**. Elles complètent le nom noyau."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Nature de l'expansion",
+            "Construction & Règle",
+            "Exemple illustré"
+          ],
+          "lignes": [
+            [
+              "L'adjectif qualificatif épithète",
+              "Placé directement avant ou après le nom sans virgule ni verbe.",
+              "Un *immense* palais *somptueux*."
+            ],
+            [
+              "Le complément du nom (CDN)",
+              "Relié au nom par une préposition (de, à, en, sans, pour, en fer...).",
+              "Une baguette *en bois d'ébène* ; le château *du roi*."
+            ],
+            [
+              "La proposition subordonnée relative",
+              "Introduite par un pronom relatif (qui, que, où, dont) et contenant un verbe conjugué.",
+              "L'arbre *qui portait des fruits d'or*."
+            ],
+            [
+              "L'adjectif apposé (en apostrophe)",
+              "Séparé du nom par une virgule.",
+              "*Épuisé*, le héros s'endormit."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Exemple d'enrichissement progressif du nom :**\n• *Nom seul :* Une épée.\n• *+ Adjectif épithète :* Une épée **étincelante**.\n• *+ Complément du nom :* Une épée étincelante **en argent massif**.\n• *+ Proposition relative :* Une épée étincelante en argent massif **qui fendait la pierre**."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-exp-1",
+          "titre": "QCM : Identifier les expansions du nom",
+          "consigne": "Reconnaissez la fonction de l'élément souligné ou entre crochets.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Dans « Une maison [en bois] », quelle est la nature de l'expansion « en bois » ?",
+              "options": [
+                "Complément du nom (CDN)",
+                "Adjectif épithète",
+                "Proposition subordonnée relative",
+                "COD du verbe"
+              ],
+              "reponse": "Complément du nom (CDN)",
+              "explication": "Introduit par la préposition 'en', il complète le nom noyau 'maison'."
+            },
+            {
+              "enonce": "Dans « Le prince [qui délivra la princesse] était vaillant », quelle est la nature de l'expansion entre crochets ?",
+              "options": [
+                "Proposition subordonnée relative",
+                "Complément du nom",
+                "Adjectif qualificatif attribut",
+                "Pronom possessif"
+              ],
+              "reponse": "Proposition subordonnée relative",
+              "explication": "Elle comporte le pronom relatif 'qui' et le verbe conjugué 'délivra'."
+            },
+            {
+              "enonce": "Dans « Un ciel *sombre* et *orageux* », quelle est la fonction grammaticale des deux adjectifs ?",
+              "options": [
+                "Épithètes liées au nom 'ciel'",
+                "Attributs du sujet",
+                "Compléments de lieu",
+                "Sujets du verbe"
+              ],
+              "reponse": "Épithètes liées au nom 'ciel'",
+              "explication": "Ils sont accolés directement au nom 'ciel' sans verbe d'état."
+            },
+            {
+              "enonce": "Par quelle préposition relie-t-on le plus fréquemment un complément du nom à son noyau ?",
+              "options": [
+                "de (ou d')",
+                "avec",
+                "chez",
+                "sous"
+              ],
+              "reponse": "de (ou d')",
+              "explication": "La préposition 'de' est la plus courante (la couronne du roi, un panier de pommes)."
+            },
+            {
+              "enonce": "Dans « La robe [rouge] de Sarah », quelle est l'expansion 'rouge' ?",
+              "options": [
+                "Adjectif qualificatif épithète",
+                "Proposition complétive",
+                "Complément circonstanciel",
+                "Adverbe"
+              ],
+              "reponse": "Adjectif qualificatif épithète",
+              "explication": "'Rouge' qualifie directement le nom 'robe'."
+            },
+            {
+              "enonce": "Quelle est la particularité d'un adjectif attribut par rapport à l'adjectif épithète ?",
+              "options": [
+                "Il est séparé du sujet par un verbe d'état (être, sembler, devenir...)",
+                "Il est toujours écrit en rouge",
+                "Il ne s'accorde jamais en genre",
+                "Il se place toujours à la fin du livre"
+              ],
+              "reponse": "Il est séparé du sujet par un verbe d'état (être, sembler, devenir...)",
+              "explication": "L'attribut est relié au nom par un verbe attributif (ex: Ce château est immense)."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-exp-2",
+          "titre": "Vrai ou Faux : Les expansions",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "On peut supprimer les expansions du nom sans détruire la phrase minimale (« Un immense palais en marbre a disparu » → « Un palais a disparu »).",
+              "reponse": true,
+              "explication": "Vrai. Les expansions sont des éléments facultatifs qui précisent le sens."
+            },
+            {
+              "enonce": "Une proposition subordonnée relative ne contient jamais de verbe conjugué.",
+              "reponse": false,
+              "explication": "Faux. Par définition, une proposition contient au moins un verbe conjugué."
+            },
+            {
+              "enonce": "L'adjectif épithète s'accorde en genre et en nombre avec le nom qu'il qualifie.",
+              "reponse": true,
+              "explication": "Vrai. Règle fondamentale d'accord du groupe nominal."
+            },
+            {
+              "enonce": "Dans « Une montre en or », « en or » est un adverbe de temps.",
+              "reponse": false,
+              "explication": "Faux. C'est un complément du nom indiquant la matière."
+            },
+            {
+              "enonce": "Le pronom relatif « qui » remplace le plus souvent un sujet.",
+              "reponse": true,
+              "explication": "Vrai. 'L'homme qui chante' ('qui' est sujet de chante)."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-exp-3",
+          "titre": "Texte à trous : Expansions",
+          "consigne": "Complétez chaque phrase avec la bonne forme grammaticale.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le chevalier portait une armure (métal) en [métal].",
+              "reponse": "métal",
+              "acceptees": [
+                "métal",
+                "fer",
+                "acier"
+              ],
+              "explication": "Complément du nom de matière introduit par en."
+            },
+            {
+              "enonce": "La fleur [qui] s'épanouit au matin embaume la pièce.",
+              "reponse": "qui",
+              "acceptees": [
+                "qui"
+              ],
+              "explication": "Pronom relatif sujet."
+            },
+            {
+              "enonce": "Les deux princesses étaient vêtues de robes (vert) [vertes].",
+              "reponse": "vertes",
+              "acceptees": [
+                "vertes"
+              ],
+              "explication": "Accord de l'adjectif épithète au féminin pluriel."
+            },
+            {
+              "enonce": "Le nom principal enrichi par des expansions s'appelle le nom [noyau].",
+              "reponse": "noyau",
+              "acceptees": [
+                "noyau"
+              ],
+              "explication": "Le nom noyau est le centre du groupe nominal."
+            },
+            {
+              "enonce": "Dans « La boîte [à] merveilles », la préposition est « à ».",
+              "reponse": "à",
+              "acceptees": [
+                "à",
+                "a"
+              ],
+              "explication": "La préposition relie le complément au nom."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ac-types-formes-phrases",
+      "categorie": "gram",
+      "titre": "Les types et les formes de phrases",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Toute phrase en français appartient obligatoirement à **un des quatre types fondamentaux** et peut combiner **plusieurs formes** (affirmative/négative, active/passive, neutre/emphatique)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Type de phrase",
+            "Ponctuation finale",
+            "Intention du locuteur",
+            "Exemple"
+          ],
+          "lignes": [
+            [
+              "Déclarative",
+              "Point simple ( . )",
+              "Transmet une information, raconte un fait.",
+              "Le loup vit dans la forêt."
+            ],
+            [
+              "Interrogative",
+              "Point d'interrogation ( ? )",
+              "Pose une question pour obtenir une information.",
+              "Où est caché le trésor ?"
+            ],
+            [
+              "Exclamative",
+              "Point d'exclamation ( ! )",
+              "Exprime une vive émotion (joie, peur, surprise).",
+              "Quelle magnifique aventure !"
+            ],
+            [
+              "Injonctive (impérative)",
+              "Point d'exclamation ou point",
+              "Donne un ordre, un conseil ou une interdiction.",
+              "Écoutez attentivement ce récit."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Combinaison type et forme :**\n« N'entrez pas dans ce château sombre ! »\n• **Type :** Injonctif / impératif (donne un ordre/interdiction).\n• **Forme :** Négative (présence de *ne... pas*)."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-types-1",
+          "titre": "QCM : Identifier types et formes",
+          "consigne": "Reconnaissez le type ou la forme de chaque phrase.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "« Ne t'éloigne jamais du sentier battu ! » Quel est le type de cette phrase ?",
+              "options": [
+                "Type injonctif (ou impératif)",
+                "Type déclaratif",
+                "Type interrogatif",
+                "Type interrogatif indirect"
+              ],
+              "reponse": "Type injonctif (ou impératif)",
+              "explication": "La phrase exprime un ordre ou une mise en garde à l'impératif."
+            },
+            {
+              "enonce": "« Comme cette princesse est généreuse ! » Quel est ce type de phrase ?",
+              "options": [
+                "Type exclamatif",
+                "Type déclaratif",
+                "Type injonctif",
+                "Type interrogatif"
+              ],
+              "reponse": "Type exclamatif",
+              "explication": "Introduite par « comme » et terminée par un point d'exclamation, elle traduit l'admiration."
+            },
+            {
+              "enonce": "Quelle est la forme de la phrase : « Le vaillant chevalier n'a jamais fui le combat » ?",
+              "options": [
+                "Forme négative (ne... jamais)",
+                "Forme affirmative",
+                "Forme passive",
+                "Forme interrogative"
+              ],
+              "reponse": "Forme négative (ne... jamais)",
+              "explication": "La négation est marquée par les mots 'ne... jamais'."
+            },
+            {
+              "enonce": "Quel mot de négation utilise-t-on pour nier la quantité (« Il a vu quelqu'un ») ?",
+              "options": [
+                "Ne... personne",
+                "Ne... jamais",
+                "Ne... plus",
+                "Ne... guère"
+              ],
+              "reponse": "Ne... personne",
+              "explication": "« Quelqu'un » a pour négation « personne » (Il n'a vu personne)."
+            },
+            {
+              "enonce": "La phrase déclarative se termine traditionnellement par :",
+              "options": [
+                "Un point simple ( . )",
+                "Un point d'interrogation",
+                "Des points de suspension obligatoires",
+                "Un point-virgule"
+              ],
+              "reponse": "Un point simple ( . )",
+              "explication": "Le point simple clôt l'énoncé déclaratif."
+            },
+            {
+              "enonce": "« C'est ce héros qui a triomphé du dragon. » Quelle est la forme particulière de cette phrase ?",
+              "options": [
+                "Forme emphatique (mise en relief avec c'est... qui)",
+                "Forme négative",
+                "Forme passive",
+                "Forme interrogative"
+              ],
+              "reponse": "Forme emphatique (mise en relief avec c'est... qui)",
+              "explication": "La structure 'c'est... qui' extrait le sujet pour le mettre en valeur."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-types-2",
+          "titre": "Vrai ou Faux : Types et formes",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Une phrase impérative peut être à la forme négative (« Ne courez pas »).",
+              "reponse": true,
+              "explication": "Vrai. L'impératif négatif exprime l'interdiction ou la défense."
+            },
+            {
+              "enonce": "Une phrase exclamative se termine obligatoirement par un point d'interrogation.",
+              "reponse": false,
+              "explication": "Faux. Elle se termine par un point d'exclamation (!)."
+            },
+            {
+              "enonce": "Il existe quatre types de phrases obligatoires et plusieurs formes facultatives.",
+              "reponse": true,
+              "explication": "Vrai. Chaque phrase a un seul type et peut combiner plusieurs formes."
+            },
+            {
+              "enonce": "La phrase « Personne ne parle » est à la forme négative.",
+              "reponse": true,
+              "explication": "Vrai. 'Personne... ne' est une locution négative."
+            },
+            {
+              "enonce": "Une phrase déclarative sert uniquement à poser une question au professeur.",
+              "reponse": false,
+              "explication": "Faux. Poser une question relève du type interrogatif ; la déclarative donne une information."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-types-3",
+          "titre": "Texte à trous : Négation et types",
+          "consigne": "Complétez chaque phrase avec la marque ou le terme approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le type de phrase qui sert à donner un ordre est le type [impératif] ou injonctif.",
+              "reponse": "impératif",
+              "acceptees": [
+                "impératif",
+                "imperatif",
+                "injonctif"
+              ],
+              "explication": "L'impératif donne ordres et conseils."
+            },
+            {
+              "enonce": "La négation de « Il fait encore froid » est « Il [ne] fait plus froid ».",
+              "reponse": "ne",
+              "acceptees": [
+                "ne",
+                "n'"
+              ],
+              "explication": "Ne... plus nie la continuité exprimée par encore."
+            },
+            {
+              "enonce": "La phrase « [Quelle] surprise agréable ! » est une phrase exclamative.",
+              "reponse": "Quelle",
+              "acceptees": [
+                "Quelle",
+                "quelle"
+              ],
+              "explication": "Quel / quelle introduit l'exclamation admirative."
+            },
+            {
+              "enonce": "La forme opposée à la forme affirmative est la forme [négative].",
+              "reponse": "négative",
+              "acceptees": [
+                "négative",
+                "negative"
+              ],
+              "explication": "La forme négative nie le prédicat."
+            },
+            {
+              "enonce": "Une phrase qui met en relief un élément par 'c'est... qui' est à la forme [emphatique].",
+              "reponse": "emphatique",
+              "acceptees": [
+                "emphatique"
+              ],
+              "explication": "L'emphase insiste sur le constituant extrait."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ac-cod-coi-complements",
+      "categorie": "gram",
+      "titre": "Les compléments d'objet (COD, COI) et les compléments circonstanciels",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans la phrase, le verbe s'accompagne de compléments essentiels (**COD, COI**) qui ne peuvent être ni déplacés ni supprimés sans altérer le sens, et de compléments circonstanciels (**temps, lieu, manière**) qui peuvent être déplacés ou supprimés."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Fonction grammaticale",
+            "Question de repérage",
+            "Lien avec le verbe",
+            "Exemple illustré"
+          ],
+          "lignes": [
+            [
+              "COD (Complément d'Objet Direct)",
+              "Verbe + Qui ? / Quoi ?",
+              "Direct (sans préposition).",
+              "Le chasseur aperçoit *le cerf blanc*."
+            ],
+            [
+              "COI (Complément d'Objet Indirect)",
+              "Verbe + À qui ? / À quoi ? / De qui ? / De quoi ?",
+              "Indirect (relié par préposition : à, de).",
+              "Le prince parle *à la fée*."
+            ],
+            [
+              "CC de Lieu",
+              "Verbe + Où ?",
+              "Déplaçable et supprimable.",
+              "*Dans la forêt*, le silence régnait."
+            ],
+            [
+              "CC de Temps",
+              "Verbe + Quand ?",
+              "Déplaçable et supprimable.",
+              "Ils partirent *à l'aube*."
+            ],
+            [
+              "CC de Manière",
+              "Verbe + Comment ?",
+              "Déplaçable et supprimable.",
+              "Le chevalier combattit *avec bravoure*."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Test de la suppression :**\n« Tous les matins (CC temps), le fermier nourrit ses volailles (COD) avec soin (CC manière). »\n→ Si l'on supprime les CC : « Le fermier nourrit ses volailles » (la phrase reste parfaitement correcte).\n→ On ne peut pas supprimer le COD : *« Le fermier nourrit »* laisse la phrase incomplète."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-comp-1",
+          "titre": "QCM : Identifier la fonction du complément",
+          "consigne": "Déterminez la fonction exacte de l'élément entre crochets.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Dans « Ali lit [un conte captivant] », quelle est la fonction du groupe entre crochets ?",
+              "options": [
+                "Complément d'objet direct (COD)",
+                "Complément d'objet indirect (COI)",
+                "CC de lieu",
+                "Attribut du sujet"
+              ],
+              "reponse": "Complément d'objet direct (COD)",
+              "explication": "Ali lit quoi ? → 'un conte captivant' (relié directement sans préposition)."
+            },
+            {
+              "enonce": "Dans « L'enfant téléphone [à sa grand-mère] », quelle est la fonction du groupe ?",
+              "options": [
+                "Complément d'objet indirect (COI)",
+                "Complément d'objet direct (COD)",
+                "CC de manière",
+                "Complément d'agent"
+              ],
+              "reponse": "Complément d'objet indirect (COI)",
+              "explication": "Téléphone à qui ? → 'à sa grand-mère' (relié par la préposition 'à')."
+            },
+            {
+              "enonce": "Dans « [Pendant trois jours], la tempête fit rage », quelle est la fonction du groupe ?",
+              "options": [
+                "Complément circonstanciel de temps (CC temps)",
+                "COD",
+                "COI",
+                "Sujet inversé"
+              ],
+              "reponse": "Complément circonstanciel de temps (CC temps)",
+              "explication": "Il répond à la question « quand / pendant combien de temps » et peut être déplacé."
+            },
+            {
+              "enonce": "Dans « Les cavaliers s'avancent [silencieusement] », quel est le complément ?",
+              "options": [
+                "CC de manière",
+                "CC de cause",
+                "COD",
+                "Attribut"
+              ],
+              "reponse": "CC de manière",
+              "explication": "Comment s'avancent-ils ? → silencieusement (adverbe de manière)."
+            },
+            {
+              "enonce": "Parmi ces compléments, lequel est essentiel et ne peut pas être supprimé ?",
+              "options": [
+                "Le COD",
+                "Le CC de temps",
+                "Le CC de lieu",
+                "Le CC de moyen"
+              ],
+              "reponse": "Le COD",
+              "explication": "Le COD complète directement le sens du verbe transitif direct."
+            },
+            {
+              "enonce": "Dans « Il a offert un livre à son frère », que représente 'à son frère' ?",
+              "options": [
+                "Complément d'objet second (COS) / COI",
+                "Sujet",
+                "CC de lieu",
+                "Adjectif qualificatif"
+              ],
+              "reponse": "Complément d'objet second (COS) / COI",
+              "explication": "Quand un verbe a déjà un COD ('un livre'), le second complément indirect est appelé COS ou COI."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-comp-2",
+          "titre": "Vrai ou Faux : Les compléments du verbe",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Un complément circonstanciel peut presque toujours être déplacé en début de phrase.",
+              "reponse": true,
+              "explication": "Vrai. La mobilité est la propriété des compléments circonstanciels."
+            },
+            {
+              "enonce": "Le COD est toujours relié au verbe par la préposition « chez ».",
+              "reponse": false,
+              "explication": "Faux. Le COD est direct, donc sans préposition."
+            },
+            {
+              "enonce": "Les verbes intransitifs (comme dormir, marcher, tomber) n'ont pas de COD.",
+              "reponse": true,
+              "explication": "Vrai. Les verbes intransitifs n'admettent pas d'objet direct."
+            },
+            {
+              "enonce": "Dans « Il songe à son avenir », « à son avenir » est un complément de lieu.",
+              "reponse": false,
+              "explication": "Faux. C'est un COI (songer à quoi ?)."
+            },
+            {
+              "enonce": "Un pronom personnel peut être COD (ex. : « Il *le* regarde »).",
+              "reponse": true,
+              "explication": "Vrai. Les pronoms le, la, les, l' occupent la fonction de COD."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-comp-3",
+          "titre": "Texte à trous : Repérage des compléments",
+          "consigne": "Complétez chaque phrase avec le type de complément approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le complément d'objet qui se construit sans préposition est le [COD].",
+              "reponse": "COD",
+              "acceptees": [
+                "COD",
+                "direct"
+              ],
+              "explication": "Complément d'Objet Direct."
+            },
+            {
+              "enonce": "Dans « Il habite [à] Fès », le complément circonstanciel de lieu est introduit par la préposition « à ».",
+              "reponse": "à",
+              "acceptees": [
+                "à",
+                "a"
+              ],
+              "explication": "Préposition de lieu."
+            },
+            {
+              "enonce": "Le complément circonstanciel qui répond à la question « comment ? » est le CC de [manière].",
+              "reponse": "manière",
+              "acceptees": [
+                "manière",
+                "maniere"
+              ],
+              "explication": "Il renseigne sur la manière."
+            },
+            {
+              "enonce": "Dans « Sarah écrit une lettre à sa mère », « à sa mère » est un [COI] (ou COS).",
+              "reponse": "COI",
+              "acceptees": [
+                "COI",
+                "COS"
+              ],
+              "explication": "Complément d'Objet Indirect."
+            },
+            {
+              "enonce": "Un verbe qui exige un complément d'objet direct est appelé verbe [transitif].",
+              "reponse": "transitif",
+              "acceptees": [
+                "transitif"
+              ],
+              "explication": "Transitif direct."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ac-homophones-grammaticaux",
+      "categorie": "orth",
+      "titre": "Les homophones grammaticaux fondamentaux (a/à, et/est, son/sont, on/ont, ou/où)",
+      "niveau": "1ère AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les **homophones** sont des mots qui se prononcent de la même façon mais qui ont une orthographe et une nature grammaticale différentes. Pour ne plus les confondre, on applique des **astuces de substitution**."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Paire d'homophones",
+            "Nature grammaticale",
+            "Astuce de substitution infaillible",
+            "Exemples d'application"
+          ],
+          "lignes": [
+            [
+              "a / à",
+              "a = verbe avoir (présent)\nà = préposition invariable",
+              "Remplacer par « avait » : si c'est possible → a (sans accent). Sinon → à.",
+              "Il *a* un livre (il *avait* un livre) // Il va *à* l'école (*avait* impossible)."
+            ],
+            [
+              "et / est",
+              "est = verbe être (présent)\net = conjonction de coordination",
+              "Remplacer par « était » : si c'est possible → est. Si on peut dire « et puis » → et.",
+              "Le ciel *est* bleu (le ciel *était* bleu) // Le loup *et* l'agneau."
+            ],
+            [
+              "son / sont",
+              "sont = verbe être (ils sont)\nson = déterminant possessif",
+              "Remplacer par « étaient » : si possible → sont. Remplacer par « mon » → son.",
+              "Ils *sont* partis (ils *étaient* partis) // Il prend *son* sac (mon sac)."
+            ],
+            [
+              "on / ont",
+              "ont = verbe avoir (ils ont)\non = pronom personnel sujet",
+              "Remplacer par « avaient » : si possible → ont. Remplacer par « il » → on.",
+              "Ils *ont* faim (ils *avaient* faim) // *On* chante (il chante)."
+            ],
+            [
+              "ou / où",
+              "où = lieu ou temps (pronom/adverbe)\nou = choix (conjonction)",
+              "Remplacer par « ou bien » : si possible → ou (sans accent). Sinon → où.",
+              "Thé *ou* café (*ou bien* café) // La maison *où* je suis né."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Phrase mnémotechnique :**\n« **On** (*il*) m'a dit qu'ils **ont** (*avaient*) voyagé **à** Marrakech **et** (*et puis*) qu'ils **sont** (*étaient*) arrivés **où** (*lieu*) ils voulaient. »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "1ac-ex-homo-1",
+          "titre": "QCM : Choix de l'homophone correct",
+          "consigne": "Sélectionnez l'orthographe qui convient pour chaque phrase.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Choisissez la bonne graphie : « Le voyageur ... perdu sa boussole ... cause du brouillard. »",
+              "options": [
+                "a / à",
+                "à / a",
+                "a / a",
+                "à / à"
+              ],
+              "reponse": "a / à",
+              "explication": "« avait perdu » est possible → a. « avait cause » est impossible → préposition à."
+            },
+            {
+              "enonce": "« Ils ... très heureux de retrouver leur famille ... leurs amis. »",
+              "options": [
+                "sont / et",
+                "son / et",
+                "sont / est",
+                "son / est"
+              ],
+              "reponse": "sont / et",
+              "explication": "« étaient très heureux » → sont. « et puis leurs amis » → et."
+            },
+            {
+              "enonce": "« ... frappe à la porte ; les enfants ... peur d'ouvrir. »",
+              "options": [
+                "On / ont",
+                "Ont / on",
+                "On / on",
+                "Ont / ont"
+              ],
+              "reponse": "On / ont",
+              "explication": "« Il frappe » → pronom On. « avaient peur » → verbe ont."
+            },
+            {
+              "enonce": "« Choisis vite : tu prends le train ... l'autocar ? »",
+              "options": [
+                "ou (sans accent)",
+                "où (avec accent)",
+                "hou",
+                "oût"
+              ],
+              "reponse": "ou (sans accent)",
+              "explication": "On peut dire « ou bien l'autocar » (expression d'un choix)."
+            },
+            {
+              "enonce": "« La ville ... il habite est réputée pour ses remparts. »",
+              "options": [
+                "où (avec accent)",
+                "ou (sans accent)",
+                "hou",
+                "houx"
+              ],
+              "reponse": "où (avec accent)",
+              "explication": "« Où » indique le lieu géographique."
+            },
+            {
+              "enonce": "« Ali ... son cartable ... prêt à partir. »",
+              "options": [
+                "et / est",
+                "est / et",
+                "est / est",
+                "et / et"
+              ],
+              "reponse": "et / est",
+              "explication": "« Ali et puis son cartable » → et. « était prêt » → est."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-homo-2",
+          "titre": "Vrai ou Faux : Les règles de substitution",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Si l'on peut remplacer par « avait » dans la phrase, il faut écrire « à » avec un accent grave.",
+              "reponse": false,
+              "explication": "Faux. Si on peut remplacer par « avait », c'est le verbe avoir qui s'écrit « a » SANS accent."
+            },
+            {
+              "enonce": "« Où » avec un accent désigne un lieu ou un temps.",
+              "reponse": true,
+              "explication": "Vrai. Ex. : Le pays où je vis, le jour où il est né."
+            },
+            {
+              "enonce": "« Son » est un adjectif possessif que l'on peut remplacer par « mon » ou « ton ».",
+              "reponse": true,
+              "explication": "Vrai. Ex. : son ami → mon ami."
+            },
+            {
+              "enonce": "« Ont » s'écrit sans 't' lorsqu'il s'agit du verbe avoir au présent avec le sujet ils.",
+              "reponse": false,
+              "explication": "Faux. Le verbe avoir avec ils/elles prend toujours un 't' : ils ont."
+            },
+            {
+              "enonce": "« Et » est une conjonction de coordination qui relie deux mots ou deux propositions.",
+              "reponse": true,
+              "explication": "Vrai. Elle peut être remplacée par « et puis »."
+            }
+          ]
+        },
+        {
+          "id": "1ac-ex-homo-3",
+          "titre": "Texte à trous : Choisir le bon homophone",
+          "consigne": "Complétez chaque phrase avec l'homophone correct.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le chasseur [a] préparé son arc pour la battue.",
+              "reponse": "a",
+              "acceptees": [
+                "a"
+              ],
+              "explication": "Verbe avoir (avait préparé)."
+            },
+            {
+              "enonce": "Le conte [est] une histoire captivante pour les enfants.",
+              "reponse": "est",
+              "acceptees": [
+                "est"
+              ],
+              "explication": "Verbe être (était une histoire)."
+            },
+            {
+              "enonce": "Les élèves [sont] réunis dans la cour du collège.",
+              "reponse": "sont",
+              "acceptees": [
+                "sont"
+              ],
+              "explication": "Verbe être au pluriel (étaient réunis)."
+            },
+            {
+              "enonce": "Ils [ont] remporté le premier prix du concours d'écriture.",
+              "reponse": "ont",
+              "acceptees": [
+                "ont"
+              ],
+              "explication": "Verbe avoir (avaient remporté)."
+            },
+            {
+              "enonce": "La clairière [où] dansaient les fées s'illuminait la nuit.",
+              "reponse": "où",
+              "acceptees": [
+                "où",
+                "ou"
+              ],
+              "explication": "Indication de lieu → où."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

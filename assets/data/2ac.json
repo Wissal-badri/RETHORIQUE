@@ -1,0 +1,2144 @@
+{
+  "code": "2ac",
+  "nom": "2ème Année Collège",
+  "description": "Programme officiel de français de la 2ème Année Collégiale : le discours journalistique et médiatique (le journal scolaire), le texte théâtral et les outils de langue.",
+  "lecons": [
+    {
+      "id": "2ac-composition-une-journal",
+      "categorie": "media",
+      "titre": "La composition de la Une d'un journal",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La **Une** est la première page d'un journal papier. Elle joue le rôle de vitrine : elle doit attirer le lecteur, hiérarchiser l'actualité du jour et donner envie d'acheter le numéro."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Élément de la Une",
+            "Emplacement",
+            "Définition & Fonction"
+          ],
+          "lignes": [
+            [
+              "Le bandeau",
+              "Tout en haut de la page",
+              "Attire l'attention sur un thème particulier ou annonce un dossier spécial."
+            ],
+            [
+              "La manchette",
+              "En haut, très visible",
+              "Porte le titre ou le logo du journal, son prix, la date, le numéro et le slogan."
+            ],
+            [
+              "Les oreilles",
+              "De chaque côté de la manchette",
+              "Encadrés publicitaires ou annonces de rubriques phares."
+            ],
+            [
+              "La tribune / L'article de tête",
+              "Sous la manchette",
+              "L'emplacement le plus important réservé au titre principal de l'actualité."
+            ],
+            [
+              "Le sous-tribune (le ventre)",
+              "Au centre de la page",
+              "Articles de complément ou illustration centrale percutante."
+            ],
+            [
+              "Le rez-de-chaussée (le pied)",
+              "En bas de page",
+              "Annonces, feuilleton, suite d'articles ou encarts divers."
+            ],
+            [
+              "Le sommaire",
+              "En marge ou en encart",
+              "Liste des pages où retrouver chaque article ou rubrique."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Vocabulaire professionnel de la presse :**\n• *Quotidien :* paraissant chaque jour (ex. : Le Matin).\n• *Hebdomadaire :* paraissant chaque semaine.\n• *Mensuel :* paraissant une fois par mois.\n• *Chapeau :* court texte introductif en gras sous le titre qui résume l'article."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-une-1",
+          "titre": "QCM : Les composantes de la Une",
+          "consigne": "Cochez la bonne réponse sur l'organisation de la première page d'un journal.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Comment appelle-t-on la première page d'un journal d'actualité ?",
+              "options": [
+                "La Une",
+                "La préface",
+                "La quatrième de couverture",
+                "Le prologue"
+              ],
+              "reponse": "La Une",
+              "explication": "La première page d'un journal imprimé est universellement désignée comme la 'Une'."
+            },
+            {
+              "enonce": "Quelle partie de la Une comporte le nom du journal, sa date de parution et son prix ?",
+              "options": [
+                "La manchette",
+                "Le rez-de-chaussée",
+                "L'ours",
+                "Le ventre"
+              ],
+              "reponse": "La manchette",
+              "explication": "La manchette affiche en gros caractères le titre du journal et les mentions administratives."
+            },
+            {
+              "enonce": "Que désigne le terme 'quotidien' pour un journal de presse écrite ?",
+              "options": [
+                "Un journal qui paraît tous les jours",
+                "Un journal qui paraît une fois par mois",
+                "Un journal gratuit distribué le week-end",
+                "Un livre scolaire"
+              ],
+              "reponse": "Un journal qui paraît tous les jours",
+              "explication": "Quotidien = parution journalière (du latin quotidie, chaque jour)."
+            },
+            {
+              "enonce": "Comment appelle-t-on les deux petits espaces situés à droite et à gauche du titre de la manchette ?",
+              "options": [
+                "Les oreilles",
+                "Les bras",
+                "Les yeux",
+                "Les colonnes"
+              ],
+              "reponse": "Les oreilles",
+              "explication": "Les oreilles encadrent le titre du journal pour mettre en valeur un article ou une publicité."
+            },
+            {
+              "enonce": "Le court texte en caractères gras placé entre le titre d'un article et le corps du texte pour en résumer le contenu s'appelle :",
+              "options": [
+                "Le chapeau (ou chapô)",
+                "La légende",
+                "Le filet",
+                "La coquille"
+              ],
+              "reponse": "Le chapeau (ou chapô)",
+              "explication": "Le chapeau coiffe l'article et donne envie au lecteur d'approfondir la lecture."
+            },
+            {
+              "enonce": "La courte phrase explicative rédigée sous une photographie dans un journal est appelée :",
+              "options": [
+                "La légende",
+                "L'éditorial",
+                "L'intertitre",
+                "La manchette"
+              ],
+              "reponse": "La légende",
+              "explication": "La légende identifie la photo, donne le nom des personnes ou du photographe."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-une-2",
+          "titre": "Vrai ou Faux : Les règles de la presse écrite",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "La Une a pour seul objectif de remplir la page sans chercher à attirer le regard des acheteurs.",
+              "reponse": false,
+              "explication": "Faux. La Une est la vitrine commerciale et informative du journal."
+            },
+            {
+              "enonce": "Un journal qui paraît une fois par semaine est un hebdomadaire.",
+              "reponse": true,
+              "explication": "Vrai. Hebdomadaire vient du grec hebdomas (sept / semaine)."
+            },
+            {
+              "enonce": "Le sommaire de la Une permet au lecteur de repérer facilement le numéro de page des différentes rubriques.",
+              "reponse": true,
+              "explication": "Vrai. Le sommaire oriente immédiatement la lecture."
+            },
+            {
+              "enonce": "Dans un journal, les articles sont traditionnellement mis en page sous forme de colonnes verticales.",
+              "reponse": true,
+              "explication": "Vrai. La division en colonnes facilite la lecture rapide des textes étroits."
+            },
+            {
+              "enonce": "La tribune est située tout en bas de la page, sous les petites annonces.",
+              "reponse": false,
+              "explication": "Faux. La tribune est en haut sous la manchette ; le bas de page est le rez-de-chaussée."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-une-3",
+          "titre": "Texte à trous : Lexique de la Une",
+          "consigne": "Complétez chaque phrase avec le terme journalistique exact.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "La première page d'un journal s'appelle la [Une].",
+              "reponse": "Une",
+              "acceptees": [
+                "Une",
+                "une"
+              ],
+              "explication": "C'est la page capitale de tout titre de presse."
+            },
+            {
+              "enonce": "Le gros titre du journal imprimé en haut de la page figure dans la [manchette].",
+              "reponse": "manchette",
+              "acceptees": [
+                "manchette"
+              ],
+              "explication": "La manchette contient le nom officiel de la publication."
+            },
+            {
+              "enonce": "Le texte court placé au-dessus de l'article pour le résumer est le [chapeau].",
+              "reponse": "chapeau",
+              "acceptees": [
+                "chapeau",
+                "chapo",
+                "chapô"
+              ],
+              "explication": "Le chapeau résume en quelques lignes percutantes l'information."
+            },
+            {
+              "enonce": "La périodicité d'un magazine qui paraît tous les mois est [mensuel].",
+              "reponse": "mensuel",
+              "acceptees": [
+                "mensuel",
+                "mensuelle"
+              ],
+              "explication": "Un mensuel sort 12 fois par an."
+            },
+            {
+              "enonce": "Le bas de la Une est également appelé le [rez-de-chaussée] ou pied de page.",
+              "reponse": "rez-de-chaussée",
+              "acceptees": [
+                "rez-de-chaussée",
+                "rez de chaussee",
+                "pied"
+              ],
+              "explication": "Le rez-de-chaussée accueille des informations secondaires ou des encarts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ac-phrase-nominale-titres",
+      "categorie": "gram",
+      "titre": "La phrase nominale et la nominalisation dans les titres de presse",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans les titres de journaux, les journalistes privilégient la **phrase nominale** (phrase sans verbe conjugué construite autour d'un nom noyau). Elle apporte **concision, dynamisme et impact visuel immédiat**."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Procédé de nominalisation",
+            "Verbe initial",
+            "Nom d'action dérivé",
+            "Suffixes fréquents"
+          ],
+          "lignes": [
+            [
+              "Suffixe -tion / -ation",
+              "Démissionner / Augmenter",
+              "Démission / Augmentation",
+              "-tion, -ation, -ition"
+            ],
+            [
+              "Suffixe -ment",
+              "Effondrer / Ralentir",
+              "Effondrement / Ralentissement",
+              "-ment"
+            ],
+            [
+              "Suffixe -age",
+              "Atterrir / Nettoyer",
+              "Atterrissage / Nettoyage",
+              "-age"
+            ],
+            [
+              "Nominalisation sans suffixe (racine)",
+              "Arrêter / Refuser",
+              "Arrêt / Refus",
+              "Dérivation régressive / radical"
+            ],
+            [
+              "Phrase verbale vs Phrase nominale",
+              "« Les prix du carburant ont augmenté hier »",
+              "« Augmentation spectaculaire des prix du carburant »",
+              "Suppression du verbe conjugué au profit du nom d'action."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Transformation courante :**\n• *Phrase verbale :* « Le président a été réélu pour un second mandat. »\n• *Titre journalistique nominalisé :* « Réélection triomphale du président pour un second mandat. »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-nom-1",
+          "titre": "QCM : La nominalisation dans la presse",
+          "consigne": "Choisissez la bonne transformation nominale pour chaque phrase de presse.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Comment nominaliser la phrase : « Un nouveau vaccin a été découvert par les chercheurs » ?",
+              "options": [
+                "Découverte d'un nouveau vaccin par les chercheurs",
+                "Les chercheurs découvrent un vaccin",
+                "Le vaccin découvert est efficace",
+                "Découvrir un vaccin rapidement"
+              ],
+              "reponse": "Découverte d'un nouveau vaccin par les chercheurs",
+              "explication": "Le nom d'action dérivé du verbe 'découvrir' est 'découverte', formant une phrase nominale concise."
+            },
+            {
+              "enonce": "Quel est le nom d'action dérivé du verbe 'fermer' ?",
+              "options": [
+                "Fermeture",
+                "Fermement",
+                "Fermage",
+                "Fermition"
+              ],
+              "reponse": "Fermeture",
+              "explication": "Le verbe fermer donne le substantif féminin 'fermeture'."
+            },
+            {
+              "enonce": "Pourquoi les titres de journaux utilisent-ils massivement la phrase nominale ?",
+              "options": [
+                "Pour être plus courts, percutants et faciles à mémoriser",
+                "Parce que les journalistes ne connaissent pas la conjugaison",
+                "Pour faire des rimes poétiques",
+                "Pour rallonger les articles"
+              ],
+              "reponse": "Pour être plus courts, percutants et faciles à mémoriser",
+              "explication": "La brièveté du titre nominal capte immédiatement l'attention du lecteur pressé."
+            },
+            {
+              "enonce": "Quelle est la nominalisation correcte de : « Deux trains sont entrés en collision hier » ?",
+              "options": [
+                "Collision de deux trains hier",
+                "Deux trains se heurtent hier",
+                "Entrée en collision des trains",
+                "Les trains accidentés hier"
+              ],
+              "reponse": "Collision de deux trains hier",
+              "explication": "« Collision de deux trains » résume l'événement avec force et concision."
+            },
+            {
+              "enonce": "Quel suffixe est utilisé pour nominaliser le verbe 'développer' ?",
+              "options": [
+                "-ment (développement)",
+                "-tion (développation)",
+                "-age (développage)",
+                "-ure (développure)"
+              ],
+              "reponse": "-ment (développement)",
+              "explication": "Le suffixe -ment forme le substantif masculin 'développement'."
+            },
+            {
+              "enonce": "Parmi ces quatre énoncés, lequel est une phrase nominale ?",
+              "options": [
+                "Victoire historique des Lions de l'Atlas !",
+                "Les Lions de l'Atlas ont gagné le match.",
+                "L'équipe nationale jouera mardi prochain.",
+                "Le gardien de but a arrêté le penalty."
+              ],
+              "reponse": "Victoire historique des Lions de l'Atlas !",
+              "explication": "La phrase ne comporte aucun verbe conjugué ; son noyau est le nom « Victoire »."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-nom-2",
+          "titre": "Vrai ou Faux : Caractéristiques de la phrase nominale",
+          "consigne": "Indiquez si chaque affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Une phrase nominale s'articule obligatoirement autour d'un verbe conjugué au passé composé.",
+              "reponse": false,
+              "explication": "Faux. Par définition, une phrase nominale ne contient aucun verbe conjugué."
+            },
+            {
+              "enonce": "Le nom dérivé du verbe « disparaître » est « disparition ».",
+              "reponse": true,
+              "explication": "Vrai. Disparaître → disparition."
+            },
+            {
+              "enonce": "La phrase nominale ralentit le rythme de la lecture et crée de la lourdeur.",
+              "reponse": false,
+              "explication": "Faux. Elle accélère au contraire la perception de l'information."
+            },
+            {
+              "enonce": "La nominalisation permet de transformer une phrase verbale en groupe nominal sujet ou titre.",
+              "reponse": true,
+              "explication": "Vrai. Elle condense la proposition en un noyau nominal."
+            },
+            {
+              "enonce": "Les petites annonces et les panneaux routiers recourent souvent au style nominal (« Ralentissement travaux »).",
+              "reponse": true,
+              "explication": "Vrai. L'efficacité communicative commande le style nominal."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-nom-3",
+          "titre": "Texte à trous : Trouver le nom d'action",
+          "consigne": "Donnez le nom d'action correspondant au verbe indiqué.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le verbe 'construire' donne le nom d'action la [construction].",
+              "reponse": "construction",
+              "acceptees": [
+                "construction"
+              ],
+              "explication": "Construire → construction."
+            },
+            {
+              "enonce": "Le verbe 'déménager' donne le nom le [déménagement].",
+              "reponse": "déménagement",
+              "acceptees": [
+                "déménagement",
+                "demenagement"
+              ],
+              "explication": "Déménager → déménagement."
+            },
+            {
+              "enonce": "Le verbe 'atterrir' donne le nom l'[atterrissage].",
+              "reponse": "atterrissage",
+              "acceptees": [
+                "atterrissage"
+              ],
+              "explication": "Atterrir → atterrissage."
+            },
+            {
+              "enonce": "Le verbe 'visiter' donne le nom la [visite].",
+              "reponse": "visite",
+              "acceptees": [
+                "visite"
+              ],
+              "explication": "Visiter → visite (dérivation sans suffixe lourd)."
+            },
+            {
+              "enonce": "Le verbe 'partir' donne le nom d'action le [départ].",
+              "reponse": "départ",
+              "acceptees": [
+                "départ",
+                "depart"
+              ],
+              "explication": "Partir → départ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ac-editorial-presse",
+      "categorie": "media",
+      "titre": "L'éditorial : engagement et opinion dans la presse",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'**éditorial** (ou *l'édito*) est un article d'opinion rédigé par le rédacteur en chef ou un éditorialiste renommé. Contrairement à une simple dépêche factuelle, l'éditorial **prend position, analyse, juge et engage la responsabilité morale et politique du journal**."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Étape de l'éditorial",
+            "Rôle journalistique",
+            "Formules & Connecteurs"
+          ],
+          "lignes": [
+            [
+              "L'accroche (le fait d'actualité)",
+              "Partir d'un événement marquant récent.",
+              "« L'événement de cette semaine nous interpelle tous... »"
+            ],
+            [
+              "La prise de position (la thèse)",
+              "Affirmer clairement l'opinion de la rédaction.",
+              "« Nous estimons fermement que l'éducation doit être la priorité. »"
+            ],
+            [
+              "L'argumentation",
+              "Démontrer et convaincre avec 2 ou 3 arguments solides.",
+              "« D'abord..., d'autre part..., il est inadmissible que... »"
+            ],
+            [
+              "La conclusion mobilisatrice",
+              "Appeler à l'action ou éveiller les consciences.",
+              "« Il est grand temps d'agir avant qu'il ne soit trop tard. »"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Dans le cadre du journal scolaire :**\nL'éditorial du journal du collège présente les ambitions de l'équipe de rédaction, les projets de l'année (concours, club environnement) et invite l'ensemble des élèves et professeurs à participer activement."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-edito-1",
+          "titre": "QCM : Le rôle et la forme de l'éditorial",
+          "consigne": "Sélectionnez la bonne réponse concernant l'article éditorial.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Qui est habituellement chargé de rédiger l'éditorial d'un journal ?",
+              "options": [
+                "Le rédacteur en chef ou un éditorialiste",
+                "Le livreur de journaux",
+                "Le lecteur anonyme",
+                "L'imprimeur technique"
+              ],
+              "reponse": "Le rédacteur en chef ou un éditorialiste",
+              "explication": "L'éditorial reflète la ligne directrice du journal portée par sa direction de rédaction."
+            },
+            {
+              "enonce": "Quelle est la visée principale d'un éditorial ?",
+              "options": [
+                "Exprimer une opinion et convaincre les lecteurs sur un sujet d'actualité",
+                "Donner la recette d'un gâteau",
+                "Raconter une légende imaginaire",
+                "Annoncer les horaires de train"
+              ],
+              "reponse": "Exprimer une opinion et convaincre les lecteurs sur un sujet d'actualité",
+              "explication": "L'éditorial est un texte argumentatif d'engagement intellectuel."
+            },
+            {
+              "enonce": "L'éditorial est-il un texte purement neutre sans prise de position ?",
+              "options": [
+                "Non, il est subjectif et assume ouvertement un parti-pris",
+                "Oui, il est strictement objectif comme une dépêche météo",
+                "Il ne parle que de poésie antique",
+                "Il ne contient aucun mot d'opinion"
+              ],
+              "reponse": "Non, il est subjectif et assume ouvertement un parti-pris",
+              "explication": "C'est la tribune d'opinion de l'équipe rédactionnelle."
+            },
+            {
+              "enonce": "Où trouve-t-on généralement l'éditorial dans un journal ou magazine ?",
+              "options": [
+                "En page 2 ou 3, ou en bonne place à la Une",
+                "Tout à la fin dans les petites annonces",
+                "Caché entre deux publicités de voitures",
+                "Sur le reçu de paiement"
+              ],
+              "reponse": "En page 2 ou 3, ou en bonne place à la Une",
+              "explication": "L'édito ouvre la publication et oriente la lecture du numéro."
+            },
+            {
+              "enonce": "Dans un journal scolaire, que présente généralement l'éditorial ?",
+              "options": [
+                "Les objectifs du journal, la vie du collège et les projets des élèves",
+                "La liste des punitions données par les surveillants",
+                "Le prix des cahiers au supermarché",
+                "Un résumé de film d'action"
+              ],
+              "reponse": "Les objectifs du journal, la vie du collège et les projets des élèves",
+              "explication": "Il valorise la vie communautaire et citoyenne de l'établissement."
+            },
+            {
+              "enonce": "Parmi ces verbes, lequel signale une prise de position d'éditorialiste ?",
+              "options": [
+                "Nous dénonçons vigoureusement...",
+                "Il pleut à Paris...",
+                "La terre tourne autour du soleil...",
+                "Deux et deux font quatre..."
+              ],
+              "reponse": "Nous dénonçons vigoureusement...",
+              "explication": "Le verbe « dénoncer » associé au modalisateur « vigoureusement » marque un engagement ferme."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-edito-2",
+          "titre": "Vrai ou Faux : L'information d'opinion",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "L'éditorialiste signe toujours son article de son nom ou de celui du journal.",
+              "reponse": true,
+              "explication": "Vrai. L'éditorial est un texte signé qui engage moralement son auteur."
+            },
+            {
+              "enonce": "Un fait divers et un éditorial ont exactement la même fonction dans un journal.",
+              "reponse": false,
+              "explication": "Faux. Le fait divers rapporte un fait insolite ou dramatique ; l'éditorial analyse et argumente."
+            },
+            {
+              "enonce": "L'éditorialiste utilise des connecteurs logiques pour structurer son argumentation.",
+              "reponse": true,
+              "explication": "Vrai. Les connecteurs assurent la force et la clarté de la démonstration."
+            },
+            {
+              "enonce": "Dans un éditorial, on ne peut jamais employer le pronom « nous ».",
+              "reponse": false,
+              "explication": "Faux. Le « nous » de la rédaction ou de solidarité collective est très fréquent."
+            },
+            {
+              "enonce": "L'éditorial peut formuler un appel à l'action civique ou environnementale.",
+              "reponse": true,
+              "explication": "Vrai. C'est sa dimension mobilisatrice et citoyenne."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-edito-3",
+          "titre": "Texte à trous : L'article de presse",
+          "consigne": "Complétez chaque phrase avec le mot adéquat.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le journaliste qui rédige des articles d'opinion pour commenter l'actualité est un [éditorialiste].",
+              "reponse": "éditorialiste",
+              "acceptees": [
+                "éditorialiste",
+                "editorialiste"
+              ],
+              "explication": "L'éditorialiste analyse le sens politique et social des événements."
+            },
+            {
+              "enonce": "La personne responsable de la ligne éditoriale et de l'équipe des journalistes est le rédacteur en [chef].",
+              "reponse": "chef",
+              "acceptees": [
+                "chef"
+              ],
+              "explication": "Le rédacteur en chef dirige la rédaction."
+            },
+            {
+              "enonce": "L'opinion défendue avec des arguments dans un éditorial s'appelle la [thèse].",
+              "reponse": "thèse",
+              "acceptees": [
+                "thèse",
+                "these"
+              ],
+              "explication": "La thèse est la conviction affirmée dans le texte."
+            },
+            {
+              "enonce": "L'ensemble des règles morales respectées par la profession des journalistes s'appelle la [déontologie].",
+              "reponse": "déontologie",
+              "acceptees": [
+                "déontologie",
+                "deontologie"
+              ],
+              "explication": "La déontologie journalistique impose le respect de la vérité et des personnes."
+            },
+            {
+              "enonce": "Dans un collège, le journal réalisé par les élèves est appelé le journal [scolaire].",
+              "reponse": "scolaire",
+              "acceptees": [
+                "scolaire"
+              ],
+              "explication": "Le journal scolaire développe la citoyenneté des collégiens."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ac-fait-divers-5w",
+      "categorie": "media",
+      "titre": "Le fait divers et la règle des 5 W (QQOQCP)",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le **fait divers** est un article de presse relatant un événement réel, souvent insolite, accidentel ou dramatique (vol, sauvetage héroïque, accident, découverte étrange). Il répond obligatoirement à la règle journalistique anglo-saxonne des **5 W** (adaptée en français par le **QQOQCP**)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Question clé (5 W)",
+            "Équivalent français (QQOQCP)",
+            "Rôle dans le fait divers",
+            "Exemple concret"
+          ],
+          "lignes": [
+            [
+              "Who ?",
+              "Qui ?",
+              "L'identité des protagonistes ou victimes.",
+              "Un jeune collégien de 13 ans."
+            ],
+            [
+              "What ?",
+              "Quoi ?",
+              "La nature de l'événement survenu.",
+              "A sauvé un chiot tombé dans un puits désaffecté."
+            ],
+            [
+              "Where ?",
+              "Où ?",
+              "Le lieu précis de l'accident.",
+              "À Fès, dans le quartier Batha."
+            ],
+            [
+              "When ?",
+              "Quand ?",
+              "La date et l'heure exacte.",
+              "Hier après-midi vers 16 heures."
+            ],
+            [
+              "Why / How ?",
+              "Pourquoi ? / Comment ?",
+              "Les circonstances et les causes.",
+              "En fabriquant une corde avec son cartable."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Caractéristiques grammaticales du fait divers :**\n• Utilisation prédominante du **passé composé** pour les faits achevés récents.\n• Recours fréquent à la **voix passive** pour mettre en relief la victime ou l'objet : *« Un tableau de maître a été dérobé cette nuit par des cambrioleurs »*.\n• Précision des chiffres, dates et noms propres."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-fait-1",
+          "titre": "QCM : Comprendre le fait divers",
+          "consigne": "Identifiez les caractéristiques du fait divers journalistique.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Dans la règle des 5 W, à quoi correspond la question 'Where' ?",
+              "options": [
+                "Au lieu de l'événement (Où)",
+                "À la date de l'événement (Quand)",
+                "À l'identité des personnes (Qui)",
+                "À la cause de l'accident (Pourquoi)"
+              ],
+              "reponse": "Au lieu de l'événement (Où)",
+              "explication": "Where = Où (localisation spatiale précise)."
+            },
+            {
+              "enonce": "Quel temps verbal est traditionnellement le plus utilisé dans le fait divers pour rapporter des événements récents ?",
+              "options": [
+                "Le passé composé",
+                "Le futur simple",
+                "L'imparfait du subjonctif",
+                "Le présent du conditionnel"
+              ],
+              "reponse": "Le passé composé",
+              "explication": "Le passé composé ancre l'événement dans le passé proche ayant des conséquences dans l'actualité."
+            },
+            {
+              "enonce": "Parmi ces titres, lequel correspond typiquement à un fait divers ?",
+              "options": [
+                "Casablanca : un chauffeur de taxi restitue un sac contenant 100 000 dirhams",
+                "Analyse de la politique économique internationale",
+                "Poème dédié au printemps fleuri",
+                "Règles du football moderne"
+              ],
+              "reponse": "Casablanca : un chauffeur de taxi restitue un sac contenant 100 000 dirhams",
+              "explication": "C'est une anecdote réelle, localisée et frappante de la vie quotidienne."
+            },
+            {
+              "enonce": "Pourquoi emploie-t-on souvent la voix passive dans les titres de faits divers (« Trois bijouteries cambriolées ») ?",
+              "options": [
+                "Pour mettre en valeur l'objet ou la victime de l'action",
+                "Pour cacher la vérité",
+                "Pour éviter d'utiliser des adjectifs",
+                "Pour faire de la philosophie"
+              ],
+              "reponse": "Pour mettre en valeur l'objet ou la victime de l'action",
+              "explication": "La voix passive met en première position ce qui a subi l'événement."
+            },
+            {
+              "enonce": "À quelle question répond l'élément : « Le drame s'est produit à cause d'une fuite de gaz » ?",
+              "options": [
+                "Pourquoi ? (la cause)",
+                "Qui ? (le sujet)",
+                "Où ? (le lieu)",
+                "Quand ? (le temps)"
+              ],
+              "reponse": "Pourquoi ? (la cause)",
+              "explication": "« À cause de » indique la raison ou la cause déclenchante."
+            },
+            {
+              "enonce": "Dans quelle rubrique d'un journal classe-t-on les cambriolages et accidents inhabituels ?",
+              "options": [
+                "Rubrique Faits divers (ou Société)",
+                "Rubrique Météo",
+                "Rubrique Horoscopes",
+                "Rubrique Économie de marché"
+              ],
+              "reponse": "Rubrique Faits divers (ou Société)",
+              "explication": "Les faits divers forment une rubrique d'information très lue du grand public."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-fait-2",
+          "titre": "Vrai ou Faux : Les règles de rédaction du fait divers",
+          "consigne": "Indiquez si chaque affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Un fait divers relate des histoires de magie totalement inventées par l'auteur.",
+              "reponse": false,
+              "explication": "Faux. Le fait divers est ancré dans la stricte réalité vécue."
+            },
+            {
+              "enonce": "La règle du QQOQCP permet au journaliste d'oublier aucun détail essentiel de l'événement.",
+              "reponse": true,
+              "explication": "Vrai. Cette grille garantit l'exhaustivité de l'information."
+            },
+            {
+              "enonce": "Dans un fait divers, on évite soigneusement de donner l'heure et le lieu des faits.",
+              "reponse": false,
+              "explication": "Faux. La précision spatio-temporelle est fondamentale."
+            },
+            {
+              "enonce": "La phrase « Un incendie a été maîtrisé par les pompiers » est à la voix passive.",
+              "reponse": true,
+              "explication": "Vrai. Le sujet subit l'action effectuée par le complément d'agent 'les pompiers'."
+            },
+            {
+              "enonce": "Un fait divers peut comporter le témoignage oculaire d'un voisin présent sur les lieux.",
+              "reponse": true,
+              "explication": "Vrai. Les témoignages rendent le compte rendu plus vivant et crédible."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-fait-3",
+          "titre": "Texte à trous : Les questions fondamentales",
+          "consigne": "Complétez chaque phrase avec le mot interrogatif approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "La question qui identifie le lieu où s'est déroulé l'accident est : [Où] ?",
+              "reponse": "Où",
+              "acceptees": [
+                "Où",
+                "ou"
+              ],
+              "explication": "Où localise l'espace géographique."
+            },
+            {
+              "enonce": "La question qui détermine le moment précis de l'événement est : [Quand] ?",
+              "reponse": "Quand",
+              "acceptees": [
+                "Quand",
+                "quand"
+              ],
+              "explication": "Quand fixe le repère temporel."
+            },
+            {
+              "enonce": "La question qui précise l'identité des personnes impliquées est : [Qui] ?",
+              "reponse": "Qui",
+              "acceptees": [
+                "Qui",
+                "qui"
+              ],
+              "explication": "Qui nomme les acteurs et témoins."
+            },
+            {
+              "enonce": "La question qui décrit la nature des faits est : [Quoi] ?",
+              "reponse": "Quoi",
+              "acceptees": [
+                "Quoi",
+                "quoi"
+              ],
+              "explication": "Quoi explique l'action produite."
+            },
+            {
+              "enonce": "La question qui recherche l'origine et le motif de l'incident est : [Pourquoi] ?",
+              "reponse": "Pourquoi",
+              "acceptees": [
+                "Pourquoi",
+                "pourquoi"
+              ],
+              "explication": "Pourquoi recherche la causalité."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ac-interview-interrogation",
+      "categorie": "media",
+      "titre": "L'interview de presse et la phrase interrogative (totale vs partielle)",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'**interview** est un entretien entre un journaliste (interviewer) et une personnalité (interviewé) dans le but d'informer le public. Elle repose sur la maîtrise des **différents types d'interrogation** et des **formules de politesse**."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Type d'interrogation",
+            "Définition & Réponse attendue",
+            "Mots interrogatifs",
+            "Exemples types"
+          ],
+          "lignes": [
+            [
+              "Interrogation totale",
+              "Porte sur l'ensemble de la phrase. On ne peut répondre que par OUI ou par NON.",
+              "Est-ce que, inversion sujet-verbe, intonation montante.",
+              "« Avez-vous terminé vos recherches ? » → Oui / Non."
+            ],
+            [
+              "Interrogation partielle",
+              "Porte sur un constituant précis (temps, lieu, cause, manière). Impossible de répondre par oui ou non.",
+              "Qui, que, quoi, où, quand, comment, pourquoi, combien.",
+              "« *Quand* publierez-vous votre prochain livre ? » → « En décembre »."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Les 3 registres de formulation de la question :**\n• *Soutenu (inversion du sujet) :* « Pourriez-vous nous expliquer votre démarche ? »\n• *Courant (avec est-ce que) :* « Est-ce que vous pouvez nous expliquer votre démarche ? »\n• *Familier (intonation seule) :* « Vous pouvez nous expliquer votre démarche ? »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-interv-1",
+          "titre": "QCM : Interrogation totale et partielle",
+          "consigne": "Distinguez l'interrogation totale de l'interrogation partielle.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Dans la phrase : « Aimez-vous la lecture des contes ? », de quel type d'interrogation s'agit-il ?",
+              "options": [
+                "Interrogation totale (réponse par oui ou non)",
+                "Interrogation partielle",
+                "Interrogation rhétorique",
+                "Ordre impératif"
+              ],
+              "reponse": "Interrogation totale (réponse par oui ou non)",
+              "explication": "La question admet pour seule réponse une confirmation (oui) ou une négation (non)."
+            },
+            {
+              "enonce": "« Comment préparez-vous vos rôles au théâtre ? » Quelle est cette interrogation ?",
+              "options": [
+                "Interrogation partielle portant sur la manière",
+                "Interrogation totale",
+                "Phrase déclarative",
+                "Phrase exclamative"
+              ],
+              "reponse": "Interrogation partielle portant sur la manière",
+              "explication": "Le mot 'comment' interroge sur la manière d'agir ; la réponse ne peut être 'oui' ou 'non'."
+            },
+            {
+              "enonce": "Quel mot interrogatif utilise-t-on pour poser une question sur le lieu ?",
+              "options": [
+                "Où",
+                "Quand",
+                "Comment",
+                "Pourquoi"
+              ],
+              "reponse": "Où",
+              "explication": "« Où » localise le lieu."
+            },
+            {
+              "enonce": "Laquelle de ces questions relève du registre soutenu (soigné) ?",
+              "options": [
+                "Accepteriez-vous de répondre à nos questions ?",
+                "Est-ce que tu peux répondre à nos questions ?",
+                "Tu réponds à mes questions ?",
+                "Pourquoi tu parles pas ?"
+              ],
+              "reponse": "Accepteriez-vous de répondre à nos questions ?",
+              "explication": "L'inversion du sujet et l'emploi du conditionnel de politesse caractérisent le registre soutenu."
+            },
+            {
+              "enonce": "Comment appelle-t-on les trois étapes d'une interview réussie ?",
+              "options": [
+                "Accueil/présentation, corps des questions ordonnées, remerciements de clôture",
+                "Bagarre, dispute, départ précipité",
+                "Lecture d'un poème, chant, danse",
+                "Silence complet de dix minutes"
+              ],
+              "reponse": "Accueil/présentation, corps des questions ordonnées, remerciements de clôture",
+              "explication": "C'est la structure méthodologique enseignée au collège."
+            },
+            {
+              "enonce": "« Que pensez-vous du nouveau projet de club environnement ? » Cette question porte sur :",
+              "options": [
+                "L'opinion de l'invité (interrogation partielle)",
+                "Le prix du projet",
+                "La météo de demain",
+                "L'âge de l'interlocuteur"
+              ],
+              "reponse": "L'opinion de l'invité (interrogation partielle)",
+              "explication": "Le pronom « que » invite l'interviewé à expliciter son point de vue."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-interv-2",
+          "titre": "Vrai ou Faux : Conduire une interview",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Dans une interview, le journaliste doit interrompre grossièrement son invité à chaque seconde.",
+              "reponse": false,
+              "explication": "Faux. L'écoute attentive et le respect des règles de politesse sont essentiels."
+            },
+            {
+              "enonce": "L'inversion du sujet consiste à placer le pronom sujet après le verbe (ex. : « Viendrez-vous ? »).",
+              "reponse": true,
+              "explication": "Vrai. C'est la marque de l'interrogation soutenue."
+            },
+            {
+              "enonce": "À une interrogation partielle, on peut répondre valablement par « oui » ou par « non ».",
+              "reponse": false,
+              "explication": "Faux. C'est l'interrogation totale qui attend oui ou non ; la partielle attend une information précise."
+            },
+            {
+              "enonce": "Préparer un questionnaire à l'avance est une étape indispensable avant toute interview.",
+              "reponse": true,
+              "explication": "Vrai. Le journaliste doit structurer ses axes de questions."
+            },
+            {
+              "enonce": "La transcription d'une interview comporte le nom des interlocuteurs devant chaque réplique.",
+              "reponse": true,
+              "explication": "Vrai. La présentation par alternance des initiales ou noms permet d'identifier qui parle."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-interv-3",
+          "titre": "Texte à trous : Mots interrogatifs",
+          "consigne": "Complétez chaque question avec le mot interrogatif adéquat.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "[Pourquoi] avez-vous choisi d'écrire sur ce thème dramatique ?",
+              "reponse": "Pourquoi",
+              "acceptees": [
+                "Pourquoi",
+                "pourquoi"
+              ],
+              "explication": "Pourquoi interroge sur la motivation ou la cause."
+            },
+            {
+              "enonce": "[Quand] aura lieu la première représentation de votre pièce au théâtre ?",
+              "reponse": "Quand",
+              "acceptees": [
+                "Quand",
+                "quand"
+              ],
+              "explication": "Quand interroge sur la date ou le temps."
+            },
+            {
+              "enonce": "[Combien] d'exemplaires de votre journal avez-vous distribués ?",
+              "reponse": "Combien",
+              "acceptees": [
+                "Combien",
+                "combien"
+              ],
+              "explication": "Combien interroge sur la quantité numérique."
+            },
+            {
+              "enonce": "[Comment] avez-vous surmonté les difficultés techniques de mise en scène ?",
+              "reponse": "Comment",
+              "acceptees": [
+                "Comment",
+                "comment"
+              ],
+              "explication": "Comment interroge sur la manière et les moyens."
+            },
+            {
+              "enonce": "[Qui] a composé la musique originale du spectacle ?",
+              "reponse": "Qui",
+              "acceptees": [
+                "Qui",
+                "qui"
+              ],
+              "explication": "Qui interroge sur l'identité de la personne."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ac-structure-texte-theatral",
+      "categorie": "theatre",
+      "titre": "Le texte théâtral : formes de discours et didascalies",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le texte de théâtre est une œuvre littéraire conçue spécialement pour être **jouée sur scène** devant des spectateurs. Il se distingue par l'absence de narrateur extérieur et l'omniprésence du **dialogue** et des **indications scéniques**."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Composante théâtrale",
+            "Définition précise",
+            "Effet produit"
+          ],
+          "lignes": [
+            [
+              "Didascalie",
+              "Indication scénique (en italique ou entre parenthèses) sur le ton, les gestes, le costume ou le décor.",
+              "Guide le metteur en scène et le comédien."
+            ],
+            [
+              "Réplique",
+              "Paroles prononcées par un personnage en réponse à un autre.",
+              "Fait avancer le dialogue entre personnages."
+            ],
+            [
+              "Tirade",
+              "Longue réplique prononcée sans interruption par un personnage.",
+              "Développe une émotion vive ou une argumentation."
+            ],
+            [
+              "Monologue",
+              "Discours d'un personnage qui parle seul sur scène.",
+              "Dévoile les pensées secrètes et dilemmes intérieurs."
+            ],
+            [
+              "Aparté",
+              "Paroles dites à voix basse, que seul le public entend (souvent précédées de *À part*).",
+              "Crée un effet de connivence comique avec le public."
+            ],
+            [
+              "Double énonciation",
+              "Le comédien s'adresse à la fois à son partenaire sur scène et au public dans la salle.",
+              "Règle fondamentale du théâtre."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Exemple avec didascalie :**\n*Sganarelle* (*en tremblant et regardant derrière lui*) : « Ciel ! N'entends-je point du bruit dans la forêt ? »\n*(en tremblant et regardant derrière lui)* est une **didascalie** de geste et d'émotion."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-theatre-base-1",
+          "titre": "QCM : Le langage dramatique",
+          "consigne": "Reconnaissez chaque élément propre au texte théâtral.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Comment appelle-t-on les indications écrites par l'auteur pour préciser les gestes, le ton ou les déplacements des acteurs ?",
+              "options": [
+                "Les didascalies",
+                "Les strophes",
+                "Les rimes",
+                "Les sommaires"
+              ],
+              "reponse": "Les didascalies",
+              "explication": "Les didascalies renseignent sur la mise en scène (en italique ou entre parenthèses)."
+            },
+            {
+              "enonce": "Lorsqu'un comédien prononce une longue réplique continue devant d'autres personnages attentifs, on parle de :",
+              "options": [
+                "Tirade",
+                "Monologue",
+                "Aparté",
+                "Didascalie"
+              ],
+              "reponse": "Tirade",
+              "explication": "La tirade est une longue prise de parole face à des interlocuteurs présents."
+            },
+            {
+              "enonce": "Quelle mention signale qu'un propos est destiné au seul public sans que l'autre personnage ne l'entende ?",
+              "options": [
+                "À part (ou en aparté)",
+                "Haut et fort",
+                "Au loin",
+                "En chantant"
+              ],
+              "reponse": "À part (ou en aparté)",
+              "explication": "L'aparté exclut fictivement les autres personnages de la réception du message."
+            },
+            {
+              "enonce": "Qui est l'auteur qui rédige le texte d'une pièce de théâtre ?",
+              "options": [
+                "Le dramaturge",
+                "Le romancier",
+                "Le poète lyrique",
+                "L'éditorialiste"
+              ],
+              "reponse": "Le dramaturge",
+              "explication": "Le dramaturge est le créateur de l'œuvre dramatique."
+            },
+            {
+              "enonce": "Que signifie la règle de la « double énonciation » au théâtre ?",
+              "options": [
+                "Le comédien s'adresse en même temps à son partenaire et aux spectateurs",
+                "Deux comédiens crient exactement la même phrase en même temps",
+                "Le texte est traduit en deux langues",
+                "La pièce est jouée deux fois dans la même soirée"
+              ],
+              "reponse": "Le comédien s'adresse en même temps à son partenaire et aux spectateurs",
+              "explication": "Toute parole théâtrale a deux destinataires : le personnage interlocuteur et le public."
+            },
+            {
+              "enonce": "Par quoi est généralement découpée une pièce de théâtre classique ?",
+              "options": [
+                "En actes puis en scènes",
+                "En chapitres et tomes",
+                "En couplets et refrains",
+                "En articles et alinéas"
+              ],
+              "reponse": "En actes puis en scènes",
+              "explication": "Les actes marquent les étapes majeures, et le changement de scène correspond à l'entrée ou la sortie d'un personnage."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-theatre-base-2",
+          "titre": "Vrai ou Faux : Les conventions théâtrales",
+          "consigne": "Indiquez si chaque affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Dans un livre de théâtre, les didascalies doivent être lues à voix haute par les acteurs pendant la représentation.",
+              "reponse": false,
+              "explication": "Faux. Les didascalies se jouent par les gestes et attitudes, elles ne se disent pas."
+            },
+            {
+              "enonce": "Un monologue permet à un personnage seul en scène d'exprimer ses doutes les plus intimes.",
+              "reponse": true,
+              "explication": "Vrai. Le spectateur a accès directement à la conscience du protagoniste."
+            },
+            {
+              "enonce": "Le changement de scène dans une pièce a lieu chaque fois qu'un personnage entre ou sort de la scène.",
+              "reponse": true,
+              "explication": "Vrai. C'est la convention traditionnelle du découpage en scènes."
+            },
+            {
+              "enonce": "Le metteur en scène est la personne qui joue le rôle principal de la pièce.",
+              "reponse": false,
+              "explication": "Faux. Le metteur en scène dirige l'ensemble du spectacle et guide les comédiens."
+            },
+            {
+              "enonce": "Le nom du personnage qui parle est toujours écrit en tête de réplique (en gras ou majuscules).",
+              "reponse": true,
+              "explication": "Vrai. C'est la disposition typographique normale du texte de théâtre."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-theatre-base-3",
+          "titre": "Texte à trous : Lexique de la scène",
+          "consigne": "Complétez chaque phrase avec le terme exact du monde théâtral.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Une indication scénique écrite en italique par l'auteur s'appelle une [didascalie].",
+              "reponse": "didascalie",
+              "acceptees": [
+                "didascalie"
+              ],
+              "explication": "Elle guide la gestuelle et l'intonation."
+            },
+            {
+              "enonce": "Un personnage qui prononce un long discours seul sur scène fait un [monologue].",
+              "reponse": "monologue",
+              "acceptees": [
+                "monologue"
+              ],
+              "explication": "Mono = un seul."
+            },
+            {
+              "enonce": "Les coulisses et l'espace situé hors de la vue des spectateurs constituent le [hors-scène].",
+              "reponse": "hors-scène",
+              "acceptees": [
+                "hors-scène",
+                "hors scène",
+                "coulisses"
+              ],
+              "explication": "Le hors-scène abrite ce qui ne peut être montré directement."
+            },
+            {
+              "enonce": "La personne qui fabrique et conçoit les habits des comédiens est le [costumier].",
+              "reponse": "costumier",
+              "acceptees": [
+                "costumier"
+              ],
+              "explication": "Les costumes situent l'époque et le milieu social."
+            },
+            {
+              "enonce": "Une réplique courte prononcée à l'attention exclusive du public est un [aparté].",
+              "reponse": "aparté",
+              "acceptees": [
+                "aparté",
+                "aparte"
+              ],
+              "explication": "L'aparté crée la connivence humoristique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ac-etapes-piece-theatre",
+      "categorie": "theatre",
+      "titre": "La structure dramatique : exposition, nœud, péripéties et dénouement",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Comme le récit, une pièce de théâtre obéit à une dynamique dramatique rigoureuse en plusieurs phases qui maintiennent l'attention et l'émotion du public jusqu'à la scène finale."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Étape dramatique",
+            "Moment dans la pièce",
+            "Rôle et fonction",
+            "Exemple type"
+          ],
+          "lignes": [
+            [
+              "1. Scène d'exposition",
+              "Acte I, premières scènes",
+              "Présente les personnages, le lieu, l'époque et l'élément déclencheur du conflit.",
+              "Deux valets discutent du mariage contrarié de leurs jeunes maîtres."
+            ],
+            [
+              "2. Le nœud dramatique",
+              "Acte II",
+              "Le conflit éclate : les intérêts des personnages s'opposent violemment, la situation semble bloquée.",
+              "Le père refuse catégoriquement le mariage de sa fille pour des raisons d'argent."
+            ],
+            [
+              "3. Les péripéties",
+              "Actes III et IV",
+              "Rebondissements, quiproquos, coups de théâtre et ruses qui retardent ou précipitent l'action.",
+              "Un faux déguisement, une lettre interceptée, un coup de bâton."
+            ],
+            [
+              "4. Le coup de théâtre",
+              "Avant la fin",
+              "Événement imprévu qui renverse complètement la situation.",
+              "La découverte qu'un des valets est le fils perdu d'un riche seigneur."
+            ],
+            [
+              "5. Le dénouement",
+              "Dernière scène (Acte V)",
+              "Règlement final du problème : triomphe du mariage (comédie) ou mort des héros (tragédie).",
+              "Réconciliation générale et célébration des noces."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Règle d'or de l'exposition théâtrale :**\nL'exposition doit être **claire** (renseigner sur qui, où, quand), **rapide** (ne pas ennuyer le public) et **intéressante** (contenir dès les premiers mots les germes du conflit à venir)."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-etapes-1",
+          "titre": "QCM : Les moments clés de l'action dramatique",
+          "consigne": "Identifiez l'étape dramatique correspondant à chaque situation.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Quelle scène a pour mission première de faire connaître les personnages et le sujet de la pièce dès le début ?",
+              "options": [
+                "La scène d'exposition",
+                "Le dénouement",
+                "La péripétie",
+                "Le coup de théâtre"
+              ],
+              "reponse": "La scène d'exposition",
+              "explication": "L'exposition informe le spectateur au tout début de l'œuvre."
+            },
+            {
+              "enonce": "Comment appelle-t-on l'événement imprévu et soudain qui modifie radicalement le cours de l'intrigue ?",
+              "options": [
+                "Un coup de théâtre",
+                "Une didascalie",
+                "Un entracte",
+                "Un aparté"
+              ],
+              "reponse": "Un coup de théâtre",
+              "explication": "Le coup de théâtre bouleverse les prévisions des spectateurs et des héros."
+            },
+            {
+              "enonce": "À quel moment de la pièce intervient le nœud dramatique ?",
+              "options": [
+                "Quand les obstacles s'accumulent et que le conflit est à son comble",
+                "Dès la salutation des acteurs à la fin",
+                "Pendant l'impression des billets d'entrée",
+                "Avant l'ouverture des portes de la salle"
+              ],
+              "reponse": "Quand les obstacles s'accumulent et que le conflit est à son comble",
+              "explication": "Le nœud est le point culminant de la tension conflictuelle."
+            },
+            {
+              "enonce": "Dans une comédie traditionnelle, quelle est la tonalité habituelle du dénouement ?",
+              "options": [
+                "Heureuse (mariages, pardon, réconciliation)",
+                "Sombre et mortelle pour tous",
+                "Une punition collective par pendaison",
+                "Une énigme non résolue"
+              ],
+              "reponse": "Heureuse (mariages, pardon, réconciliation)",
+              "explication": "La comédie se termine traditionnellement par le triomphe de la jeunesse et l'allégresse."
+            },
+            {
+              "enonce": "La pause temporelle entre deux actes permettant aux acteurs de changer de costume s'appelle :",
+              "options": [
+                "L'entracte",
+                "La tirade",
+                "Le souffleur",
+                "La scène muette"
+              ],
+              "reponse": "L'entracte",
+              "explication": "L'entracte sépare deux actes consécutifs."
+            },
+            {
+              "enonce": "Comment appelle-t-on l'ensemble des ruses et péripéties inventées par un valet pour duper un maître crédule ?",
+              "options": [
+                "Une fourberie (ou intrigue)",
+                "Un sonnet",
+                "Une tragédie",
+                "Un éditorial"
+              ],
+              "reponse": "Une fourberie (ou intrigue)",
+              "explication": "Les fourberies (comme chez Scapin) nourrissent les péripéties comiques."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-etapes-2",
+          "titre": "Vrai ou Faux : L'évolution de l'intrigue",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le dénouement se trouve obligatoirement placé dans les trois premières répliques de l'acte I.",
+              "reponse": false,
+              "explication": "Faux. Le dénouement est la scène terminale qui conclut l'action dans le dernier acte."
+            },
+            {
+              "enonce": "Les péripéties maintiennent le suspense et empêchent l'histoire d'être résolue trop vite.",
+              "reponse": true,
+              "explication": "Vrai. Les obstacles et rebondissements relancent l'intérêt."
+            },
+            {
+              "enonce": "Dans une bonne scène d'exposition, le spectateur découvre les liens unissant les protagonistes.",
+              "reponse": true,
+              "explication": "Vrai. La clarté des relations entre personnages est requise."
+            },
+            {
+              "enonce": "Le terme 'nœud' est utilisé parce que les fils de l'intrigue s'emmêlent et forment un blocage apparemment insoluble.",
+              "reponse": true,
+              "explication": "Vrai. La métaphore du nœud textile illustre l'impasse dramatique."
+            },
+            {
+              "enonce": "Un coup de théâtre doit toujours être annoncé avec précision dans le journal la veille.",
+              "reponse": false,
+              "explication": "Faux. Sa force réside dans la surprise complète des spectateurs."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-etapes-3",
+          "titre": "Texte à trous : La marche de la pièce",
+          "consigne": "Complétez chaque phrase avec le mot approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "La toute première scène qui présente les personnages est la scène d'[exposition].",
+              "reponse": "exposition",
+              "acceptees": [
+                "exposition"
+              ],
+              "explication": "Elle expose la situation de départ."
+            },
+            {
+              "enonce": "Le moment où l'action dramatique est le plus embrouillée et critique s'appelle le [nœud].",
+              "reponse": "nœud",
+              "acceptees": [
+                "nœud",
+                "noeud"
+              ],
+              "explication": "Le nœud concentre le conflit dramatique."
+            },
+            {
+              "enonce": "Un revirement soudain et spectaculaire de la situation est un coup de [théâtre].",
+              "reponse": "théâtre",
+              "acceptees": [
+                "théâtre",
+                "theatre"
+              ],
+              "explication": "Le coup de théâtre crée la stupéfaction."
+            },
+            {
+              "enonce": "La dernière scène qui règle tous les destins est le [dénouement].",
+              "reponse": "dénouement",
+              "acceptees": [
+                "dénouement",
+                "denouement"
+              ],
+              "explication": "Le dénouement dénoue les fils de l'histoire."
+            },
+            {
+              "enonce": "L'intervalle de repos entre deux actes de théâtre s'appelle l'[entracte].",
+              "reponse": "entracte",
+              "acceptees": [
+                "entracte"
+              ],
+              "explication": "L'entracte permet le repos du public et des machinistes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ac-voix-active-passive",
+      "categorie": "gram",
+      "titre": "La voix active et la voix passive : transformation et complément d'agent",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La transformation passive est un outil linguistique essentiel dans le discours journalistique et narratif. Elle permet de focaliser l'attention sur l'objet ou le patient qui subit l'action plutôt que sur son auteur."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Voix active",
+            "Transformation",
+            "Voix passive",
+            "Règle d'accord"
+          ],
+          "lignes": [
+            [
+              "Le sujet fait l'action.",
+              "→ Le sujet actif devient complément d'agent (introduit par *par* ou *de*).",
+              "Le sujet subit l'action.",
+              "Le participe passé s'accorde TOUJOURS en genre et en nombre avec le sujet passif (auxiliaire être)."
+            ],
+            [
+              "« Les élèves rédigent le journal. » (présent)",
+              "→",
+              "« Le journal **est rédigé** par les élèves. »",
+              "Accord de « rédigé » avec « le journal » (masculin singulier)."
+            ],
+            [
+              "« La police a arrêté le voleur. » (passé composé)",
+              "→",
+              "« Le voleur **a été arrêté** par la police. »",
+              "L'auxiliaire 'être' prend le temps du verbe actif initial."
+            ],
+            [
+              "« Le professeur félicitera les gagnantes. » (futur)",
+              "→",
+              "« Les gagnantes **seront félicitées** par le professeur. »",
+              "« félicitées » s'accorde au féminin pluriel."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Attention à la suppression du complément d'agent :**\nLorsque l'agent est inconnu ou peu important, on le supprime : « La vitrine a été brisée cette nuit » (plutôt que d'écrire *par des inconnus*)."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-passif-1",
+          "titre": "QCM : Repérage et transformation passive",
+          "consigne": "Identifiez la voix ou la transformation correcte.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Quelle phrase est correctement tournée à la voix passive pour : « Le maire a inauguré la nouvelle bibliothèque » ?",
+              "options": [
+                "La nouvelle bibliothèque a été inaugurée par le maire",
+                "La nouvelle bibliothèque est inaugurée par le maire",
+                "Le maire est inauguré par la bibliothèque",
+                "La bibliothèque avait inauguré le maire"
+              ],
+              "reponse": "La nouvelle bibliothèque a été inaugurée par le maire",
+              "explication": "Le verbe 'a inauguré' étant au passé composé, l'auxiliaire être prend le passé composé ('a été inaugurée' avec accord féminin)."
+            },
+            {
+              "enonce": "Par quelle préposition est le plus souvent introduit le complément d'agent à la voix passive ?",
+              "options": [
+                "Par (ou de)",
+                "Avec",
+                "Sous",
+                "Pour"
+              ],
+              "reponse": "Par (ou de)",
+              "explication": "Le complément d'agent est introduit par 'par' (ou 'de' avec les verbes de sentiment : aimé de tous)."
+            },
+            {
+              "enonce": "Dans « Cette comédienne est admirée de tout le public », quelle est la fonction de 'de tout le public' ?",
+              "options": [
+                "Complément d'agent",
+                "Complément circonstanciel de lieu",
+                "COD",
+                "Sujet réel"
+              ],
+              "reponse": "Complément d'agent",
+              "explication": "Il désigne l'agent de l'admiration dans cette phrase passive."
+            },
+            {
+              "enonce": "Quels verbes peuvent être transformés à la voix passive ?",
+              "options": [
+                "Les verbes transitifs directs (qui admettent un COD)",
+                "Les verbes intransitifs comme dormir ou voyager",
+                "Tous les verbes sans exception",
+                "Uniquement les verbes du premier groupe"
+              ],
+              "reponse": "Les verbes transitifs directs (qui admettent un COD)",
+              "explication": "Seul le COD de la voix active peut devenir sujet de la voix passive."
+            },
+            {
+              "enonce": "Comment s'accorde le participe passé dans une forme verbale passive ?",
+              "options": [
+                "Toujours en genre et en nombre avec le sujet passif",
+                "Toujours au masculin singulier",
+                "Avec le complément d'agent",
+                "Il ne s'accorde jamais"
+              ],
+              "reponse": "Toujours en genre et en nombre avec le sujet passif",
+              "explication": "La voix passive se conjuguant obligatoirement avec l'auxiliaire 'être', l'accord est systématique."
+            },
+            {
+              "enonce": "Transformez au passif : « Les pompiers éteignent l'incendie ».",
+              "options": [
+                "L'incendie est éteint par les pompiers",
+                "L'incendie a été éteint par les pompiers",
+                "L'incendie sera éteint par les pompiers",
+                "L'incendie était éteint par les pompiers"
+              ],
+              "reponse": "L'incendie est éteint par les pompiers",
+              "explication": "Verbe actif au présent ('éteignent') → auxiliaire être au présent ('est éteint')."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-passif-2",
+          "titre": "Vrai ou Faux : Les règles du passif",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "La phrase « Les enfants sont allés au cinéma hier » est à la voix passive.",
+              "reponse": false,
+              "explication": "Faux. 'Aller' est un verbe intransitif conjugué au passé composé à la voix active avec l'auxiliaire être."
+            },
+            {
+              "enonce": "Le complément d'agent peut être supprimé si l'on ignore qui a fait l'action.",
+              "reponse": true,
+              "explication": "Vrai. Le passif sans complément d'agent est très courant dans les faits divers."
+            },
+            {
+              "enonce": "Seul un verbe possédant un complément d'objet direct (COD) peut se mettre à la voix passive.",
+              "reponse": true,
+              "explication": "Vrai. C'est le COD qui se transforme en sujet passif."
+            },
+            {
+              "enonce": "À la voix passive, l'auxiliaire employé est toujours l'auxiliaire « avoir ».",
+              "reponse": false,
+              "explication": "Faux. La voix passive utilise obligatoirement l'auxiliaire « être »."
+            },
+            {
+              "enonce": "Dans « La maison sera démolie demain », le participe s'accorde au féminin singulier.",
+              "reponse": true,
+              "explication": "Vrai. Accord avec le sujet 'La maison' (fém. sing.)."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-passif-3",
+          "titre": "Texte à trous : Accords et auxiliaires du passif",
+          "consigne": "Complétez chaque phrase avec le participe passé ou l'auxiliaire correctement accordé.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Les deux pièces de théâtre ont été (jouer) [jouées] avec brio par les élèves.",
+              "reponse": "jouées",
+              "acceptees": [
+                "jouées",
+                "jouees"
+              ],
+              "explication": "Accord avec 'Les deux pièces' (féminin pluriel) : jouées."
+            },
+            {
+              "enonce": "L'éditorial du journal scolaire [est] rédigé chaque mois par le comité de rédaction.",
+              "reponse": "est",
+              "acceptees": [
+                "est",
+                "fut",
+                "sera"
+              ],
+              "explication": "Auxiliaire être au présent : est."
+            },
+            {
+              "enonce": "La lettre d'invitation a été (envoyer) [envoyée] au directeur hier matin.",
+              "reponse": "envoyée",
+              "acceptees": [
+                "envoyée",
+                "envoyee"
+              ],
+              "explication": "Accord avec 'La lettre' (féminin singulier)."
+            },
+            {
+              "enonce": "Ce jeune dramaturge est respecté [de] tous ses confrères.",
+              "reponse": "de",
+              "acceptees": [
+                "de",
+                "par"
+              ],
+              "explication": "Avec les verbes d'estime ou de sentiment, on utilise souvent la préposition 'de'."
+            },
+            {
+              "enonce": "Les affiches de prévention seront (imprimer) [imprimées] demain à l'aube.",
+              "reponse": "imprimées",
+              "acceptees": [
+                "imprimées",
+                "imprimees"
+              ],
+              "explication": "Accord avec 'Les affiches' (féminin pluriel)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ac-discours-direct-indirect",
+      "categorie": "gram",
+      "titre": "Le discours rapporté : discours direct et discours indirect",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour rapporter des paroles ou des pensées dans un journal ou un récit, on emploie le **discours direct** (paroles brutes) ou le **discours indirect** (paroles intégrées dans la phrase principale sous forme de subordonnée)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Élément",
+            "Discours direct",
+            "Discours indirect"
+          ],
+          "lignes": [
+            [
+              "Ponctuation",
+              "Deux-points et guillemets (« ... »), tirets de dialogue.",
+              "Suppression des guillemets et des deux-points."
+            ],
+            [
+              "Structure grammaticale",
+              "Propositions indépendantes juxtaposées.",
+              "Verbe introducteur + proposition subordonnée (que, si, ce que, de + inf.)."
+            ],
+            [
+              "Pronoms personnels",
+              "1re et 2e personne (je, tu, nous, vous).",
+              "Transposition à la 3e personne (il, elle, ils, elles)."
+            ],
+            [
+              "Phrase interrogative",
+              "« Viendras-tu ? »",
+              "Il demande *s'il viendra*."
+            ],
+            [
+              "Phrase impérative",
+              "« Écoutez ! »",
+              "Il ordonne *d'écouter* (de + infinitif)."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Exemple de passage du direct à l'indirect :**\n• *Discours direct :* Le journaliste déclare : « **Je** publierai **mon** enquête demain. »\n• *Discours indirect :* Le journaliste déclare **qu'il** publiera **son** enquête le lendemain."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-disc-1",
+          "titre": "QCM : Le passage du discours direct au discours indirect",
+          "consigne": "Choisissez la transcription indirecte correcte.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Transformez : Le comédien dit : « Je suis prêt pour la scène. »",
+              "options": [
+                "Le comédien dit qu'il est prêt pour la scène.",
+                "Le comédien dit que je suis prêt pour la scène.",
+                "Le comédien dit : s'il est prêt.",
+                "Le comédien ordonne d'être prêt."
+              ],
+              "reponse": "Le comédien dit qu'il est prêt pour la scène.",
+              "explication": "Le pronom 'je' devient 'il' et les guillemets sont remplacés par la conjonction 'que'."
+            },
+            {
+              "enonce": "Comment rapporte-t-on une question totale au discours indirect : Le professeur demande : « Avez-vous terminé ? » ?",
+              "options": [
+                "Le professeur demande si nous avons terminé.",
+                "Le professeur demande que nous avons terminé.",
+                "Le professeur demande qui a terminé.",
+                "Le professeur demande pourquoi nous avons terminé."
+              ],
+              "reponse": "Le professeur demande si nous avons terminé.",
+              "explication": "L'interrogation totale se transpose avec la conjonction 'si' sans point d'interrogation."
+            },
+            {
+              "enonce": "Transformez une phrase impérative : Le metteur en scène crie aux acteurs : « Silence ! »",
+              "options": [
+                "Le metteur en scène ordonne aux acteurs de faire silence.",
+                "Le metteur en scène demande si silence.",
+                "Le metteur en scène dit que silence.",
+                "Le metteur en scène demande pourquoi silence."
+              ],
+              "reponse": "Le metteur en scène ordonne aux acteurs de faire silence.",
+              "explication": "L'impératif se transforme au discours indirect en 'de + infinitif'."
+            },
+            {
+              "enonce": "Quel signe de ponctuation disparaît obligatoirement lors du passage au discours indirect ?",
+              "options": [
+                "Les guillemets et les deux-points",
+                "La lettre majuscule initiale",
+                "Le point final",
+                "Les accents aigus"
+              ],
+              "reponse": "Les guillemets et les deux-points",
+              "explication": "Les guillemets et tirets ne subsistent qu'au discours direct."
+            },
+            {
+              "enonce": "Comment se transforme l'interrogation portant sur 'Qu'est-ce que' (« Que fais-tu ? ») au discours indirect ?",
+              "options": [
+                "Il demande ce qu'il fait.",
+                "Il demande si qu'il fait.",
+                "Il demande que quoi fait.",
+                "Il demande est-ce qu'il fait."
+              ],
+              "reponse": "Il demande ce qu'il fait.",
+              "explication": "« Que / qu'est-ce que » devient « ce que » au discours indirect."
+            },
+            {
+              "enonce": "Dans « Ali m'a assuré qu'il viendrait le lendemain », quel indice prouve qu'il s'agit de discours indirect ?",
+              "options": [
+                "L'absence de guillemets et la subordonnée introduite par 'que'",
+                "La présence de points d'exclamation",
+                "Le dialogue versifié",
+                "Les parenthèses didascaliques"
+              ],
+              "reponse": "L'absence de guillemets et la subordonnée introduite par 'que'",
+              "explication": "Le discours est fondu dans la phrase complexe sous la dépendance du verbe principal."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-disc-2",
+          "titre": "Vrai ou Faux : Les règles de transposition",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Au discours indirect, on conserve toujours le point d'interrogation à la fin de la phrase interrogative.",
+              "reponse": false,
+              "explication": "Faux. La phrase indirecte se termine obligatoirement par un point simple."
+            },
+            {
+              "enonce": "Le discours direct restitue fidèlement les paroles exactes telles qu'elles ont été émises.",
+              "reponse": true,
+              "explication": "Vrai. C'est la citation exacte entre guillemets."
+            },
+            {
+              "enonce": "Les pronoms possessifs doivent s'adapter au nouvel énonciateur lors du passage à l'indirect (mon → son).",
+              "reponse": true,
+              "explication": "Vrai. Les marques de la 1re/2e personne passent à la 3e personne."
+            },
+            {
+              "enonce": "On peut utiliser le verbe 'demander' pour introduire une phrase déclarative simple sans question.",
+              "reponse": false,
+              "explication": "Faux. On utilise des verbes comme affirmer, déclarer, dire, préciser pour les phrases déclaratives."
+            },
+            {
+              "enonce": "L'ordre direct « Partez ! » devient à l'indirect « Il ordonne de partir ».",
+              "reponse": true,
+              "explication": "Vrai. C'est la construction régulière avec la préposition de + infinitif."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-disc-3",
+          "titre": "Texte à trous : Mots de liaison au discours indirect",
+          "consigne": "Complétez chaque phrase avec le mot subordonnant approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "L'interviewé répond [qu'] il prépare une nouvelle pièce de théâtre.",
+              "reponse": "qu'",
+              "acceptees": [
+                "qu'",
+                "que"
+              ],
+              "explication": "La complétive déclarative s'introduit par que / qu'."
+            },
+            {
+              "enonce": "Le journaliste lui demande [si] le spectacle aura lieu à Rabat.",
+              "reponse": "si",
+              "acceptees": [
+                "si"
+              ],
+              "explication": "Question fermée (oui/non) → 'si'."
+            },
+            {
+              "enonce": "Il veut savoir [ce] que pense le public de sa prestation.",
+              "reponse": "ce",
+              "acceptees": [
+                "ce"
+              ],
+              "explication": "« Qu'est-ce que vous pensez ? » → « ce que »."
+            },
+            {
+              "enonce": "Le metteur en scène exige [de] commencer la répétition immédiatement.",
+              "reponse": "de",
+              "acceptees": [
+                "de",
+                "d'"
+              ],
+              "explication": "Transformation de l'impératif : de + infinitif."
+            },
+            {
+              "enonce": "Le comédien explique [où] il a trouvé l'inspiration pour son personnage.",
+              "reponse": "où",
+              "acceptees": [
+                "où",
+                "ou"
+              ],
+              "explication": "L'interrogation sur le lieu conserve son mot interrogatif 'où'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ac-accord-adjectifs-couleur",
+      "categorie": "orth",
+      "titre": "L'accord de l'adjectif qualificatif et les adjectifs de couleur",
+      "niveau": "2ème AC",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'adjectif qualificatif s'accorde en **genre** (masculin/féminin) et en **nombre** (singulier/pluriel) avec le nom qu'il qualifie. Les **adjectifs de couleur** obéissent à des règles d'orthographe particulières très fréquemment évaluées."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Cas de couleur",
+            "Règle grammaticale",
+            "Exemples d'application"
+          ],
+          "lignes": [
+            [
+              "Adjectif de couleur simple",
+              "S'accorde normalement en genre et en nombre.",
+              "Des robes *bleues*, des rideaux *verts*, des couvertures *noires*."
+            ],
+            [
+              "Nom employé comme adjectif de couleur",
+              "Reste invariable (sauf 6 exceptions célèbres).",
+              "Des yeux *marron*, des rubans *orange*, des jupes *cerise*."
+            ],
+            [
+              "Les 6 exceptions qui s'accordent",
+              "Noms devenus adjectifs qui prennent la marque du pluriel.",
+              "*Rose, pourpre, fauve, écarlate, mauve, incarnat* (ex. : des joues *roses*)."
+            ],
+            [
+              "Adjectif de couleur composé",
+              "Reste rigoureusement invariable.",
+              "Des chemises *bleu clair*, des yeux *vert foncé*, des étoffes *bleu-gris*."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Mémo orthographique :**\n• *Marron* et *orange* proviennent de fruits réels (la châtaigne et l'orange) : ils ne prennent jamais de « s » au pluriel !\n• Dès qu'il y a deux mots pour désigner la nuance (ex. : *vert pomme*, *gris perle*, *jaune pâle*), l'ensemble est **totalement invariable**."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "2ac-ex-coul-1",
+          "titre": "QCM : L'orthographe des couleurs",
+          "consigne": "Sélectionnez la bonne orthographe de la couleur dans chaque phrase.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Choisissez la graphie correcte : « Elle a acheté de magnifiques chaussures ... »",
+              "options": [
+                "marron",
+                "marrons",
+                "marronnes",
+                "marrones"
+              ],
+              "reponse": "marron",
+              "explication": "'Marron' étant un nom de fruit utilisé comme adjectif de couleur, il est invariable."
+            },
+            {
+              "enonce": "Quelle est l'orthographe correcte : « Les spectateurs portaient des vestes ... »",
+              "options": [
+                "bleu marine",
+                "bleues marines",
+                "bleu marines",
+                "bleues marine"
+              ],
+              "reponse": "bleu marine",
+              "explication": "Les adjectifs de couleur composés (deux mots) sont totalement invariables."
+            },
+            {
+              "enonce": "Parmi ces adjectifs issus de noms, lequel prend un 's' au pluriel par exception ?",
+              "options": [
+                "rose (des rubans roses)",
+                "orange (des rideaux oranges)",
+                "marron (des yeux marrons)",
+                "chocolat (des robes chocolats)"
+              ],
+              "reponse": "rose (des rubans roses)",
+              "explication": "'Rose' fait partie des exceptions historiques admises à l'accord, avec mauve, fauve, pourpre, écarlate, incarnat."
+            },
+            {
+              "enonce": "Choisissez la bonne forme : « Les rideaux du théâtre sont ... »",
+              "options": [
+                "rouges",
+                "rouge",
+                "rougesse",
+                "rouget"
+              ],
+              "reponse": "rouges",
+              "explication": "Adjectif de couleur simple s'accordant avec le nom masculin pluriel 'rideaux'."
+            },
+            {
+              "enonce": "Quelle graphie est correcte : « Elle portait des boucles d'oreilles ... »",
+              "options": [
+                "vert émeraude",
+                "vertes émeraudes",
+                "vertes émeraude",
+                "vert émeraudes"
+              ],
+              "reponse": "vert émeraude",
+              "explication": "Couleur composée invariable."
+            },
+            {
+              "enonce": "Choisissez la bonne graphie : « Des fleurs ... embaument le jardin de la maison. »",
+              "options": [
+                "mauves",
+                "mauve",
+                "mauvies",
+                "mauveux"
+              ],
+              "reponse": "mauves",
+              "explication": "'Mauve' fait partie des 6 exceptions qui s'accordent normalement."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-coul-2",
+          "titre": "Vrai ou Faux : Règles d'invariabilité",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "L'adjectif « orange » s'accorde au pluriel dans la phrase : « Elle a des chaussettes oranges ».",
+              "reponse": false,
+              "explication": "Faux. 'Orange' est invariable (on écrit des chaussettes orange)."
+            },
+            {
+              "enonce": "Deux adjectifs de couleur unis par un trait d'union (ex. : des yeux bleu-vert) restent invariables.",
+              "reponse": true,
+              "explication": "Vrai. Toutes les couleurs composées sont invariables."
+            },
+            {
+              "enonce": "L'adjectif qualificatif simple s'accorde en genre et en nombre avec le nom qu'il qualifie.",
+              "reponse": true,
+              "explication": "Vrai. C'est la règle d'accord de base en grammaire française."
+            },
+            {
+              "enonce": "On écrit « des feuilles jaunâtres » avec un accord au pluriel.",
+              "reponse": true,
+              "explication": "Vrai. 'Jaunâtre' est un adjectif dérivé simple qui s'accorde normalement."
+            },
+            {
+              "enonce": "Le mot « chocolat » prend un « s » quand il qualifie la couleur d'un tissu (« des pantalons chocolats »).",
+              "reponse": false,
+              "explication": "Faux. Nom de substance employé comme adjectif : invariable (des pantalons chocolat)."
+            }
+          ]
+        },
+        {
+          "id": "2ac-ex-coul-3",
+          "titre": "Texte à trous : Orthographe des couleurs",
+          "consigne": "Écrivez correctement la couleur entre parenthèses.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le peintre a mélangé des encres (noir) [noires] et blanches.",
+              "reponse": "noires",
+              "acceptees": [
+                "noires"
+              ],
+              "explication": "Couleur simple accordée avec 'encres' (fém. pluriel)."
+            },
+            {
+              "enonce": "Il a cueilli de magnifiques tulipes (orange) [orange] dans le pré.",
+              "reponse": "orange",
+              "acceptees": [
+                "orange"
+              ],
+              "explication": "Invariable car nom de fruit."
+            },
+            {
+              "enonce": "Ses joues étaient (écarlate) [écarlates] sous le coup de l'émotion.",
+              "reponse": "écarlates",
+              "acceptees": [
+                "écarlates"
+              ],
+              "explication": "Écarlate fait partie des exceptions qui s'accordent au pluriel."
+            },
+            {
+              "enonce": "Les coureurs portaient des maillots (jaune clair) [jaune clair].",
+              "reponse": "jaune clair",
+              "acceptees": [
+                "jaune clair"
+              ],
+              "explication": "Couleur composée invariable."
+            },
+            {
+              "enonce": "Elle aime peindre avec des teintes (gris) [grises] et feutrées.",
+              "reponse": "grises",
+              "acceptees": [
+                "grises"
+              ],
+              "explication": "Accord de l'adjectif simple avec 'teintes' (fém. pluriel)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

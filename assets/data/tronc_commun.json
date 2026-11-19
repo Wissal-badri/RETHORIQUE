@@ -1,6 +1,2552 @@
 {
   "code": "tc",
   "nom": "Tronc Commun",
-  "description": "Programme de langue du Tronc Commun (collège vers lycée). Section prête à être enrichie via JSON.",
-  "lecons": []
+  "description": "Programme officiel de français du Tronc Commun Lycée : typologie des textes, nouvelle réaliste, nouvelle fantastique, comédie classique et outils d'analyse.",
+  "lecons": [
+    {
+      "id": "tc-typologie-textuelle",
+      "categorie": "lecture",
+      "titre": "La typologie textuelle (narratif, descriptif, argumentatif, explicatif, prescriptif)",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un texte ne relève rarement d'un seul type à l'état pur, mais comporte une **dominante textuelle**. La maîtrise de la typologie permet d'identifier l'intention de l'auteur et la structure du texte."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Type de texte",
+            "Intention / Visée",
+            "Caractéristiques & Indices",
+            "Exemples de genres"
+          ],
+          "lignes": [
+            [
+              "Narratif",
+              "Raconter une suite d'événements situés dans le temps et l'espace.",
+              "Temps du récit (passé simple, imparfait), indicateurs chronologiques, schéma narratif.",
+              "Roman, nouvelle, conte, fait divers."
+            ],
+            [
+              "Descriptif",
+              "Donner à voir un personnage, un objet ou un lieu.",
+              "Imparfait, adjectifs qualificatifs, repères spatiaux, figures d'analogie.",
+              "Portrait, paysage dans un récit, guide touristique."
+            ],
+            [
+              "Argumentatif",
+              "Convaincre, persuader ou défendre une thèse face à une antithèse.",
+              "Connecteurs logiques, vocabulaire appréciatif (mélioratif/péjoratif), arguments et exemples.",
+              "Essai, éditorial, plaidoyer, lettre ouverte."
+            ],
+            [
+              "Explicatif",
+              "Faire comprendre un phénomène, transmettre un savoir objectif.",
+              "Présent de vérité générale, vocabulaire technique, tournures neutres.",
+              "Article d'encyclopédie, manuel scolaire."
+            ],
+            [
+              "Prescriptif (injonctif)",
+              "Donner des ordres, des conseils, des règles ou des consignes.",
+              "Impératif, infinitif, subjonctif d'obligation, verbes de devoir et pouvoir.",
+              "Recette de cuisine, mode d'emploi, loi, charte."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Exemple dans un texte littéraire :**\nDans une nouvelle de Maupassant, le cadre global est **narratif** (on raconte le destin de personnages), mais l'auteur y insère des pauses **descriptives** (le portrait physique des paysans) et des passages **argumentatifs** (débats moraux entre les parents)."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-typo-1",
+          "titre": "QCM : Identification des types de textes",
+          "consigne": "Sélectionnez le type de texte qui correspond à chaque énoncé ou situation.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "« Prenez 200g de farine, ajoutez deux œufs puis mélangez vigoureusement jusqu'à obtention d'une pâte lisse. » Quel est ce type de texte ?",
+              "options": [
+                "Texte prescriptif (injonctif)",
+                "Texte narratif",
+                "Texte argumentatif",
+                "Texte poétique"
+              ],
+              "reponse": "Texte prescriptif (injonctif)",
+              "explication": "L'emploi des verbes à l'impératif (« prenez », « ajoutez », « mélangez ») et la visée d'instruction caractérisent le texte prescriptif."
+            },
+            {
+              "enonce": "« La peine capitale ne dissuade nullement les criminels ; les statistiques mondiales le prouvent irréfutablement. » Quelle est la dominante de cette phrase ?",
+              "options": [
+                "Argumentative",
+                "Descriptive",
+                "Narrative",
+                "Prescriptive"
+              ],
+              "reponse": "Argumentative",
+              "explication": "L'énoncé soutient une prise de position (thèse) appuyée par un argument rationnel (« les statistiques le prouvent »)."
+            },
+            {
+              "enonce": "« La maison se dressait au bout d'une allée de hêtres centenaires. Sa façade de grès rose s'effritait sous les assauts du vent marin. » Quel est ce type ?",
+              "options": [
+                "Descriptif",
+                "Argumentatif",
+                "Injonctif",
+                "Explicatif"
+              ],
+              "reponse": "Descriptif",
+              "explication": "Le passage présente l'aspect d'un lieu à l'imparfait avec des adjectifs et repères spatiaux."
+            },
+            {
+              "enonce": "« Soudain, la porte grinça et une silhouette encapuchonnée s'engouffra dans la taverne. » Quel est ce type de phrase ?",
+              "options": [
+                "Narratif",
+                "Explicatif",
+                "Prescriptif",
+                "Argumentatif"
+              ],
+              "reponse": "Narratif",
+              "explication": "L'indicateur temporel « soudain » et le verbe d'action au passé simple « s'engouffra » signalent une action qui fait progresser l'histoire."
+            },
+            {
+              "enonce": "« La photosynthèse est le processus biochimique permettant aux végétaux de synthétiser de la matière organique grâce à la lumière du soleil. » Quel est ce type ?",
+              "options": [
+                "Explicatif",
+                "Narratif",
+                "Poétique",
+                "Prescriptif"
+              ],
+              "reponse": "Explicatif",
+              "explication": "Ce texte transmet une connaissance scientifique sur un ton neutre et objectif au présent de vérité générale."
+            },
+            {
+              "enonce": "Quel type de texte s'appuie principalement sur des connecteurs logiques d'opposition, de cause et de conséquence ?",
+              "options": [
+                "Le texte argumentatif",
+                "Le texte prescriptif",
+                "Le texte poétique",
+                "Le texte descriptif"
+              ],
+              "reponse": "Le texte argumentatif",
+              "explication": "L'argumentation nécessite d'articuler logiquement des thèses, arguments et objections."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-typo-2",
+          "titre": "Vrai ou Faux : Les propriétés des types de textes",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Un récit peut intégrer une pause descriptive pour brosser le portrait d'un personnage.",
+              "reponse": true,
+              "explication": "Vrai. Le récit s'interrompt souvent pour laisser place à une description qui enrichit l'univers romanesque."
+            },
+            {
+              "enonce": "Le texte prescriptif s'écrit obligatoirement au passé simple de l'indicatif.",
+              "reponse": false,
+              "explication": "Faux. Il s'exprime à l'impératif, au présent d'obligation, au subjonctif ou à l'infinitif."
+            },
+            {
+              "enonce": "L'objectif premier du texte argumentatif est de divertir sans chercher à convaincre le lecteur.",
+              "reponse": false,
+              "explication": "Faux. Sa visée essentielle est de faire adhérer le destinataire à une thèse ou d'emporter sa conviction."
+            },
+            {
+              "enonce": "Dans un texte descriptif, les localisateurs spatiaux (au premier plan, à gauche, au loin) organisent le regard.",
+              "reponse": true,
+              "explication": "Vrai. Les repères spatiaux structurent la progression de la description."
+            },
+            {
+              "enonce": "Le fait divers journalistique est à dominante narrative car il rapporte un événement réel daté et situé.",
+              "reponse": true,
+              "explication": "Vrai. Le fait divers relate des péripéties chronologiques selon le schéma narratif."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-typo-3",
+          "titre": "Texte à trous : Notions clés de typologie",
+          "consigne": "Complétez chaque phrase avec le mot ou concept approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le texte qui donne des instructions, des ordres ou des recommandations est appelé texte [injonctif] ou prescriptif.",
+              "reponse": "injonctif",
+              "acceptees": [
+                "injonctif",
+                "prescriptif"
+              ],
+              "explication": "Le mode injonctif s'adresse directement au lecteur pour prescrire une action."
+            },
+            {
+              "enonce": "Dans l'argumentation, l'opinion ou l'idée maîtresse défendue par l'auteur s'appelle la [thèse].",
+              "reponse": "thèse",
+              "acceptees": [
+                "thèse",
+                "these"
+              ],
+              "explication": "La thèse est la prise de position fondamentale de l'énonciateur."
+            },
+            {
+              "enonce": "Dans un récit, le temps verbal par excellence pour les actions brèves de premier plan est le [passé simple].",
+              "reponse": "passé simple",
+              "acceptees": [
+                "passé simple",
+                "passe simple"
+              ],
+              "explication": "Le passé simple exprime des faits ponctuels, délimités et successifs."
+            },
+            {
+              "enonce": "Pour soutenir une thèse, l'auteur formule des [arguments] qu'il illustre par des exemples concrets.",
+              "reponse": "arguments",
+              "acceptees": [
+                "arguments",
+                "argument"
+              ],
+              "explication": "Les arguments constituent les preuves logiques étayant la réflexion."
+            },
+            {
+              "enonce": "La description organisée d'un personnage (traits physiques et psychologiques) s'appelle un [portrait].",
+              "reponse": "portrait",
+              "acceptees": [
+                "portrait"
+              ],
+              "explication": "Le portrait regroupe la dimension physique, morale et vestimentaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-nouvelle-realiste",
+      "categorie": "lecture",
+      "titre": "La nouvelle réaliste au XIXe siècle (Maupassant : Aux champs, La Ficelle)",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Au XIXe siècle, le **réalisme** s'attache à peindre la réalité sociale, y compris dans ses aspects les plus humbles et les plus durs. Guy de Maupassant excelle dans ce genre en observant la société normande et bourgeoise."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Œuvre étudiée",
+            "Personnages principaux",
+            "Nœud dramatique",
+            "Visée & Critique sociale"
+          ],
+          "lignes": [
+            [
+              "Aux champs (1882)",
+              "Les Tuvache (Charlot) et les Vallin (Jean) ; M. et Mme d'Hubières.",
+              "La proposition d'achat d'un enfant contre une rente viagère.",
+              "Dénonciation de la misère paysanne et de la cynique puissance de l'argent ; paradoxe de l'ingratitude filiale."
+            ],
+            [
+              "La Ficelle (1883)",
+              "Maître Hauchecorne, Maître Malandain, le maire de Goderville.",
+              "L'accusation injuste du vol d'un portefeuille pour avoir ramassé un bout de ficelle.",
+              "Critique des préjugés, de la méfiance campagnarde et de l'acharnement collectif conduisant à la mort d'un innocent."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Les caractéristiques du réalisme chez Maupassant :**\n• **Ancrage spatio-temporel précis :** La Normandie, le bourg de Goderville, les marchés agricoles.\n• **Fidélité du langage :** Usage du patois et du parler populaire des paysans.\n• **Chute réaliste :** Fin tragique ou désillusionnée, refus de l'idéalisation romantique."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-realiste-1",
+          "titre": "QCM : Compréhension de la nouvelle réaliste",
+          "consigne": "Choisissez la réponse exacte sur Maupassant et la nouvelle réaliste.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Dans « Aux champs », quelle famille accepte finalement de vendre son fils Jean aux d'Hubières ?",
+              "options": [
+                "Les Vallin",
+                "Les Tuvache",
+                "Les Hauchecorne",
+                "Les Malandain"
+              ],
+              "reponse": "Les Vallin",
+              "explication": "Ce sont les Vallin qui acceptent le contrat financier, tandis que la mère Tuvache avait refusé avec indignation."
+            },
+            {
+              "enonce": "Pourquoi Maître Hauchecorne ramasse-t-il le bout de ficelle au sol dans « La Ficelle » ?",
+              "options": [
+                "Par esprit d'économie paysanne",
+                "Pour fabriquer un fouet",
+                "Pour l'offrir au maire",
+                "Pour étrangler un rival"
+              ],
+              "reponse": "Par esprit d'économie paysanne",
+              "explication": "Maupassant précise que Hauchecorne pensait « que tout était bon à ramasser qui peut servir »."
+            },
+            {
+              "enonce": "À la fin de « Aux champs », quelle est l'attitude de Charlot Tuvache envers ses propres parents ?",
+              "options": [
+                "Il les insulte et les quitte avec rancœur",
+                "Il les remercie de l'avoir gardé",
+                "Il leur achète une maison",
+                "Il embrasse sa mère en larmes"
+              ],
+              "reponse": "Il les insulte et les quitte avec rancœur",
+              "explication": "Voyant Jean Vallin revenir riche et distingué, Charlot reproche amèrement à ses parents de ne pas l'avoir vendu."
+            },
+            {
+              "enonce": "Quel est l'ennemi juré qui dénonce injustement Hauchecorne auprès du maire ?",
+              "options": [
+                "Maître Malandain",
+                "Maître Chicot",
+                "Le docteur Hérissey",
+                "M. d'Hubières"
+              ],
+              "reponse": "Maître Malandain",
+              "explication": "Malandain, le bourrelier, en froid avec Hauchecorne, l'accuse d'avoir ramassé le portefeuille perdu."
+            },
+            {
+              "enonce": "Quelle est la caractéristique majeure de la fin d'une nouvelle réaliste ?",
+              "options": [
+                "Une chute réaliste sans fin féerique",
+                "Une intervention magique",
+                "Le mariage triomphal de tous les héros",
+                "Un voyage sur la Lune"
+              ],
+              "reponse": "Une chute réaliste sans fin féerique",
+              "explication": "La nouvelle réaliste évite le dénouement idyllique pour illustrer la cruauté de la vie humaine."
+            },
+            {
+              "enonce": "Quel effet recherche l'auteur réaliste en intégrant des dialogues en patois paysan ?",
+              "options": [
+                "L'effet de réel (vérité sociologique)",
+                "Une volonté de rimer en poésie",
+                "Une énigme policière",
+                "Un effet fantastique"
+              ],
+              "reponse": "L'effet de réel (vérité sociologique)",
+              "explication": "Reproduire le dialecte et les tournures populaires accentue l'authenticité documentaire du récit."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-realiste-2",
+          "titre": "Vrai ou Faux : L'esthétique réaliste de Maupassant",
+          "consigne": "Indiquez si chaque affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Maître Hauchecorne parvient à convaincre facilement tous les villageois de son innocence.",
+              "reponse": false,
+              "explication": "Faux. Plus il tente de se justifier, plus les gens rient et croient qu'il feint l'innocence."
+            },
+            {
+              "enonce": "La nouvelle réaliste se distingue du roman par sa brièveté et la concentration de son action.",
+              "reponse": true,
+              "explication": "Vrai. La nouvelle se concentre sur une intrigue unique et un nombre restreint de personnages."
+            },
+            {
+              "enonce": "Dans « Aux champs », les Tuvache et les Vallin habitaient deux chaumières voisines au confort princier.",
+              "reponse": false,
+              "explication": "Faux. Ils vivaient côte à côte dans une extrême misère en mangeant de la soupe au pain sec."
+            },
+            {
+              "enonce": "Hauchecorne meurt rongé de chagrin et d'obsession face à l'injustice de ses concitoyens.",
+              "reponse": true,
+              "explication": "Vrai. Sa santé mentale et physique décline jusqu'à ce qu'il s'éteigne en délirant sur la ficelle."
+            },
+            {
+              "enonce": "Le réalisme s'interdit d'évoquer l'argent et les conflits d'héritage.",
+              "reponse": false,
+              "explication": "Faux. L'argent et ses ravages moraux sont au cœur de la littérature réaliste du XIXe siècle."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-realiste-3",
+          "titre": "Texte à trous : L'univers de Maupassant",
+          "consigne": "Complétez chaque phrase par le terme approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "La fin inattendue et frappante d'une nouvelle est couramment appelée la [chute].",
+              "reponse": "chute",
+              "acceptees": [
+                "chute"
+              ],
+              "explication": "La chute donne tout son sens ou son ironie au récit bref."
+            },
+            {
+              "enonce": "Dans « Aux champs », le couple bourgeois stérile qui souhaite adopter un enfant s'appelle M. et Mme [d'Hubières].",
+              "reponse": "d'Hubières",
+              "acceptees": [
+                "d'Hubières",
+                "d'Hubieres",
+                "Hubieres",
+                "Hubières"
+              ],
+              "explication": "Mme d'Hubières remarque les enfants jouant dans la poussière devant les masures."
+            },
+            {
+              "enonce": "Le courant littéraire qui cherche à peindre fidèlement les mœurs et la société s'appelle le [réalisme].",
+              "reponse": "réalisme",
+              "acceptees": [
+                "réalisme",
+                "realisme"
+              ],
+              "explication": "Le réalisme s'est développé au XIXe siècle en réaction au romantisme idéalisé."
+            },
+            {
+              "enonce": "Le marché normand où se déroule l'intrigue de « La Ficelle » est celui de la ville de [Goderville].",
+              "reponse": "Goderville",
+              "acceptees": [
+                "Goderville",
+                "goderville"
+              ],
+              "explication": "Goderville est le cadre géographique normand authentique choisi par Maupassant."
+            },
+            {
+              "enonce": "Le procédé stylistique par lequel un auteur donne l'illusion de la stricte vérité historique et géographique s'appelle l'effet de [réel].",
+              "reponse": "réel",
+              "acceptees": [
+                "réel",
+                "reel"
+              ],
+              "explication": "L'effet de réel est théorisé comme le détail concret authentifiant le texte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-nouvelle-fantastique",
+      "categorie": "lecture",
+      "titre": "La nouvelle fantastique (Mérimée : La Vénus d'Ille, Gautier : Le Chevalier double)",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Selon Tzvetan Todorov, le **fantastique** se caractérise par l'**hésitation** éprouvée par un être qui ne connaît que les lois naturelles face à un événement en apparence surnaturel. Si l'on choisit l'explication rationnelle, on entre dans l'**étrange** ; si l'on accepte le surnaturel, on bascule dans le **merveilleux**."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Œuvre",
+            "Auteur",
+            "Événement surnaturel / Inexplicable",
+            "Interprétation ambiguë"
+          ],
+          "lignes": [
+            [
+              "La Vénus d'Ille (1837)",
+              "Prosper Mérimée",
+              "Une statue antique en bronze aux yeux cruels semble s'animer et écraser le jeune marié Alphonse de Peyrehorade.",
+              "Crime crapuleux commis par un rival (l'Espagnol) OU vengeance maléfique de la statue païenne jalouse."
+            ],
+            [
+              "Le Chevalier double (1840)",
+              "Théophile Gautier",
+              "Oluf est né sous la double influence de l'étoile verte et de l'étoile rouge ; il doit combattre son double maléfique.",
+              "Combat allégorique de l'homme contre ses propres penchants sombres et le mal intérieur."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Procédés de l'écriture fantastique :**\n• **Narration à la première personne :** Témoignage d'un narrateur cultivé mais troublé qui doute de ses propres sens.\n• **Atmosphère nocturne et lugubre :** Tempête, ombres, bruits métalliques inexpliqués.\n• **Champ lexical de l'effroi :** *terreur, frisson, angoisse, spectre, hallucination*."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-fantastique-1",
+          "titre": "QCM : Le registre et les caractéristiques du fantastique",
+          "consigne": "Cochez la bonne réponse sur le genre fantastique et les œuvres au programme.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Quelle condition définit le genre fantastique selon le théoricien Tzvetan Todorov ?",
+              "options": [
+                "L'hésitation entre explication rationnelle et surnaturelle",
+                "La certitude que la magie existe dès le début",
+                "La présence obligatoire de robots extraterrestres",
+                "Une fin toujours comique et heureuse"
+              ],
+              "reponse": "L'hésitation entre explication rationnelle et surnaturelle",
+              "explication": "L'hésitation du narrateur et du lecteur est le cœur même de la définition todorovienne du fantastique."
+            },
+            {
+              "enonce": "Dans « La Vénus d'Ille », que glisse imprudemment Alphonse au doigt de la statue de bronze avant sa partie de paume ?",
+              "options": [
+                "Sa bague de mariage destinée à sa fiancée",
+                "Une clé en or",
+                "Une couronne de lauriers",
+                "Une montre à gousset"
+              ],
+              "reponse": "Sa bague de mariage destinée à sa fiancée",
+              "explication": "Ne pouvant jouer avec sa bague ornée d'un diamant, il l'enfile au doigt de la Vénus qui semble ensuite refermer la main."
+            },
+            {
+              "enonce": "Dans « Le Chevalier double » d'où provient la nature duelle du jeune Oluf ?",
+              "options": [
+                "De la visite d'un mystérieux chanteur bohémien lors de la grossesse de sa mère",
+                "D'une malédiction de sorcière lors de son baptême",
+                "D'un philtre bu dans une taverne",
+                "D'une morsure de loup-garou"
+              ],
+              "reponse": "De la visite d'un mystérieux chanteur bohémien lors de la grossesse de sa mère",
+              "explication": "Le maître chanteur étranger aux yeux de braise et au corbeau a jeté une ombre funeste sur la noble Edwige."
+            },
+            {
+              "enonce": "Quel type de dénouement clôt typiquement une nouvelle fantastique ?",
+              "options": [
+                "Un dénouement ambigu laissant le mystère entier",
+                "Une explication scientifique exhaustive et définitive",
+                "Une morale en vers comme chez La Fontaine",
+                "Un mariage célébré par un prêtre joyeux"
+              ],
+              "reponse": "Un dénouement ambigu laissant le mystère entier",
+              "explication": "Le fantastique refuse la certitude : le doute subsiste pour toujours dans l'esprit du lecteur."
+            },
+            {
+              "enonce": "Quelle inscription gravée sur le socle de la Vénus d'Ille constitue un présage funeste ?",
+              "options": [
+                "Cave amantem (« Prends garde si elle t'aime »)",
+                "Carpe diem",
+                "Memento mori",
+                "Veni vidi vici"
+              ],
+              "reponse": "Cave amantem (« Prends garde si elle t'aime »)",
+              "explication": "L'avertissement latin annonce le destin tragique de celui qui s'approchera de l'amour de la statue."
+            },
+            {
+              "enonce": "Quelle est la différence fondamentale entre le fantastique et le merveilleux ?",
+              "options": [
+                "Dans le merveilleux le surnaturel est accepté sans surprise (ex. : conte de fées)",
+                "Le fantastique s'adresse uniquement aux très jeunes enfants",
+                "Le merveilleux se déroule toujours dans un cimetière la nuit",
+                "Il n'existe aucune différence"
+              ],
+              "reponse": "Dans le merveilleux le surnaturel est accepté sans surprise (ex. : conte de fées)",
+              "explication": "Dans le conte merveilleux (Perrault), les fées et baguettes magiques font partie de la normalité de l'univers fictif."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-fantastique-2",
+          "titre": "Vrai ou Faux : Les mécanismes de l'angoisse",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le narrateur de « La Vénus d'Ille » est un archéologue parisien rationnel et sceptique.",
+              "reponse": true,
+              "explication": "Vrai. Ce statut d'homme instruit et équilibré renforce le trouble face aux événements inexplicables."
+            },
+            {
+              "enonce": "À la fin du « Chevalier double », Oluf succombe face à son double aux yeux rouges.",
+              "reponse": false,
+              "explication": "Faux. Oluf triomphe du chevalier à l'étoile rouge et conquiert l'amour de la chaste Brenda."
+            },
+            {
+              "enonce": "Dans un récit fantastique, l'emploi de verbes de perception (sembler, paraître, croire voir) traduit le trouble des sens.",
+              "reponse": true,
+              "explication": "Vrai. Ces modalisateurs traduisent l'incapacité du narrateur à trancher entre illusion et réalité."
+            },
+            {
+              "enonce": "La statue de la Vénus d'Ille est décrite comme bienveillante et souriante à tous les visiteurs.",
+              "reponse": false,
+              "explication": "Faux. Elle dégage une impression d'ironie cruelle et de méchanceté hautaine."
+            },
+            {
+              "enonce": "L'hésitation fantastique disparaît dès que le mystère reçoit une explication purement rationnelle.",
+              "reponse": true,
+              "explication": "Vrai. Le texte glisse alors dans le registre de l'étrange (illusion, folie, rêve, supercherie)."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-fantastique-3",
+          "titre": "Texte à trous : Le lexique du fantastique",
+          "consigne": "Complétez chaque phrase avec le terme exact.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le sentiment d'incertitude entre illusion et surnaturel au cœur du fantastique s'appelle l'[hésitation].",
+              "reponse": "hésitation",
+              "acceptees": [
+                "hésitation",
+                "hesitation"
+              ],
+              "explication": "L'hésitation maintient le suspense intellectuel et émotionnel."
+            },
+            {
+              "enonce": "Dans le récit fantastique, le motif du sosie ou alter ego maléfique porte le nom de [double].",
+              "reponse": "double",
+              "acceptees": [
+                "double",
+                "doppelgänger",
+                "doppelganger"
+              ],
+              "explication": "Le thème du double illustre la scission psychologique de la personnalité."
+            },
+            {
+              "enonce": "Dans « Le Chevalier double », l'étoile bienfaisante qui protège Oluf est l'étoile [verte].",
+              "reponse": "verte",
+              "acceptees": [
+                "verte",
+                "vert"
+              ],
+              "explication": "L'étoile verte symbolise l'espérance et la pureté, opposée à l'étoile rouge sanguinaire."
+            },
+            {
+              "enonce": "L'auteur célèbre de « La Vénus d'Ille » et de « Colomba » est Prosper [Mérimée].",
+              "reponse": "Mérimée",
+              "acceptees": [
+                "Mérimée",
+                "Merimee"
+              ],
+              "explication": "Mérimée fut inspecteur général des Monuments historiques français."
+            },
+            {
+              "enonce": "Une apparition effrayante de personne décédée ou de créature surnaturelle est désignée sous le nom de [spectre].",
+              "reponse": "spectre",
+              "acceptees": [
+                "spectre",
+                "fantôme",
+                "revenant"
+              ],
+              "explication": "Le spectre incarne la hantise dans la littérature fantastique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-comedie-bourgeois",
+      "categorie": "theatre",
+      "titre": "La comédie classique et le rire (Molière : Le Bourgeois gentilhomme)",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Créée en 1670 devant la cour de Louis XIV, *Le Bourgeois gentilhomme* est une **comédie-ballet** de Molière (musique de Lully). Molière y applique le principe classique : **« Castigat ridendo mores »** (*corriger les mœurs par le rire*)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Forme de comique",
+            "Définition",
+            "Exemples dans Le Bourgeois gentilhomme"
+          ],
+          "lignes": [
+            [
+              "Comique de gestes",
+              "Coups de bâton, chutes, mimiques, révérences maladroites, déguisements burlesques.",
+              "La scène où Jourdain s'emmêle dans sa robe de chambre ; la bastonnade lors du mamamouchi."
+            ],
+            [
+              "Comique de mots",
+              "Répétitions, jeux de mots, calembours, jurons, bégaiements, déformation du latin ou du turc.",
+              "La leçon d'orthographe (prononciation des voyelles A, E, I, O, U) ; le charabia de la turquerie."
+            ],
+            [
+              "Comique de situation",
+              "Quiproquos, malentendus, cachettes, personnages dupés.",
+              "Jourdain prêtant sans fin de l'argent à Dorante croyant séduire Dorimène ; la supercherie du fils du Grand Turc."
+            ],
+            [
+              "Comique de caractère",
+              "Exagération ridicule d'un défaut obsessionnel (avarice, prétention, vanité).",
+              "La manie aveugle de Jourdain de singer les nobles gentilshommes au mépris du bon sens."
+            ],
+            [
+              "Comique de mœurs",
+              "Satire d'un groupe social ou d'une époque donnée.",
+              "Critique des bourgeois parvenus qui renient leur classe et des nobles parasites ruinés qui les exploitent."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Extrait célèbre (Acte II, scène 4) :**\n*Maître de philosophie :* « Tout ce qui est prose n'est point vers ; et tout ce qui n'est point vers est prose. »\n*Monsieur Jourdain :* « Par ma foi ! il y a plus de quarante ans que je dis de la prose sans que j'en susse rien, et je vous suis le plus obligé du monde de m'avoir appris cela ! »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-theatre-1",
+          "titre": "QCM : L'univers comique de Molière",
+          "consigne": "Sélectionnez la réponse exacte sur Le Bourgeois gentilhomme.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Quelle est l'obsession dévorante de Monsieur Jourdain dans la pièce ?",
+              "options": [
+                "Devenir un noble (gentilhomme) et singer l'aristocratie",
+                "Devenir le médecin le plus riche de Paris",
+                "Faire le tour du monde en bateau",
+                "Se faire nommer ministre des finances"
+              ],
+              "reponse": "Devenir un noble (gentilhomme) et singer l'aristocratie",
+              "explication": "Jourdain consacre sa fortune à payer des maîtres pour acquérir les manières de la noblesse."
+            },
+            {
+              "enonce": "Dans quel genre de comédie s'inscrit « Le Bourgeois gentilhomme » associant théâtre, danse et musique ?",
+              "options": [
+                "La comédie-ballet",
+                "La tragédie lyrique",
+                "La farce médiévale",
+                "Le mélodrame sombre"
+              ],
+              "reponse": "La comédie-ballet",
+              "explication": "La pièce a été créée en collaboration avec le compositeur Jean-Baptiste Lully."
+            },
+            {
+              "enonce": "Comment Cléonte parvient-il finalement à épouser Lucile, la fille de Jourdain ?",
+              "options": [
+                "En se déguisant en fils du Grand Turc",
+                "En rachetant les dettes de Jourdain",
+                "En enlevant la jeune fille pendant la nuit",
+                "En provoquant Dorante en duel d'épée"
+              ],
+              "reponse": "En se déguisant en fils du Grand Turc",
+              "explication": "Avec la complicité de son valet Covielle, Cléonte monte une mascarade turque flattant la vanité de Jourdain."
+            },
+            {
+              "enonce": "Quelle dignité burlesque inventée est attribuée à Monsieur Jourdain lors de la cérémonie turque ?",
+              "options": [
+                "Mamamouchi",
+                "Grand vizir de Babylone",
+                "Chevalier de la table ronde",
+                "Marquis de Carabas"
+              ],
+              "reponse": "Mamamouchi",
+              "explication": "Le titre fictif de 'Mamamouchi' permet à la troupe de le tourner en dérision tout en le ravissant."
+            },
+            {
+              "enonce": "Quel personnage incarne la voix de la raison et du bon sens populaire face aux folies de Jourdain ?",
+              "options": [
+                "Madame Jourdain (et la servante Nicole)",
+                "Le maître de philosophie",
+                "Le marquis Dorante",
+                "Le maître d'armes"
+              ],
+              "reponse": "Madame Jourdain (et la servante Nicole)",
+              "explication": "Mme Jourdain s'insurge contre les dépenses ridicules de son mari et rappelle leurs origines bourgeoises."
+            },
+            {
+              "enonce": "Quand deux personnages dialoguent en se trompant mutuellement sur le sens ou l'objet de leur propos, on parle de :",
+              "options": [
+                "Quiproquo",
+                "Monologue",
+                "Stichomythie",
+                "Pantomime"
+              ],
+              "reponse": "Quiproquo",
+              "explication": "Le quiproquo (prendre une chose pour une autre) est un ressort classique du comique de situation."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-theatre-2",
+          "titre": "Vrai ou Faux : Les mécanismes théâtraux chez Molière",
+          "consigne": "Indiquez si chaque affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Une réplique prononcée par un comédien à l'attention du public et que les autres personnages feignent de ne pas entendre s'appelle un aparté.",
+              "reponse": true,
+              "explication": "Vrai. L'aparté crée une connivence immédiate entre le personnage et les spectateurs."
+            },
+            {
+              "enonce": "Le maître de danse et le maître de musique s'entendent parfaitement sans jamais se disputer les mérites de leur art.",
+              "reponse": false,
+              "explication": "Faux. Dès l'acte I, les maîtres se querellent avec vanité pour savoir qui apporte le plus à la gloire humaine."
+            },
+            {
+              "enonce": "La devise latine de la comédie classique « Castigat ridendo mores » signifie « corriger les mœurs par le rire ».",
+              "reponse": true,
+              "explication": "Vrai. La comédie a une fonction morale et sociale en ridiculisant les travers humains."
+            },
+            {
+              "enonce": "Dorante est un noble très généreux qui offre sa fortune personnelle à Monsieur Jourdain.",
+              "reponse": false,
+              "explication": "Faux. Dorante est un courtisan ruiné et flagorneur qui soutire de fortes sommes à Jourdain."
+            },
+            {
+              "enonce": "Les didascalies sont les répliques chantées par le chœur antique dans la comédie.",
+              "reponse": false,
+              "explication": "Faux. Les didascalies sont les indications de mise en scène données par le dramaturge (gestes, ton, décor)."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-theatre-3",
+          "titre": "Texte à trous : Notions du théâtre classique",
+          "consigne": "Complétez chaque phrase avec le terme exact du lexique théâtral.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Une longue tirade prononcée par un personnage seul sur scène qui exprime ses pensées secrètes s'appelle un [monologue].",
+              "reponse": "monologue",
+              "acceptees": [
+                "monologue"
+              ],
+              "explication": "Le monologue dévoile les états d'âme intimes d'un protagoniste."
+            },
+            {
+              "enonce": "L'auteur d'une pièce de théâtre est désigné par le terme de [dramaturge].",
+              "reponse": "dramaturge",
+              "acceptees": [
+                "dramaturge"
+              ],
+              "explication": "Le dramaturge compose le texte de la pièce."
+            },
+            {
+              "enonce": "La première scène ou le premier acte qui présente les personnages, le lieu et l'intrigue est la scène d'[exposition].",
+              "reponse": "exposition",
+              "acceptees": [
+                "exposition"
+              ],
+              "explication": "L'exposition informe le spectateur de tout ce qui est nécessaire pour comprendre l'action."
+            },
+            {
+              "enonce": "L'enchaînement rapide de répliques très courtes vers par vers ou mot à mot s'appelle une [stichomythie].",
+              "reponse": "stichomythie",
+              "acceptees": [
+                "stichomythie"
+              ],
+              "explication": "La stichomythie donne un rythme vif et tendu aux échanges dramatiques."
+            },
+            {
+              "enonce": "Le moment où le conflit dramatique trouve son règlement final (heureux ou malheureux) est le [dénouement].",
+              "reponse": "dénouement",
+              "acceptees": [
+                "dénouement",
+                "denouement"
+              ],
+              "explication": "Le dénouement boucle l'intrigue dans les dernières scènes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-valeurs-temps-recit",
+      "categorie": "conj",
+      "titre": "Les valeurs de l'imparfait et du passé simple dans le récit",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans la narration littéraire au passé, l'**imparfait** et le **passé simple** se complètent rigoureusement pour organiser la hiérarchie des événements et le regard du lecteur."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Temps verbal",
+            "Plan dans le récit",
+            "Aspect & Durée",
+            "Valeurs fondamentales"
+          ],
+          "lignes": [
+            [
+              "Passé simple",
+              "Premier plan (progression)",
+              "Aspect sécant/délimité, action achevée, ponctuelle.",
+              "1. Action soudaine et brève.\n2. Actions successives faisant avancer l'intrigue.\n3. Action délimitée dans le temps."
+            ],
+            [
+              "Imparfait",
+              "Arrière-plan (décor, cadre)",
+              "Aspect non sécant/duratif, non délimité dans le temps.",
+              "1. Description (portrait, paysage).\n2. Action durable ou inachevée (simultanéité).\n3. Répétition / habitude (itératif)."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Exemple d'alternance :**\n*Le vent soufflait* avec violence et la mer *griffait* les rochers (arrière-plan descriptif à l'imparfait). Soudain, un éclair *déchira* la nuit et un cri terrifiant *retentit* dans la cabine (premier plan, actions ponctuelles et successives au passé simple)."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-temps-1",
+          "titre": "QCM : Choix entre imparfait et passé simple",
+          "consigne": "Identifiez la valeur ou le temps correct dans chaque énoncé de récit.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "« Tous les soirs, le vieux paysan s'asseyait sur le pas de sa porte et contemplait le coucher du soleil. » Quelle est la valeur de l'imparfait ici ?",
+              "options": [
+                "Imparfait d'habitude (itératif)",
+                "Imparfait de politesse",
+                "Imparfait de rupture",
+                "Action ponctuelle et soudaine"
+              ],
+              "reponse": "Imparfait d'habitude (itératif)",
+              "explication": "L'indice « tous les soirs » signale une action répétée régulièrement dans le passé."
+            },
+            {
+              "enonce": "« Il marchait dans la forêt quand, tout à coup, un coup de fusil ... (éclater). » Quelle forme verbale convient pour faire progresser l'action ?",
+              "options": [
+                "éclata (passé simple)",
+                "éclatait (imparfait)",
+                "a éclaté (passé composé)",
+                "éclatera (futur)"
+              ],
+              "reponse": "éclata (passé simple)",
+              "explication": "L'événement soudain rompant le calme de l'arrière-plan exige le passé simple."
+            },
+            {
+              "enonce": "« Le chevalier saisit son épée, franchit le fossé et frappa le monstre. » Quelle valeur illustrent ces trois verbes au passé simple ?",
+              "options": [
+                "La succession rapide d'actions de premier plan",
+                "La description physique d'un héros",
+                "Une habitude ancienne",
+                "Une supposition non vérifiée"
+              ],
+              "reponse": "La succession rapide d'actions de premier plan",
+              "explication": "Ces trois verbes s'enchaînent chronologiquement pour composer l'action centrale."
+            },
+            {
+              "enonce": "« Le château possédait quatre tours crénelées qui dominaient fièrement la vallée. » Quelle est la valeur de cet imparfait ?",
+              "options": [
+                "Imparfait de description (arrière-plan)",
+                "Imparfait historique",
+                "Imparfait de narration",
+                "Action brève"
+              ],
+              "reponse": "Imparfait de description (arrière-plan)",
+              "explication": "Le verbe brosse le décor et le cadre physique sans progression chronologique."
+            },
+            {
+              "enonce": "Quelle est la terminaison exacte du verbe 'prendre' à la 3e personne du singulier au passé simple ?",
+              "options": [
+                "Il prit",
+                "Il prenait",
+                "Il prendit",
+                "Il prît"
+              ],
+              "reponse": "Il prit",
+              "explication": "Le verbe prendre fait 'il prit' (sans accent circonflexe à la 3e personne du singulier de l'indicatif)."
+            },
+            {
+              "enonce": "Dans la phrase : « Pendant que les soldats dormaient, le général préparait la stratégie », quelle est la valeur des imparfaits ?",
+              "options": [
+                "Simultanéité d'actions durables dans le passé",
+                "Actions successives et brèves",
+                "Récit d'anticipation",
+                "Ordre péremptoire"
+              ],
+              "reponse": "Simultanéité d'actions durables dans le passé",
+              "explication": "Les deux actions se déroulent en même temps sur une durée étendue sans point de fin précisé."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-temps-2",
+          "titre": "Vrai ou Faux : Règles des temps du récit",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le passé simple exprime une action dont le début et la fin sont nettement délimités dans le passé.",
+              "reponse": true,
+              "explication": "Vrai. L'aspect du passé simple est borné (sécant)."
+            },
+            {
+              "enonce": "L'imparfait s'utilise pour énumérer une série de cinq victoires militaires consécutives.",
+              "reponse": false,
+              "explication": "Faux. L'enchaînement d'événements consécutifs et accomplis requiert le passé simple."
+            },
+            {
+              "enonce": "La formule « soudain » ou « tout à coup » appelle très fréquemment un verbe au passé simple.",
+              "reponse": true,
+              "explication": "Vrai. Elle signale une rupture temporelle introduisant un événement marquant."
+            },
+            {
+              "enonce": "Les verbes du premier groupe prennent les terminaisons -ai, -as, -a, -âmes, -âtes, -èrent au passé simple.",
+              "reponse": true,
+              "explication": "Vrai. C'est la conjugaison régulière en -a- des verbes en -er."
+            },
+            {
+              "enonce": "L'imparfait est qualifié de temps du premier plan parce qu'il fait bondir l'intrigue vers l'avant.",
+              "reponse": false,
+              "explication": "Faux. L'imparfait constitue l'arrière-plan ; c'est le passé simple qui fait avancer l'intrigue au premier plan."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-temps-3",
+          "titre": "Texte à trous : Conjugaison au passé simple",
+          "consigne": "Conjuguez le verbe entre parenthèses au passé simple de l'indicatif.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Dès qu'il aperçut le danger, il (décider) [décida] de faire demi-tour.",
+              "reponse": "décida",
+              "acceptees": [
+                "décida",
+                "decida"
+              ],
+              "explication": "Verbe du 1er groupe à la 3e personne du singulier : terminaison en -a."
+            },
+            {
+              "enonce": "Les deux rivaux (finir) [finirent] par conclure une trêve fragile.",
+              "reponse": "finirent",
+              "acceptees": [
+                "finirent"
+              ],
+              "explication": "Verbe du 2e groupe à la 3e personne du pluriel : -irent."
+            },
+            {
+              "enonce": "Face au magistrat, l'accusé (vouloir) [voulut] clamer son innocence.",
+              "reponse": "voulut",
+              "acceptees": [
+                "voulut"
+              ],
+              "explication": "Verbe irrégulier en -u- : il voulut."
+            },
+            {
+              "enonce": "Ils (être) [furent] surpris par la violence de l'ouragan nocturne.",
+              "reponse": "furent",
+              "acceptees": [
+                "furent"
+              ],
+              "explication": "L'auxiliaire être au passé simple fait : ils furent."
+            },
+            {
+              "enonce": "Victor Hugo (écrire) [écrivit] un réquisitoire mémorable contre l'échafaud.",
+              "reponse": "écrivit",
+              "acceptees": [
+                "écrivit",
+                "ecrivit"
+              ],
+              "explication": "Verbe écrire au passé simple : il écrivit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-enonciation-modalisation",
+      "categorie": "gram",
+      "titre": "L'énonciation et les marques de la modalisation (subjectivité)",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'**énonciation** est l'acte de production d'un énoncé par un locuteur s'adressant à un destinataire dans un lieu et un temps donnés. Un énoncé peut être **ancré dans la situation d'énonciation** (discours) ou **coupé de la situation** (récit objectif)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Procédé de modalisation",
+            "Définition",
+            "Exemples d'outils linguistiques"
+          ],
+          "lignes": [
+            [
+              "Vocabulaire mélioratif (élogieux)",
+              "Traduit un jugement de valeur positif, valorisant.",
+              "*Admirable, sublime, prodige, triomphal, éclatant.*"
+            ],
+            [
+              "Vocabulaire péjoratif (dépréciatif)",
+              "Traduit un jugement de valeur négatif, critique.",
+              "*Médiocre, monstrueux, prétentieux, hideux, pitoyable.*"
+            ],
+            [
+              "Adverbes et locutions de doute ou certitude",
+              "Nuancent le degré d'adhésion du locuteur à sa proposition.",
+              "*Certainement, indubitablement, peut-être, sans doute, probablement.*"
+            ],
+            [
+              "Verbes d'opinion et de sentiment",
+              "Indiquent l'attitude mentale de celui qui s'exprime.",
+              "*Je pense, j'estime, je redoute, il me semble, prétendre.*"
+            ],
+            [
+              "Modes conditionnel et subjonctif",
+              "Marquent l'incertitude, l'hypothèse ou le souhait.",
+              "*Il viendrait demain (conditionnel d'information non confirmée).*"
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Différence entre énoncé neutre et énoncé modalisé :**\n• *Neutre :* « Cet homme a construit une maison au sommet de la colline. »\n• *Modalisé :* « Ce richissime parvenu a hélas défiguré la colline avec une hideuse bâtisse prétentieuse. »"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-modal-1",
+          "titre": "QCM : Repérage de la modalisation",
+          "consigne": "Identifiez les marques de subjectivité et la modalisation dans les phrases suivantes.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Dans la phrase : « Selon certaines rumeurs, le ministre démissionnerait prochainement », quel outil exprime la modalisation ?",
+              "options": [
+                "Le conditionnel d'incertitude (démissionnerait)",
+                "Le présent de l'indicatif",
+                "Un adverbe de temps",
+                "La négation"
+              ],
+              "reponse": "Le conditionnel d'incertitude (démissionnerait)",
+              "explication": "Le conditionnel journalistique rapporte une information sous réserve sans engagement de vérité."
+            },
+            {
+              "enonce": "Quel adjectif relève du vocabulaire mélioratif ?",
+              "options": [
+                "Remarquable",
+                "Méprisable",
+                "Déplorable",
+                "Insipide"
+              ],
+              "reponse": "Remarquable",
+              "explication": "Remarquable exprime une appréciation hautement favorable."
+            },
+            {
+              "enonce": "« Cet individu s'est arrogé le droit de parler au nom de tous. » Quel jugement traduit le verbe 's'arroger' ?",
+              "options": [
+                "Un jugement péjoratif et critique",
+                "Un éloge chaleureux",
+                "Une totale neutralité",
+                "Un doute scientifique"
+              ],
+              "reponse": "Un jugement péjoratif et critique",
+              "explication": "S'arroger signifie s'attribuer illégitimement un pouvoir ou un droit."
+            },
+            {
+              "enonce": "Quel mot exprime la certitude absolue de l'énonciateur ?",
+              "options": [
+                "Incontestablement",
+                "Vraisemblablement",
+                "Peut-être",
+                "Éventuellement"
+              ],
+              "reponse": "Incontestablement",
+              "explication": "Incontestablement exclut toute contestation ou nuance de doute."
+            },
+            {
+              "enonce": "Un texte ancré dans la situation d'énonciation se reconnaît à :",
+              "options": [
+                "La présence des pronoms de 1re et 2e personne (je, tu, nous, vous) et déictiques (ici, maintenant)",
+                "L'emploi exclusif de la 3e personne et du passé simple",
+                "L'absence totale de verbes conjugués",
+                "Un narrateur omniscient invisible"
+              ],
+              "reponse": "La présence des pronoms de 1re et 2e personne (je, tu, nous, vous) et déictiques (ici, maintenant)",
+              "explication": "Ces marques (déictiques) renvoient directement au contexte immédiat de parole."
+            },
+            {
+              "enonce": "« Malheureusement, le projet a été abandonné. » Quel type de modalisateur est 'malheureusement' ?",
+              "options": [
+                "Un adverbe de sentiment / d'appréciation affective",
+                "Un connecteur de temps",
+                "Un pronom relatif",
+                "Un verbe de perception"
+              ],
+              "reponse": "Un adverbe de sentiment / d'appréciation affective",
+              "explication": "L'adverbe révèle le regret personnel du locuteur face au fait exposé."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-modal-2",
+          "titre": "Vrai ou Faux : Les degrés de subjectivité",
+          "consigne": "Indiquez si chaque affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Un modalisateur sert à indiquer l'opinion, le doute ou le sentiment du locuteur vis-à-vis de son propos.",
+              "reponse": true,
+              "explication": "Vrai. Les modalisateurs introduisent la subjectivité dans le discours."
+            },
+            {
+              "enonce": "Une définition du dictionnaire de physique est un texte fortement modalisé et poétique.",
+              "reponse": false,
+              "explication": "Faux. Le discours scientifique vise l'objectivité et évite les jugements affectifs."
+            },
+            {
+              "enonce": "Le conditionnel peut être employé pour formuler poliment une requête (« Je voudrais vous demander... »).",
+              "reponse": true,
+              "explication": "Vrai. C'est la valeur du conditionnel de politesse atténuant l'ordre direct."
+            },
+            {
+              "enonce": "Les suffixes diminutifs ou péjoratifs (comme -âtre dans « verdâtre » ou -aille dans « ferraille ») sont des modalisateurs.",
+              "reponse": true,
+              "explication": "Vrai. Ils portent une nuance dépréciative ou dévalorisante."
+            },
+            {
+              "enonce": "L'ironie consiste à dire exactement ce que l'on pense sans aucun décalage ni sous-entendu.",
+              "reponse": false,
+              "explication": "Faux. L'ironie dit le contraire de ce qu'elle veut faire entendre (antiphrase)."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-modal-3",
+          "titre": "Texte à trous : Outils de la subjectivité",
+          "consigne": "Complétez chaque phrase avec le mot approprié.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Les mots qui expriment un jugement favorable et valorisant forment le lexique [mélioratif].",
+              "reponse": "mélioratif",
+              "acceptees": [
+                "mélioratif",
+                "melioratif",
+                "laudatif"
+              ],
+              "explication": "Le registre laudatif ou mélioratif s'oppose au péjoratif."
+            },
+            {
+              "enonce": "Les mots qui ne prennent sens que par rapport à la situation de communication (je, ici, demain) s'appellent des [déictiques].",
+              "reponse": "déictiques",
+              "acceptees": [
+                "déictiques",
+                "deictiques"
+              ],
+              "explication": "Les déictiques ancrent le message dans l'ici et le maintenant de l'orateur."
+            },
+            {
+              "enonce": "Le verbe impersonnel « il [semble] que » exprime une apparence ou une impression subjective.",
+              "reponse": "semble",
+              "acceptees": [
+                "semble",
+                "paraît",
+                "parait"
+              ],
+              "explication": "Il semble que traduit l'incertitude ou la réserve."
+            },
+            {
+              "enonce": "La figure de style consistant à exprimer une idée par son contraire avec une intention moqueuse s'appelle l'[antiphrase].",
+              "reponse": "antiphrase",
+              "acceptees": [
+                "antiphrase"
+              ],
+              "explication": "L'antiphrase est l'instrument privilégié de l'ironie."
+            },
+            {
+              "enonce": "L'attitude d'un locuteur qui présente les faits sans laisser transparaître aucune émotion personnelle s'appelle l'[objectivité].",
+              "reponse": "objectivité",
+              "acceptees": [
+                "objectivité",
+                "objectivite",
+                "neutralité",
+                "neutralite"
+              ],
+              "explication": "L'objectivité s'oppose à la subjectivité."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-implicite-presuppose",
+      "categorie": "style",
+      "titre": "L'implicite : présupposé et sous-entendu",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un énoncé véhicule souvent deux niveaux de sens : ce qui est dit explicitement (**l'explicite**) et ce qui est suggéré sans être formulé de manière littérale (**l'implicite**). L'implicite se divise en deux catégories majeures : le **présupposé** et le **sous-entendu**."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Catégorie d'implicite",
+            "Définition & Mécanisme",
+            "Résistance à la négation",
+            "Exemple d'énoncé"
+          ],
+          "lignes": [
+            [
+              "Présupposé",
+              "Information inscrite dans la structure sémantique même de la phrase. Elle reste vraie même si on nie la phrase.",
+              "Reste vrai : « Il n'a pas cessé de fumer » présuppose toujours qu'il fumait.",
+              "« Pierre a cessé de fumer » → Présupposé : Pierre fumait auparavant."
+            ],
+            [
+              "Sous-entendu",
+              "Information transmise indirectement dépendant du contexte d'énonciation. L'émetteur peut nier avoir voulu la dire.",
+              "Peut être désavoué par l'émetteur selon la situation.",
+              "« Il fait un peu froid ici » (dans une pièce où une fenêtre est ouverte) → Sous-entendu : « Fermez la fenêtre s'il vous plaît »."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Autre exemple :**\n« Ali a réussi son examen cette fois-ci. »\n• *Présupposé :* Ali avait déjà passé l'examen auparavant et avait échoué (induit par le connecteur temporel *cette fois-ci*).\n• *Sous-entendu possible :* Habituellement, Ali ne travaille pas assez ou a eu beaucoup de chance."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-implicite-1",
+          "titre": "QCM : Identifier présupposé et sous-entendu",
+          "consigne": "Analysez l'implicite contenu dans chaque énoncé.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Dans la phrase : « Le ciel recommence à s'assombrir », quel est le présupposé ?",
+              "options": [
+                "Le ciel s'était déjà assombri auparavant",
+                "Il ne pleuvra jamais",
+                "Le ciel restera bleu éternellement",
+                "Nous sommes en plein été"
+              ],
+              "reponse": "Le ciel s'était déjà assombri auparavant",
+              "explication": "Le verbe « recommencer » présuppose obligatoirement une occurrence passée de l'action."
+            },
+            {
+              "enonce": "Si quelqu'un dit à midi : « Tiens, ta montre est encore arrêtée ! », quel sous-entendu pratique exprime-t-il souvent ?",
+              "options": [
+                "Tu es en retard ou tu ne connais pas l'heure exacte",
+                "Ta montre est en or massif",
+                "Il adore collectionner les horloges",
+                "La journée est terminée"
+              ],
+              "reponse": "Tu es en retard ou tu ne connais pas l'heure exacte",
+              "explication": "Le sous-entendu invite l'interlocuteur à prendre conscience de son retard."
+            },
+            {
+              "enonce": "« Même Karim a obtenu une excellente note à cette épreuve. » Que laisse sous-entendre l'adverbe 'même' ?",
+              "options": [
+                "Karim rencontre habituellement des difficultés scolaires ou l'épreuve était facile",
+                "Karim est le professeur de la classe",
+                "Karim n'a pas passé l'épreuve",
+                "Karim a triché"
+              ],
+              "reponse": "Karim rencontre habituellement des difficultés scolaires ou l'épreuve était facile",
+              "explication": "L'adverbe scalaire « même » place Karim au rang le plus inattendu pour réussir."
+            },
+            {
+              "enonce": "Quelle est la caractéristique du présupposé lorsqu'on transforme la phrase à la forme négative ou interrogative ?",
+              "options": [
+                "Il demeure toujours vrai et inchangé",
+                "Il est immédiatement détruit",
+                "Il devient un pléonasme",
+                "Il se transforme en rime poétique"
+              ],
+              "reponse": "Il demeure toujours vrai et inchangé",
+              "explication": "C'est le test linguistique officiel du présupposé : il résiste au test de la négation et de l'interrogation."
+            },
+            {
+              "enonce": "Dans « Monsieur Jourdain continue d'engager des maîtres à grands frais », quel est le présupposé ?",
+              "options": [
+                "Il engageait déjà des maîtres auparavant",
+                "Il n'a plus un sou",
+                "Ses maîtres sont tous gratuits",
+                "Il déteste la noblesse"
+              ],
+              "reponse": "Il engageait déjà des maîtres auparavant",
+              "explication": "Le verbe aspectuel 'continuer' encode obligatoirement la continuité d'un fait antérieur."
+            },
+            {
+              "enonce": "« Quel temps magnifique pour une promenade ! » prononcé sous un déluge d'orage relève de :",
+              "options": [
+                "L'ironie par antiphrase sous-entendue",
+                "Une vérité géographique",
+                "Une métaphore filée",
+                "Un présupposé scientifique"
+              ],
+              "reponse": "L'ironie par antiphrase sous-entendue",
+              "explication": "Le décalage entre la situation réelle et l'énoncé crée un sous-entendu ironique évident."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-implicite-2",
+          "titre": "Vrai ou Faux : Les mécanismes de l'implicite",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Le sens littéral et formulé noir sur blanc dans un texte s'appelle l'explicite.",
+              "reponse": true,
+              "explication": "Vrai. L'explicite est directement lisible sans déduction requise."
+            },
+            {
+              "enonce": "Un sous-entendu ne dépend absolument pas du contexte de la conversation.",
+              "reponse": false,
+              "explication": "Faux. Le sous-entendu dépend entièrement du contexte, des intonations et de la culture partagée."
+            },
+            {
+              "enonce": "Dans « As-tu enfin fini tes devoirs ? », l'adverbe 'enfin' présuppose que cela a pris beaucoup trop de temps.",
+              "reponse": true,
+              "explication": "Vrai. 'Enfin' encode l'attente prolongée ou l'impatience du locuteur."
+            },
+            {
+              "enonce": "Le locuteur ne peut jamais nier un sous-entendu en disant « ce n'est pas ce que j'ai dit ».",
+              "reponse": false,
+              "explication": "Faux. L'avantage du sous-entendu pour le locuteur est justement de pouvoir se défausser si contesté."
+            },
+            {
+              "enonce": "Les textes littéraires et polémiques exploitent abondamment l'implicite pour déjouer la censure ou stimuler l'esprit critique.",
+              "reponse": true,
+              "explication": "Vrai. Les auteurs classiques (Voltaire, Molière) utilisaient l'implicite pour critiquer les puissants."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-implicite-3",
+          "titre": "Texte à trous : Notions d'implicite",
+          "consigne": "Complétez chaque phrase avec le terme exact.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "L'information induite par un mot déclencheur qui résiste à la négation s'appelle le [présupposé].",
+              "reponse": "présupposé",
+              "acceptees": [
+                "présupposé",
+                "presuppose"
+              ],
+              "explication": "Le présupposé est intrinsèquement lié à la structure grammaticale."
+            },
+            {
+              "enonce": "L'information indirecte et masquée que l'auditeur doit déduire du contexte s'appelle le [sous-entendu].",
+              "reponse": "sous-entendu",
+              "acceptees": [
+                "sous-entendu",
+                "sous entendu"
+              ],
+              "explication": "Le sous-entendu relève de la pragmatique de la communication."
+            },
+            {
+              "enonce": "Le niveau de message exprimé en termes clairs et directs est le sens [explicite].",
+              "reponse": "explicite",
+              "acceptees": [
+                "explicite"
+              ],
+              "explication": "L'explicite s'oppose à l'implicite."
+            },
+            {
+              "enonce": "Dans « Il a encore perdu ses clés », l'adverbe « [encore] » présuppose la réitération de l'événement.",
+              "reponse": "encore",
+              "acceptees": [
+                "encore"
+              ],
+              "explication": "Encore indique que l'action s'est déjà produite par le passé."
+            },
+            {
+              "enonce": "L'attitude consistant à feindre de louer pour mieux blâmer relève de la tonalité [ironique].",
+              "reponse": "ironique",
+              "acceptees": [
+                "ironique"
+              ],
+              "explication": "L'ironie s'appuie constamment sur le sous-entendu critique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-phrase-complexe-subordonnees",
+      "categorie": "gram",
+      "titre": "La phrase complexe : subordonnées relatives, complétives et circonstancielles",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une **phrase complexe** contient au moins deux propositions comportant chacune un verbe conjugué. Les propositions peuvent être reliées par **juxtaposition** (virgule, point-virgule), **coordination** (mais, ou, et, donc, or, ni, car) ou **subordination** (proposition principale + subordonnée)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Type de subordonnée",
+            "Mot subordonnant",
+            "Fonction dans la phrase",
+            "Exemple illustratif"
+          ],
+          "lignes": [
+            [
+              "Relative",
+              "Pronom relatif (qui, que, dont, où, lequel...)",
+              "Complément de l'antécédent (expansion du nom).",
+              "L'homme *qui ramassait la ficelle* était méprisé."
+            ],
+            [
+              "Complétive (conjonctive pure)",
+              "Conjonction « que »",
+              "COD du verbe de la proposition principale.",
+              "Le maire pense *que l'accusé ment*."
+            ],
+            [
+              "Circonstancielle de cause",
+              "Parce que, puisque, comme, vu que...",
+              "Complément circonstanciel de cause.",
+              "Il fut condamné *parce que nul ne le croyait*."
+            ],
+            [
+              "Circonstancielle de conséquence",
+              "De sorte que, si bien que, tellement... que",
+              "Complément circonstanciel de conséquence.",
+              "Il eut si peur *qu'il pâlit affreusement*."
+            ],
+            [
+              "Circonstancielle de concession / opposition",
+              "Bien que (+ subj.), quoique, alors que...",
+              "Complément circonstanciel d'opposition / concession.",
+              "*Bien qu'il criât son innocence*, la foule riait."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Attention à la distinction essentielle entre « que » pronom relatif et « que » conjonction :**\n• *Relative :* « La nouvelle [que Maupassant a écrite] est poignante. » → 'que' a pour antécédent le nom « nouvelle » (fonction COD de 'a écrite').\n• *Complétive :* « Je sais [que Maupassant a écrit cette nouvelle]. » → 'que' suit le verbe 'sais' et introduit la complétive sans antécédent nominal."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-subord-1",
+          "titre": "QCM : Identification des propositions subordonnées",
+          "consigne": "Reconnaissez la nature exacte de la proposition subordonnée entre crochets.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Dans « La statue [qui se dresse dans le parc] effraie les passants », quelle est la nature de la subordonnée ?",
+              "options": [
+                "Subordonnée relative",
+                "Subordonnée complétive",
+                "Subordonnée de cause",
+                "Subordonnée interrogative indirecte"
+              ],
+              "reponse": "Subordonnée relative",
+              "explication": "Elle est introduite par le pronom relatif « qui » et complète le nom antécédent « statue »."
+            },
+            {
+              "enonce": "Dans « Les juges estiment [que l'affaire est classée] », quelle est la proposition subordonnée ?",
+              "options": [
+                "Subordonnée complétive (COD de 'estiment')",
+                "Subordonnée relative",
+                "Subordonnée de conséquence",
+                "Subordonnée de temps"
+              ],
+              "reponse": "Subordonnée complétive (COD de 'estiment')",
+              "explication": "Introduite par la conjonction 'que' après un verbe d'opinion, elle n'a pas d'antécédent et occupe la fonction de COD."
+            },
+            {
+              "enonce": "« [Bien que la nuit fût glaciale], Oluf poursuivit sa chevauchée. » Quelle circonstance exprime la subordonnée ?",
+              "options": [
+                "La concession",
+                "La conséquence",
+                "Le but",
+                "Le temps"
+              ],
+              "reponse": "La concession",
+              "explication": "La conjonction 'bien que' suivie du subjonctif exprime la concession (obstacle non empêchant)."
+            },
+            {
+              "enonce": "Dans « Il a tellement travaillé [qu'il a obtenu les félicitations du jury] », quelle est la relation logique ?",
+              "options": [
+                "La conséquence",
+                "La cause",
+                "La condition",
+                "La comparaison"
+              ],
+              "reponse": "La conséquence",
+              "explication": "La structure corrélative « tellement... que » exprime le résultat / la conséquence de l'intensité du travail."
+            },
+            {
+              "enonce": "Quel pronom relatif doit-on utiliser pour remplacer un nom introduit par la préposition 'de' (« Il parle de ce livre ») ?",
+              "options": [
+                "Dont",
+                "Qui",
+                "Où",
+                "Que"
+              ],
+              "reponse": "Dont",
+              "explication": "« Le livre dont il parle » : le pronom relatif 'dont' remplace un complément introduit par 'de'."
+            },
+            {
+              "enonce": "Quel mode verbal est obligatoirement requis après la conjonction de but « pour que » ?",
+              "options": [
+                "Le subjonctif",
+                "L'indicatif futur",
+                "L'impératif",
+                "Le participe passé"
+              ],
+              "reponse": "Le subjonctif",
+              "explication": "Le but étant une visée non encore réalisée, il exige systématiquement le mode subjonctif."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-subord-2",
+          "titre": "Vrai ou Faux : Les liens dans la phrase complexe",
+          "consigne": "Indiquez si chaque affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Deux propositions reliées par un point-virgule sans mot de liaison sont juxtaposées.",
+              "reponse": true,
+              "explication": "Vrai. La juxtaposition s'effectue par un signe de ponctuation faible."
+            },
+            {
+              "enonce": "Une proposition subordonnée relative peut tout à fait exister sans antécédent nominal.",
+              "reponse": false,
+              "explication": "Faux. Dans sa forme standard, la relative s'attache à un nom ou pronom antécédent qu'elle complète."
+            },
+            {
+              "enonce": "La conjonction « parce que » introduit une proposition subordonnée circonstancielle de cause.",
+              "reponse": true,
+              "explication": "Vrai. Elle explicite la raison directe du fait énoncé dans la principale."
+            },
+            {
+              "enonce": "Après la locution concessive « bien que », on emploie toujours l'indicatif futur.",
+              "reponse": false,
+              "explication": "Faux. « Bien que » exige rigoureusement le subjonctif."
+            },
+            {
+              "enonce": "« Mais, ou, et, donc, or, ni, car » sont des conjonctions de coordination.",
+              "reponse": true,
+              "explication": "Vrai. C'est la liste mnémotechnique classique des conjonctions de coordination."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-subord-3",
+          "titre": "Texte à trous : Conjonctions et pronoms",
+          "consigne": "Complétez chaque phrase avec le pronom ou la conjonction convenable.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "La ville [où] est né Molière est Paris.",
+              "reponse": "où",
+              "acceptees": [
+                "où",
+                "ou"
+              ],
+              "explication": "Le pronom relatif 'où' renvoie à un antécédent désignant un lieu."
+            },
+            {
+              "enonce": "Les parents Tuvache refusèrent [parce] qu'ils ne voulaient pas vendre leur enfant.",
+              "reponse": "parce",
+              "acceptees": [
+                "parce",
+                "vu",
+                "puisque"
+              ],
+              "explication": "Parce que introduit la cause du refus."
+            },
+            {
+              "enonce": "Le maître d'armes exige que Jourdain [prenne] son épée avec fermeté.",
+              "reponse": "prenne",
+              "acceptees": [
+                "prenne"
+              ],
+              "explication": "Le verbe exiger commande le subjonctif présent (prendre → qu'il prenne)."
+            },
+            {
+              "enonce": "Voici le document [dont] nous avons longuement débattu hier.",
+              "reponse": "dont",
+              "acceptees": [
+                "dont"
+              ],
+              "explication": "On débat 'de' quelque chose → pronom relatif 'dont'."
+            },
+            {
+              "enonce": "La comédie est si divertissante [que] les spectateurs éclatent de rire.",
+              "reponse": "que",
+              "acceptees": [
+                "que",
+                "qu'"
+              ],
+              "explication": "La corrélation 'si... que' introduit la subordonnée de conséquence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-reprises-anaphores",
+      "categorie": "gram",
+      "titre": "La cohésion du texte : reprises anaphoriques (pronominales et lexicales)",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour assurer la fluidité d'un texte et éviter les répétitions monotones, l'écrivain utilise des **reprises anaphoriques**. Une anaphore est la reprise d'un élément déjà mentionné précédemment dans le discours."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Type d'anaphore",
+            "Procédé linguistique",
+            "Exemple concret"
+          ],
+          "lignes": [
+            [
+              "Anaphore pronominale",
+              "Remplacement par un pronom personnel, démonstratif, possessif ou relatif.",
+              "Hauchecorne vit une ficelle. *Il la* ramassa avec soin."
+            ],
+            [
+              "Anaphore lexicale fidèle",
+              "Répétition du même nom précédé d'un déterminant défini ou démonstratif.",
+              "Un étranger arriva. *Cet étranger* demanda asile."
+            ],
+            [
+              "Anaphore par synonyme",
+              "Remplacement par un mot de même sens.",
+              "Le paysan marchait lentement. *Le campagnard* semblait épuisé."
+            ],
+            [
+              "Anaphore par terme générique (hyperonyme)",
+              "Remplacement d'un terme spécifique par une catégorie plus vaste.",
+              "Un chien hurlait dans la cour. *L'animal* refusait de se taire."
+            ],
+            [
+              "Anaphore par périphrase",
+              "Remplacement par une expression descriptive valorisante ou dévalorisante.",
+              "Maupassant écrivit de nombreux chefs-d'œuvre. *Le maître du conte normand* marqua son siècle."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Rôle textuel de l'anaphore :**\nEn plus de garantir la continuité du propos, l'anaphore lexicale permet à l'auteur d'apporter une **nuance appréciative** : appeler Jourdain « ce bourgeois », « cet homme naïf » ou « le prétendu gentilhomme » oriente le regard du lecteur."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-anaph-1",
+          "titre": "QCM : Identification des procédés de reprise",
+          "consigne": "Indiquez la nature de la reprise anaphorique en italique.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "« Molière triompha devant le Roi-Soleil. *Le célèbre dramaturge* reçut tous les honneurs. » Quelle est la reprise ?",
+              "options": [
+                "Une reprise lexicale par périphrase",
+                "Une anaphore pronominale",
+                "Un pléonasme",
+                "Une ellipse temporelle"
+              ],
+              "reponse": "Une reprise lexicale par périphrase",
+              "explication": "« Le célèbre dramaturge » remplace Molière par un groupe nominal descriptif caractérisant."
+            },
+            {
+              "enonce": "« Alphonse glissa la bague au doigt de la statue ; *celle-ci* sembla refermer sa main. » Quelle est la reprise ?",
+              "options": [
+                "Une anaphore pronominale démonstrative",
+                "Une anaphore par hyperonyme",
+                "Une répétition pure et simple",
+                "Un verbe d'opinion"
+              ],
+              "reponse": "Une anaphore pronominale démonstrative",
+              "explication": "Le pronom démonstratif « celle-ci » reprend « la statue »."
+            },
+            {
+              "enonce": "« Les tulipes fleurissaient au jardin. *Ces fleurs* embaumaient l'atmosphère printanière. » Quel procédé est employé ?",
+              "options": [
+                "Reprise par un terme générique (hyperonyme)",
+                "Reprise par un pronom possessif",
+                "Antithèse poétique",
+                "Litote"
+              ],
+              "reponse": "Reprise par un terme générique (hyperonyme)",
+              "explication": "« Fleur » est l'hyperonyme (catégorie générale) de « tulipe »."
+            },
+            {
+              "enonce": "« Le lion bondit hors des fourrés. *Le fauve* rugit avec fureur. » Quelle est la nature de cette anaphore ?",
+              "options": [
+                "Anaphore lexicale par synonyme / terme approchant",
+                "Anaphore pronominale",
+                "Comparaison explicite",
+                "Subordonnée complétive"
+              ],
+              "reponse": "Anaphore lexicale par synonyme / terme approchant",
+              "explication": "« Le fauve » se substitue au mot « lion » en évitant la répétition."
+            },
+            {
+              "enonce": "Quel est le principal défaut textuel provoqué par l'absence totale de reprises anaphoriques ?",
+              "options": [
+                "La répétition lourde et la monotonie du texte",
+                "Une trop grande richesse de vocabulaire",
+                "La présence d'alexandrins involontaires",
+                "L'emploi abusif du subjonctif"
+              ],
+              "reponse": "La répétition lourde et la monotonie du texte",
+              "explication": "Sans anaphores, le texte réitère inlassablement le même nom propre ou groupe nominal."
+            },
+            {
+              "enonce": "Quand un pronom annonce un nom qui n'apparaîtra que plus loin dans le texte (« Dès qu'*il* entra, Jean vit le désordre »), on parle de :",
+              "options": [
+                "Cataphore",
+                "Anaphore",
+                "Oxymore",
+                "Chiasme"
+              ],
+              "reponse": "Cataphore",
+              "explication": "La cataphore devance le mot référent pour créer un effet d'attente ou de suspense."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-anaph-2",
+          "titre": "Vrai ou Faux : Les anaphores et la cohésion textuelle",
+          "consigne": "Indiquez si chaque affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Une anaphore pronominale peut utiliser des pronoms personnels (il, elle, les, leur).",
+              "reponse": true,
+              "explication": "Vrai. C'est le type de reprise le plus fréquent en français."
+            },
+            {
+              "enonce": "Remplacer le mot « bicyclette » par « ce véhicule à deux roues » est une anaphore par périphrase.",
+              "reponse": true,
+              "explication": "Vrai. La périphrase remplace un mot unique par une expression imagée ou descriptive."
+            },
+            {
+              "enonce": "Les anaphores lexicales permettent d'ajouter une touche méliorative ou péjorative sur un personnage.",
+              "reponse": true,
+              "explication": "Vrai. L'auteur choisit des termes orientant le jugement du lecteur."
+            },
+            {
+              "enonce": "L'hyperonyme est un terme dont le sens est plus précis et restreint que le mot initial.",
+              "reponse": false,
+              "explication": "Faux. L'hyperonyme a un sens plus large et générique (ex: meuble pour chaise). Le terme plus restreint est un hyponyme."
+            },
+            {
+              "enonce": "La cohésion textuelle repose à la fois sur les anaphores et sur les connecteurs logiques.",
+              "reponse": true,
+              "explication": "Vrai. Ces deux outils garantissent la continuité thématique et la logique du texte."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-anaph-3",
+          "titre": "Texte à trous : Procédés de reprise",
+          "consigne": "Complétez chaque phrase avec le terme convenable.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Le mot ou l'expression générique englobant une classe d'éléments s'appelle un [hyperonyme].",
+              "reponse": "hyperonyme",
+              "acceptees": [
+                "hyperonyme"
+              ],
+              "explication": "Par exemple, 'arbre' est l'hyperonyme de chêne, olivier et palmier."
+            },
+            {
+              "enonce": "L'expression qui remplace un mot par une locution explicative (comme « l'astre du jour » pour le soleil) est une [périphrase].",
+              "reponse": "périphrase",
+              "acceptees": [
+                "périphrase",
+                "periphrase"
+              ],
+              "explication": "La périphrase caractérise poétiquement ou emphatiquement un être."
+            },
+            {
+              "enonce": "Les pronoms (le, la, lui, y, en) qui évitent la répétition d'un groupe nominal sont des substituts [pronominaux].",
+              "reponse": "pronominaux",
+              "acceptees": [
+                "pronominaux",
+                "pronom",
+                "pronominaux"
+              ],
+              "explication": "Les substituts pronominaux assurent la continuité grammaticale."
+            },
+            {
+              "enonce": "L'élément textuel cité précédemment auquel renvoie une anaphore s'appelle son [antécédent].",
+              "reponse": "antécédent",
+              "acceptees": [
+                "antécédent",
+                "antecedent",
+                "référent",
+                "referent"
+              ],
+              "explication": "L'antécédent est le point de référence de la reprise."
+            },
+            {
+              "enonce": "La reprise textuelle orientée vers l'avant (annonçant un terme futur) s'appelle une [cataphore].",
+              "reponse": "cataphore",
+              "acceptees": [
+                "cataphore"
+              ],
+              "explication": "La cataphore précède son référent dans le fil de la phrase."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-figures-de-style",
+      "categorie": "style",
+      "titre": "Les figures de style clés du Tronc Commun (analogie, opposition, amplification)",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une **figure de style** est un procédé d'écriture qui s'écarte de l'usage ordinaire de la langue pour frapper l'imagination, susciter une émotion ou enrichir la signification du propos."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Figure de style",
+            "Famille",
+            "Définition & Mécanisme",
+            "Exemple littéraire"
+          ],
+          "lignes": [
+            [
+              "Comparaison",
+              "Analogie",
+              "Rapproche deux éléments (comparé et comparant) par un mot-outil (comme, tel, pareil à).",
+              "« Ses yeux brillaient *comme* des escarbilles incandescentes. »"
+            ],
+            [
+              "Métaphore",
+              "Analogie",
+              "Assimilation directe de deux réalités sans outil de comparaison.",
+              "« Cet homme est un roc face aux tempêtes de l'existence. »"
+            ],
+            [
+              "Personnification",
+              "Analogie",
+              "Attribution de traits, sentiments ou actions humaines à un objet ou animal.",
+              "« La mer en furie dévorait la berge et gémissait sous l'orage. »"
+            ],
+            [
+              "Hyperbole",
+              "Amplification",
+              "Exagération démesurée des termes pour produire une forte impression.",
+              "« Je meurs de faim ; j'ai versé des torrents de larmes. »"
+            ],
+            [
+              "Antithèse",
+              "Opposition",
+              "Rapprochement de deux idées ou mots de sens contraires au sein d'une même phrase.",
+              "« Paris est le plus splendide des théâtres et le plus triste des tombeaux. »"
+            ],
+            [
+              "Oxymore",
+              "Opposition",
+              "Union intime et paradoxale de deux mots contradictoires côte à côte.",
+              "« Cette *obscure clarté* qui tombe des étoiles » (Corneille)."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Différence cruciale entre comparaison et métaphore :**\n• *Comparaison :* « L'enfance est **semblable à** une rose fragile. » (présence du mot-outil *semblable à*).\n• *Métaphore :* « L'enfance est une rose fragile. » (identification immédiate, charge poétique accrue)."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-style-1",
+          "titre": "QCM : Identifier la figure de style",
+          "consigne": "Reconnaissez la figure de style employée dans chaque citation.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "« Il a versé un océan de larmes en apprenant la triste nouvelle. » Quelle est cette figure ?",
+              "options": [
+                "Hyperbole",
+                "Litote",
+                "Euphémisme",
+                "Périphrase"
+              ],
+              "reponse": "Hyperbole",
+              "explication": "« Un océan de larmes » est une exagération manifestement démesurée (hyperbole)."
+            },
+            {
+              "enonce": "« Le soir fermait doucement ses paupières d'or sur la plaine endormie. » Quelle est cette figure ?",
+              "options": [
+                "Personnification",
+                "Antithèse",
+                "Anaphore",
+                "Chiasme"
+              ],
+              "reponse": "Personnification",
+              "explication": "Le soir est doté d'attributs humains (fermer ses paupières)."
+            },
+            {
+              "enonce": "« La statue de bronze semblait vivante, tel un monstre prêt à bondir. » Quel est ce procédé ?",
+              "options": [
+                "Comparaison",
+                "Métaphore",
+                "Oxymore",
+                "Hyperbole"
+              ],
+              "reponse": "Comparaison",
+              "explication": "Présence du comparé (statue), du comparant (monstre) et du mot-outil « tel »."
+            },
+            {
+              "enonce": "« Un silence assourdissant régnait dans la grande salle du tribunal. » Quelle figure réunit ces deux termes contradictoires ?",
+              "options": [
+                "Oxymore",
+                "Périphrase",
+                "Énumération",
+                "Gradation"
+              ],
+              "reponse": "Oxymore",
+              "explication": "Associer côte à côte « silence » et « assourdissant » crée un oxymore saisissant."
+            },
+            {
+              "enonce": "« Je vis, je meurs ; je me brûle et me noie. » (Louise Labé). Quelle figure oppose ces verbes contraires ?",
+              "options": [
+                "Antithèse",
+                "Métaphore",
+                "Litote",
+                "Personnification"
+              ],
+              "reponse": "Antithèse",
+              "explication": "La juxtaposition d'idées opposées (vivre/mourir, brûler/noyer) forme une antithèse."
+            },
+            {
+              "enonce": "« Le temps est un mendiant qui vole nos beaux jours. » Quelle figure identifie le temps à un voleur sans mot-outil ?",
+              "options": [
+                "Métaphore",
+                "Comparaison",
+                "Hyperbole",
+                "Euphémisme"
+              ],
+              "reponse": "Métaphore",
+              "explication": "Assimilation directe sans terme comparatif grammatical."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-style-2",
+          "titre": "Vrai ou Faux : Les figures de rhétorique",
+          "consigne": "Indiquez si chaque affirmation est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Une métaphore comporte toujours un outil de comparaison tel que « comme » ou « pareil à ».",
+              "reponse": false,
+              "explication": "Faux. C'est la comparaison qui possède un outil de comparaison ; la métaphore le supprime."
+            },
+            {
+              "enonce": "L'oxymore unit deux termes opposés dans un même groupe grammatical.",
+              "reponse": true,
+              "explication": "Vrai. Ex. : « une douce violence », « un soleil noir »."
+            },
+            {
+              "enonce": "L'hyperbole vise à atténuer une vérité blessante pour la rendre acceptable.",
+              "reponse": false,
+              "explication": "Faux. L'atténuation d'une réalité pénible s'appelle l'euphémisme ; l'hyperbole exagère."
+            },
+            {
+              "enonce": "La personnification prête des comportements humains à des choses inanimées ou des abstractions.",
+              "reponse": true,
+              "explication": "Vrai. Ex. : « Le vent hurlait de colère »."
+            },
+            {
+              "enonce": "L'antithèse met en valeur un contraste saisissant entre deux pensées opposées.",
+              "reponse": true,
+              "explication": "Vrai. Le contraste accentue le relief dramatique ou argumentatif."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-style-3",
+          "titre": "Texte à trous : Vocabulaire des figures",
+          "consigne": "Complétez chaque phrase avec le nom de la figure de style correspondante.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "La figure qui exagère les faits au-delà du vraisemblable est l'[hyperbole].",
+              "reponse": "hyperbole",
+              "acceptees": [
+                "hyperbole"
+              ],
+              "explication": "L'hyperbole amplifie l'expression de l'émotion ou de la grandeur."
+            },
+            {
+              "enonce": "L'alliance de deux termes antinomiques côte à côte comme « une sainte diablesse » est un [oxymore].",
+              "reponse": "oxymore",
+              "acceptees": [
+                "oxymore"
+              ],
+              "explication": "L'oxymore crée une tension poétique paradoxale."
+            },
+            {
+              "enonce": "Une analogie établie à l'aide du mot-outil « pareil à » constitue une [comparaison].",
+              "reponse": "comparaison",
+              "acceptees": [
+                "comparaison"
+              ],
+              "explication": "La présence du mot comparatif caractérise la comparaison."
+            },
+            {
+              "enonce": "L'assimilation poétique sans outil comparatif est désignée sous le nom de [métaphore].",
+              "reponse": "métaphore",
+              "acceptees": [
+                "métaphore",
+                "metaphore"
+              ],
+              "explication": "La métaphore opère un transfert de sens immédiat."
+            },
+            {
+              "enonce": "La figure consistant à faire parler ou agir la Mort comme un être vivant est une [personnification].",
+              "reponse": "personnification",
+              "acceptees": [
+                "personnification",
+                "allégorie",
+                "allegorie"
+              ],
+              "explication": "La personnification anime les abstractions et les objets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-versification-poesie",
+      "categorie": "poesie",
+      "titre": "La versification française et les formes poétiques (mètre, rime, sonnet, ode)",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La **versification** est l'ensemble des règles qui régissent l'écriture poétique traditionnelle en français : décompte des syllabes (mètre), règles du « e » muet, disposition des rimes et formes fixes (comme le sonnet)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Élément poétique",
+            "Règle & Définition",
+            "Exemples"
+          ],
+          "lignes": [
+            [
+              "Alexandrin",
+              "Vers noble de 12 syllabes, généralement coupé au milieu par une césure (6 + 6).",
+              "« Souvent, pour s'amuser, les hommes d'équipage » (Baudelaire)."
+            ],
+            [
+              "Décasyllabe",
+              "Vers de 10 syllabes.",
+              "« Mignonne, allons voir si la rose » (Ronsard)."
+            ],
+            [
+              "Octosyllabe",
+              "Vers vif et musical de 8 syllabes.",
+              "« Demain, dès l'aube, à l'heure où blanchit la campagne »."
+            ],
+            [
+              "Règle du 'e' muet",
+              "Le 'e' compte devant une consonne ; il s'élide (ne compte pas) devant une voyelle ou en fin de vers.",
+              "« Un**e** per**le** » : 1er e compte, 2e s'élide en fin de vers."
+            ],
+            [
+              "Rimes plates (suivies)",
+              "Schéma : AABB",
+              "jour (A) / amour (A) / flamme (B) / âme (B)."
+            ],
+            [
+              "Rimes croisées (alternées)",
+              "Schéma : ABAB",
+              "mer (A) / vent (B) / amer (A) / tourment (B)."
+            ],
+            [
+              "Rimes embrassées",
+              "Schéma : ABBA",
+              "cœur (A) / nuit (B) / bruit (B) / douleur (A)."
+            ],
+            [
+              "Le Sonnet",
+              "Forme fixe classique : 2 quatrains (strophes de 4 vers) suivis de 2 tercets (strophes de 3 vers). Total : 14 vers.",
+              "Sonnet d'Arvers, Sonnets de Ronsard ou de Du Bellay."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**La césure à l'hémistiche dans l'alexandrin classique :**\n« Toujours aimer, toujours souffrir, // toujours mourir. » (Corneille)\n6 syllabes au premier hémistiche // 6 syllabes au second hémistiche."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-poesie-1",
+          "titre": "QCM : Les règles de la versification",
+          "consigne": "Sélectionnez la bonne réponse concernant le mètre et la rime.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Combien de syllabes comporte obligatoirement un vers alexandrin classique ?",
+              "options": [
+                "12 syllabes",
+                "10 syllabes",
+                "8 syllabes",
+                "14 syllabes"
+              ],
+              "reponse": "12 syllabes",
+              "explication": "L'alexandrin est le grand vers héroïque français composé de 12 syllabes."
+            },
+            {
+              "enonce": "Quelle est la disposition des rimes selon le schéma ABBA ?",
+              "options": [
+                "Rimes embrassées",
+                "Rimes croisées",
+                "Rimes suivies (plates)",
+                "Rimes libres"
+              ],
+              "reponse": "Rimes embrassées",
+              "explication": "La rime A embrasse et encadre les deux rimes intérieures B (ABBA)."
+            },
+            {
+              "enonce": "De combien de vers est composé un sonnet classique ?",
+              "options": [
+                "14 vers (2 quatrains et 2 tercets)",
+                "12 vers (3 quatrains)",
+                "16 vers (4 quatrains)",
+                "10 vers"
+              ],
+              "reponse": "14 vers (2 quatrains et 2 tercets)",
+              "explication": "Le sonnet comprend rigoureusement 4 + 4 + 3 + 3 = 14 vers."
+            },
+            {
+              "enonce": "Devant quel type de mot le 'e' muet final d'un mot s'élide-t-il (ne se prononce pas) ?",
+              "options": [
+                "Devant une voyelle ou un 'h' muet",
+                "Devant une consonne",
+                "Devant un point d'exclamation",
+                "Devant un nombre"
+              ],
+              "reponse": "Devant une voyelle ou un 'h' muet",
+              "explication": "Le 'e' muet s'élide devant voyelle pour éviter le hiatus désagréable."
+            },
+            {
+              "enonce": "La pause principale qui sépare un alexandrin en deux moitiés égales s'appelle :",
+              "options": [
+                "La césure (à l'hémistiche)",
+                "Le rejet",
+                "L'enjambement",
+                "La contre-rime"
+              ],
+              "reponse": "La césure (à l'hémistiche)",
+              "explication": "La césure coupe l'alexandrin en deux hémistiches de six syllabes chacun."
+            },
+            {
+              "enonce": "Comment appelle-t-on une strophe de trois vers ?",
+              "options": [
+                "Un tercet",
+                "Un quatrain",
+                "Un distique",
+                "Un quintil"
+              ],
+              "reponse": "Un tercet",
+              "explication": "Un tercet compte 3 vers, un quatrain 4 vers, un distique 2 vers."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-poesie-2",
+          "titre": "Vrai ou Faux : Les formes et rythmes poétiques",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Dans un vers, le 'e' muet situé en toute fin de vers se compte toujours comme une syllabe pleine.",
+              "reponse": false,
+              "explication": "Faux. En fin de vers, le 'e' muet ne compte jamais dans le décompte syllabique."
+            },
+            {
+              "enonce": "L'enjambement se produit lorsqu'une phrase se poursuit sur le vers suivant sans pause marquée.",
+              "reponse": true,
+              "explication": "Vrai. L'enjambement déborde sur le vers suivant en rompant l'arrêt métrique."
+            },
+            {
+              "enonce": "Un poème en vers libres s'affranchit du nombre fixe de syllabes et de la régularité des rimes.",
+              "reponse": true,
+              "explication": "Vrai. Le vers libre moderne privilégie le rythme musical personnel du poète."
+            },
+            {
+              "enonce": "Une rime riche partage au minimum trois sons identiques entre les deux mots finaux.",
+              "reponse": true,
+              "explication": "Vrai. Rime pauvre (1 son), rime suffisante (2 sons), rime riche (3 sons ou plus)."
+            },
+            {
+              "enonce": "L'ode est une forme poétique lyrique destinée traditionnellement à célébrer un grand événement ou louer une personne.",
+              "reponse": true,
+              "explication": "Vrai. L'ode hérite de l'Antiquité grecque (Pindare) et célèbre les grands sentiments."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-poesie-3",
+          "titre": "Texte à trous : Notions métriques",
+          "consigne": "Complétez chaque phrase avec le mot métrique adéquat.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Un vers composé de dix syllabes est appelé un [décasyllabe].",
+              "reponse": "décasyllabe",
+              "acceptees": [
+                "décasyllabe",
+                "decasyllabe"
+              ],
+              "explication": "Déca = dix en grec."
+            },
+            {
+              "enonce": "Une strophe classique de quatre vers porte le nom de [quatrain].",
+              "reponse": "quatrain",
+              "acceptees": [
+                "quatrain"
+              ],
+              "explication": "Le quatrain est la strophe de base du sonnet."
+            },
+            {
+              "enonce": "Chacune des deux moitiés d'un alexandrin séparées par la césure est un [hémistiche].",
+              "reponse": "hémistiche",
+              "acceptees": [
+                "hémistiche",
+                "hemistiche"
+              ],
+              "explication": "L'hémistiche désigne la demi-mesure du vers."
+            },
+            {
+              "enonce": "Le rejet bref d'un ou deux mots au début du vers suivant s'appelle le [rejet].",
+              "reponse": "rejet",
+              "acceptees": [
+                "rejet"
+              ],
+              "explication": "Le rejet met en relief dramatique le mot isolé en tête de vers."
+            },
+            {
+              "enonce": "La forme poétique fixe d'origine italienne composée de quatorze vers est le [sonnet].",
+              "reponse": "sonnet",
+              "acceptees": [
+                "sonnet"
+              ],
+              "explication": "Popularisé en France par la Pléiade et Ronsard au XVIe siècle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tc-methodologie-argumentatif-resume",
+      "categorie": "methode",
+      "titre": "Méthodologie de la production écrite : le texte argumentatif et le résumé",
+      "niveau": "Tronc Commun",
+      "aValider": false,
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Au lycée, l'épreuve de production écrite exige deux compétences majeures : synthétiser la pensée d'un auteur sans la trahir (**le résumé**) et structurer son propre point de vue de manière logique et convaincante (**le texte argumentatif**)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Étape / Outil",
+            "Texte argumentatif",
+            "Résumé de texte"
+          ],
+          "lignes": [
+            [
+              "Introduction",
+              "1. Amener le sujet (contexte général).\n2. Poser la problématique.\n3. Annoncer le plan.",
+              "Aucune introduction personnelle ; on entre directement dans le vif du texte."
+            ],
+            [
+              "Développement",
+              "Organisé en 2 ou 3 paragraphes. Chaque argument est introduit par un connecteur et illustré d'un exemple précis.",
+              "Respect de l'ordre du texte initial, contraction au quart de la longueur (± 10%), neutralité absolue."
+            ],
+            [
+              "Règles strictes",
+              "Défendre une position nuancée (plan dialectique : thèse, antithèse, synthèse).",
+              "Interdiction d'insérer des commentaires personnels ou de recopier des phrases entières."
+            ],
+            [
+              "Conclusion",
+              "Bilan des arguments présentés + ouverture du sujet vers une réflexion plus vaste.",
+              "Aucune conclusion extérieure ; le résumé s'arrête là où s'achève le texte."
+            ]
+          ]
+        },
+        {
+          "type": "exemple",
+          "texte": "**Boîte à connecteurs logiques indispensables :**\n• *Introduction d'argument :* Tout d'abord, en premier lieu, d'autre part, en outre, enfin.\n• *Opposition et concession :* Cependant, néanmoins, toutefois, certes... mais, bien que.\n• *Conséquence et conclusion :* Par conséquent, ainsi, en somme, pour conclure."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "tc-ex-methode-1",
+          "titre": "QCM : Règles de l'exercice argumentatif et du résumé",
+          "consigne": "Sélectionnez la règle méthodologique exacte.",
+          "type": "qcm",
+          "questions": [
+            {
+              "enonce": "Dans un résumé de texte, a-t-on le droit d'écrire « Selon l'auteur du texte... » ou « Je pense que... » ?",
+              "options": [
+                "Absolument pas, le résumé doit rester neutre sans formule extérieure",
+                "Oui, c'est fortement conseillé dans chaque paragraphe",
+                "Uniquement dans la conclusion",
+                "Seulement si l'auteur s'est trompé"
+              ],
+              "reponse": "Absolument pas, le résumé doit rester neutre sans formule extérieure",
+              "explication": "Le résumé doit reformuler la pensée de l'auteur directement sans énonciation parasite."
+            },
+            {
+              "enonce": "Quelles sont les trois composantes d'une bonne introduction de texte argumentatif ?",
+              "options": [
+                "Amener le sujet, poser la problématique, annoncer le plan",
+                "Raconter une blague, recopier la consigne, conclure immédiatement",
+                "Donner son avis final, insérer des citations en latin, saluer le professeur",
+                "Résumer sa journée d'école"
+              ],
+              "reponse": "Amener le sujet, poser la problématique, annoncer le plan",
+              "explication": "C'est la structure universelle de l'introduction académique en dissertation et essai."
+            },
+            {
+              "enonce": "Quel connecteur logique convient pour introduire une objection nuancée (concession) ?",
+              "options": [
+                "Certes... mais",
+                "C'est pourquoi",
+                "De plus",
+                "Parce que"
+              ],
+              "reponse": "Certes... mais",
+              "explication": "« Certes » concède une part de vérité à l'adversaire avant que « mais » ne réaffirme la thèse."
+            },
+            {
+              "enonce": "Dans un plan dialectique, quel est l'ordre des trois grandes parties ?",
+              "options": [
+                "Thèse, Antithèse, Synthèse",
+                "Synthèse, Thèse, Résumé",
+                "Exemple, Problématique, Titre",
+                "Antithèse, Antithèse, Abandon"
+              ],
+              "reponse": "Thèse, Antithèse, Synthèse",
+              "explication": "Le plan dialectique confronte deux points de vue opposés avant de les dépasser dans une synthèse."
+            },
+            {
+              "enonce": "À quel volume de réduction correspond généralement la consigne d'un résumé de texte ?",
+              "options": [
+                "Au quart de la longueur du texte initial (± 10%)",
+                "À la moitié exacte",
+                "À deux phrases seulement",
+                "Au triple de la longueur"
+              ],
+              "reponse": "Au quart de la longueur du texte initial (± 10%)",
+              "explication": "La norme classique d'exercice est de condenser le texte au 1/4 de son volume initial."
+            },
+            {
+              "enonce": "Pour rendre un argument convaincant et concret auprès du lecteur, que doit-on lui associer ?",
+              "options": [
+                "Un exemple précis tiré de la culture, de l'histoire ou de la lecture",
+                "Une menace envers le lecteur",
+                "Une répétition en lettres majuscules",
+                "Un dessin au crayon"
+              ],
+              "reponse": "Un exemple précis tiré de la culture, de l'histoire ou de la lecture",
+              "explication": "Un argument théorique sans exemple concret demeure abstrait et peu persuasif."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-methode-2",
+          "titre": "Vrai ou Faux : Pièges à éviter dans l'expression écrite",
+          "consigne": "Indiquez si chaque proposition est vraie ou fausse.",
+          "type": "vrai_faux",
+          "questions": [
+            {
+              "enonce": "Recopier mot pour mot des phrases entières du texte de départ est pénalisé dans un résumé.",
+              "reponse": true,
+              "explication": "Vrai. Le candidat doit reformuler les idées avec son propre vocabulaire."
+            },
+            {
+              "enonce": "La conclusion d'un texte argumentatif doit s'achever par une ouverture qui élargit le débat.",
+              "reponse": true,
+              "explication": "Vrai. L'ouverture projette la réflexion sur une question connexe ou future."
+            },
+            {
+              "enonce": "On peut rédiger un texte argumentatif d'un seul bloc sans aucun paragraphe ni alinéa.",
+              "reponse": false,
+              "explication": "Faux. La mise en page avec alinéas et paragraphes distincts est indispensable à la lisibilité."
+            },
+            {
+              "enonce": "Les exemples personnels anecdotiques (« Moi une fois avec mon cousin... ») ont une valeur probante universelle.",
+              "reponse": false,
+              "explication": "Faux. Il faut privilégier les exemples littéraires, historiques, scientifiques ou sociaux reconnus."
+            },
+            {
+              "enonce": "Chaque paragraphe de développement doit contenir une idée directrice clairement soutenue.",
+              "reponse": true,
+              "explication": "Vrai. Une seule idée directrice majeure par paragraphe pour préserver la clarté."
+            }
+          ]
+        },
+        {
+          "id": "tc-ex-methode-3",
+          "titre": "Texte à trous : Connecteurs logiques",
+          "consigne": "Complétez chaque phrase avec le connecteur ou terme logique adéquat.",
+          "type": "trous",
+          "questions": [
+            {
+              "enonce": "Pour introduire le premier argument de son raisonnement, on écrit souvent : « En [premier] lieu... ».",
+              "reponse": "premier",
+              "acceptees": [
+                "premier",
+                "tout premier"
+              ],
+              "explication": "En premier lieu ouvre l'énumération ordonnée."
+            },
+            {
+              "enonce": "Le connecteur « par [conséquent] » annonce la conséquence logique d'un fait exposé.",
+              "reponse": "conséquent",
+              "acceptees": [
+                "conséquent",
+                "consequent"
+              ],
+              "explication": "Par conséquent introduit la déduction."
+            },
+            {
+              "enonce": "Pour clore la dissertation et faire le bilan final, on commence le paragraphe par « En [conclusion] » ou « Pour conclure ».",
+              "reponse": "conclusion",
+              "acceptees": [
+                "conclusion",
+                "somme"
+              ],
+              "explication": "En conclusion signale le bilan terminal."
+            },
+            {
+              "enonce": "L'idée qui s'oppose à la thèse de départ est appelée l'[antithèse].",
+              "reponse": "antithèse",
+              "acceptees": [
+                "antithèse",
+                "antithese"
+              ],
+              "explication": "L'antithèse réfute ou nuance la thèse initiale."
+            },
+            {
+              "enonce": "L'opération intellectuelle consistant à condenser un texte sans en changer le sens est la [contraction] de texte ou résumé.",
+              "reponse": "contraction",
+              "acceptees": [
+                "contraction",
+                "réduction",
+                "reduction"
+              ],
+              "explication": "La contraction de texte exige concision et rigueur."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

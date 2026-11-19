@@ -7,6 +7,8 @@ import 'correction_engine.dart';
 class DataService {
   final Map<String, Niveau> _niveauxCache = {};
 
+  static const List<String> codesNiveaux = ['1ac', '2ac', '3ac', 'tc', '1bac'];
+
   Future<Niveau> getNiveau(String code) async {
     if (_niveauxCache.containsKey(code)) {
       return _niveauxCache[code]!;
@@ -14,13 +16,21 @@ class DataService {
 
     String path;
     switch (code) {
-      case '1bac':
-        path = 'assets/data/1bac.json';
+      case '1ac':
+        path = 'assets/data/1ac.json';
+        break;
+      case '2ac':
+        path = 'assets/data/2ac.json';
+        break;
+      case '3ac':
+        path = 'assets/data/3ac.json';
         break;
       case 'tc':
         path = 'assets/data/tronc_commun.json';
         break;
-      case '3ac':
+      case '1bac':
+        path = 'assets/data/1bac.json';
+        break;
       default:
         path = 'assets/data/3ac.json';
         break;
@@ -31,6 +41,15 @@ class DataService {
     final niveau = Niveau.fromJson(data);
     _niveauxCache[code] = niveau;
     return niveau;
+  }
+
+  Future<List<Niveau>> getTousNiveaux() async {
+    final List<Niveau> list = [];
+    for (final code in codesNiveaux) {
+      final n = await getNiveau(code);
+      list.add(n);
+    }
+    return list;
   }
 
   /// Recherche filtrée insensible aux accents et à la casse

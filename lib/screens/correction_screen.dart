@@ -59,7 +59,6 @@ class _CorrectionScreenState extends State<CorrectionScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final storage = Provider.of<StorageService>(context);
     final fautes = widget.result.details.where((d) => !d.estCorrect).toList();
     final bool hasNextExercise = widget.exerciceIndex + 1 < widget.lecon.exercices.length;
 
